@@ -1,883 +1,2604 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta http-equiv="content-type" content="text/html;charset=utf-8">
-    <meta content="always" name="referrer">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dynasty历史朝代</title>
-    <script type="text/javascript" src="jquery.min.js"></script>
-  <!--<script type="text/javascript" src="http://public.dabiaoge.me/common/js/jquery.min.js"></script>-->
-<script>
-$(function(){
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+	<title>悠然笑看天高云淡风轻</title>
+	<!--<base target="_blank" />-->
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="bookmark icon" href="favicon.ico" />
+	<link ID="CSS" href="zfirst/css/indexcss.css" rel="stylesheet" type="text/css" />
 	
-	$(".item").dblclick(function(){$(this).hide();});
-	$(".item2").dblclick(function(){$(this).hide();});
+	<script charset="GB2312" language="JavaScript" type="text/javascript" src="zfirst/js/indexjs.js"></script>
+	<script charset="GB2312" language="JavaScript" type="text/javascript" src="zfirst/js/calendar.js"></script>
+	<script>tvset()；</script>
+</head>   
 
-});
-
-</script>
-
-	<style type="text/css">
-body {font-size: 14px; color:black;}
-#resbox {position: relative; top: 20px;}
-#items {position: relative; line-height: 2em; color:white;}
-#items > .item {
-	position: absolute; height: 2em; text-align: center; border-radius: 5px; box-sizing: border-box; border-right: 1px solid #000; border-bottom: 1px solid #000; font-size: 14px; line-height: 1.5;}
-#items > .item2 {
-	position: absolute; 
-	font-size: 14px; 
-	color:black;
-	line-height: 1.5;
-}
-a:visited, a:link{
-	color:red;
-	font-size:18px;
-	text-decoration:none;
-}
-.commona a:visited, .commona a:link{
-	color:blue;
-	font-size:14px;
-}
-#items > .item::before {content: ""; display: inline-block; vertical-align: middle; height: 102%;}
-#items > .itemtip {
-	position: absolute; text-align: center; border: .3px solid #000; border-radius: 50%;
-	color:black;}
-#timeline {position: relative; border-bottom: 1px solid #000; height: 1.5em; margin-bottom: 1em;}
-#timeline > div {position: absolute; border-left: 1px solid #000; bottom: 0; height: 8px;}
-#timeline > div.hasDesp {height: 12px;}
-#timeline > div > div {height: 1.5em; position: relative; top: -1.4em; left: -50%;}
-    </style>
-</head>
-<body>
-
-<div id="resbox">
-  <div id="timeline"></div>
-  <div id="items">
-<div class="item2" iname="" fyear="-2490" tyear="-2070" linepos="-2">
-
-<pre>
-138亿年前	宇宙大爆炸	             万物开端
-128亿年前	星系形成	
-约46亿年前	太阳系形成	             最后地球上有了液态水、能呼呼的空气和形成适宜温度的阳光①
-约34亿年前	单细胞生物出现	
-7亿年前         多细胞动植物出现	     运动器官与光合作用的各自强化形成了动植物的分野
-1500万年前	第一种类人猿出现	     类人猿，简称猿，与猴类不同，猿无尾，有阑尾，脑更复杂
-1000万年前	东非大裂谷	             由猿到人的源头②
-200万年前	直立人使用火、语言、武器	
-20万年前	智人出现	             现代人即来源于智人
-1万年前	        新石器时代和农业革命	     新石器时代以陶器出现为标志③
-前3500-前1500	古代文明、青铜器时代④	     约前3300年，青铜在近东、东南欧、欧洲出现
-前1500-500	古典文明、铁器时代⑤	     约前1200年，铁器出现在印度次大陆、中国
-                前600-前300年：轴心时代⑥
-                前510-前323年希腊古典时期⑦
-500－1500年	中世纪信仰时代⑧	     前5世纪、公元元年、7世纪，佛教、基督教、伊斯兰教分别创立
-                14-16世纪：文艺复兴          文艺复兴⑨与宗教改革⑩1517年，新教创立
-                15-16世纪：大航海时代⑾	
-16-17世纪	第一次科学革命⑿	     1543年，哥白尼出版《天体运行论》
-                                             1687年，牛顿公布重力定律和运动三定律
-18世纪	        启蒙时代和第一次工业革命⒀   质疑宗教权威和教义，主张理智代替迷信。
-                                             以蒸汽机作为动力机为标志，如1765年的珍妮纺织机
-19世纪	        欧洲各国殖民时代	
-20世纪	        世界大战和信息革命	     1914-1918年第一次世界大战；1937-1945年第二次世界大战
-                                             信息革命以电子计算机发明和应用为标志
-文明	形成时期                结束时期    古代文明  古典文明
-亚洲	两河流域  前3500年左右                √	
-非洲	古埃及	  前3188年左右	              √	
-亚洲	印度	  前2600年左右                √	  √
-亚洲	华夏	  前2000年左右                √	  √
-欧洲	爱琴	  前19世纪左右	前12世纪左右  √	
-美洲	玛雅	  前16世纪	16世纪	                  √
-欧洲	古希腊	  前800年	公元前146年	          √
-欧洲	古罗马	  前9世纪初	公元1453                  √
-</pre>
-<p>① 生命的出现需要大量复杂的化学物质+适度的能量流+液态媒介（比如水）+可以呼吸的空气+合适的行星。所以行星与恒星的相对大小与距离都要适宜，不然不会有能形成适宜温度的阳光、没有液态水、可以呼吸的空气。</p>
-
-<p>② 东非大裂谷属于高海拔低纬度地区，良好的气候环境、大量火山灰经风化和动植物作用作用所形成的肥沃土壤，丰富的水资源，极其繁茂的植被，从而一直是灵长类进化的天堂。约350多万年前，东非大裂谷的热带森林逐渐为热带稀树林草原所取代，灵长类被迫下地生存，从而便进化为能行走的一支，双手获得解放，灵长类区别于食草动物和食肉动物，最喜爱吃水果，手脚分工，不但大大增强了它们在草原上的生存能力，而且对大脑进化也起到了无法取代的重大作用。</p>
-
-<p>③ 陶器的烧成温度需要900-1000℃，当时使用木炭做为燃料。瓷器需要超过1200度才可制成。制陶术发展孕育了后来的冶铜术。</p>
-
-<p>④ 铜锡合金的颜色青灰，故名青铜。青铜的熔点在700～900℃之间，比纯铜的1083℃低，且具有优良的铸造性，硬度和强度高出纯铜不少（含锡10%的青铜，硬度为红铜的 4.7倍），还有较好的化学稳定性。因此，青铜铸造技术的发明成了人类物质文明发展史上的又一个重要里程碑，给社会变革和进步带来了巨大动力。青铜最早出现在富含铜锡或铜铅等混合矿的地区，比如现今土耳其的安拉托里亚地区。当时的工匠将这样的矿石煅烧，冶炼出了铜锡或铜铅合金。最早的青铜器出现在两河流域和埃及等地，始于公元前3000年。1975年甘肃东乡林家马家窑文化遗址（约公元前3000年）出土一件青铜刀，这是目前在中国发现的最早的青铜器，是中国进入青铜时代的证明。青铜铸造术的发明，与石器相比，起了划时代的作用。</p>
-
-<p>最初，人们也许只是把自然铜当成石料来打制石器，在实践中必然会发现自然铜具有石头无法比拟的延展性，容易按需要打制成形。接下来，人们自然也会发现，将自然铜放到火里烧过后，打制起来就会更加容易。如果火焰温度足够高，自然铜就会熔化，而熔化的铜水能够流动，凝固以后又可随容器成形。这一现象的反复出现，必然导致炼铜技术与铸造技术的萌生。</p>
-
-<p>⑤ 地球上铜矿资源较少，铜产量因而不高，广泛使用受到限制。加之铜材料虽然易于加工，但是强度和硬度较差，对于砍伐森林扩大农业生产、开凿和挖掘地下矿藏，尤其是制造更为坚韧锐利的兵器来说，难以满足需要。因此经过长久使用铜材、特别是奴隶社会中连年的战争之后，人们深深地感觉到要想向前发展和取得战争的胜利，必须找到比铜更好的金属材料。人类接触和认识铁材料，是来自天外的天然陨铁。铁材料的发明和使用是人类发展的又一个了不起的里程碑，铁器的广泛使用，生产力得到极大的提高。正如恩格斯所说：铁使更大面积的农田耕作，开垦广阔的森林地区成为可能；它给手工业工人提供了一种其坚固和锐利非石头或当时所知道的其他金属所能抵挡的工具。</p>
-
-<p>铁的冶炼情形与铜矿石不同。铁很易被氧化，除陨铁外，自然界中的铁都呈氧化物或其它化合物的形态存在。纯铁的熔点为1537℃，直接熔铁在新石器时代根本就不可能。铁矿石的还原温度虽然并不需要这么高，但温度低时还原速度很 生铁的熔点最低可达1147℃，而温度升高后还促使原料中的其它元素被还原进入铁中，这就使得生铁的熔点更为降低。冶铜时通过强化鼓风和加高炉身，可以进一步提高冶炼温度。</p>
-
-<p>古罗马时期，在冶铁时候加入适量的碳，可以冶炼成钢。后来随着对煤炭、焦炭的利用，可以得到更高的冶炼温度。</p>
-
-<p>⑥ 德国思想家卡尔·雅斯贝尔斯在《历史的起源与目标》一书中第一次把公元前500年前后同时出现在中国、西方和印度等地区的人类文化突破现象称之为“轴心时代”。</p>
-
-<p>⑦ 古典希腊时期是古希腊的一个历史时期，大约为公元前五到四世纪（一般定义为雅典最后一位僭主被推翻的年份，即公元前510年，至亚历山大大帝去世时的公元前323年）。它前承古风时期，后启希腊化时代。古典希腊时期的文明影响了后来的古罗马文明，并对整个西方文明产生了重大影响，同时也对现代政治、艺术、科学、文学、哲学等方面产生了深远的影响。</p>
-
-<p>⑧ “信仰时代”是中世纪的代名词。中世纪以公元479年西罗马帝国崩溃作为标志，结束于意大利文艺复兴的黎明。长达千年的中世纪是一个“信仰的时候”，基督教正是在这一时期确立了它对西方文化的支配地位。</p>
-
-<p>⑨ “文艺复兴”的概念在14-17世纪时已被意大利的人文主义作家和学者所使用。当时的人们认为，文艺在希腊、罗马古典时代曾高度繁荣，但在中世纪“黑暗时代”却衰败湮没，直到14世纪后才获得“再生”与“复兴”，因此称为“文艺复兴”。</p>
-
-<p>文艺复兴最先在意大利各城市兴起，以后扩展到西欧各国，于16世纪达到顶峰，带来一段科学与艺术革命时期，揭开了近代欧洲历史的序幕，被认为是中古时代和近代的分界。文艺复兴是西欧近代三大思想解放运动（文艺复兴、宗教改革与启蒙运动）之一。</p>
-
-<p>⑩ 宗教改革（Reformation），开始于欧洲16世纪基督教自上而下的宗教改革运动（抗议宗教改革运动，Protestant Reformation），该运动奠定了新教基础，同时也瓦解了从罗马帝国颁布基督教为国家宗教以后由天主教会所主导的政教体系。该运动打破了天主教的精神束缚，为资本主义发展和多元化的现代社会奠定基础，因而西方史学界直接称之为“改革运动”（Reformation）。</p>
-
-<p>⑾ 大航海时代，又被称作地理大发现。是15世纪末到16世纪初，由欧洲人开辟横渡大西洋到达美洲、绕道非洲南端到达印度的新航线以及第一次环球航行的成功。大航海时代是人类文明进程中最重要的历史之一。</p>
-
-<p>⑿ 将数学分析结合观察、实验，是现代科学的标志；</p>
-
-<p>⒀ 英国人洛克认为知识源于观察和实验，属于理性范畴。而与生俱来的想法则涉及到信仰。世间万物都存在疑问，所有假设都必须经过仔细的检验；</p>
-</div>
-<!-- 夏 -->
-<div class="item" iname="夏：约前2070－前1600，都城安邑，今山西夏县" fyear="-2070" tyear="-1600" linepos="1" title="夏:-2070~-1600"></div>
-
-<div class="item2" iname="" fyear="-2070" tyear="-1600" linepos="2">
-<!-- <div style="position:absolute; top:100px; left:70px; width:820px; font-size:14px;"> -->
-<a href="https://baike.baidu.com/item/%E5%A4%8F%E6%9C%9D/22101?fromtitle=%E5%A4%8F&fromid=7129068">夏朝</a>是中国史书中记载的第一个世袭制朝代。夏时期的文物中有一定数量的青铜和玉制的礼器，年代约在新石器时代晚期、青铜时代初期。一般认为，夏朝共传十四代，十七后 （夏朝统治者在位时称”后“，去世后称”帝“），延续约471年 ，为商朝所灭。<p>后人常以“华夏”自称，使之成为中国的代名词 。在<span class="commona"><a href="#" title="xún">斟鄩</a></span>（河南洛阳偃师夏都二里头遗址）发现的二里头文化具备了属于夏文化的年代和地理位置的基本条件，但一直未能出土类似安阳殷墟甲骨卜辞的文字记载。</p>
-<p>原始文字的雏形，从仰韶文化到大汶口文化等文化遗存看已经出现，并在逐步发展中。在河南安阳商都殷墟等处发现的甲骨文字和金文，是中国现已发现的最早的文字，是基本成熟的文字。从殷墟时代上溯到夏初，不过八九百年，夏代已有文字和文献记录，是无可怀疑的。商朝的文字是成熟的，夏朝的文字也是成熟的，因为历史上已有夏篆的记载，夏禹书、禹王碑则是夏朝的传世文字，是夏篆。(篆字，就是官方文字。大篆，即指周篆；所谓小篆，即指秦篆。)</p>
-<p>对于夏朝的行政区，世传为“九州”（以下为北、中、南、东(3)、西北(2)排序）：</p>
-<p></p>
-<pre>
-冀州，夹右碣石入于河，三面距河，是各州贡道必经之处。（今山西、河北省境、辽宁西部。）
-豫州，浮于洛，达于河。（今河南省境、湖北北部、陕西东南、山东西南部。）
-荆州，浮于江、沱、潜、汉，逾于洛，至于南河。（今湖北、衡山以北之湖南以及江西西北端。）
-兖州，浮于济、漯，达于河。（今山东西部、河北东南角。）yǎn
-青州，浮于汶，达于济。（今泰山以东之山东半岛。）
-徐州，浮于淮、泗，达于河。（今淮河以北之江苏、安徽以及山东南部。）
-扬州，沿于江、海，达于淮、泗。（今淮河以南之江苏、安徽以及浙江、江西北部。）
-雍州，浮于积石，至于龙门西河，会于渭、汭。（今陕西、甘肃、宁夏、青海。）
-梁州，浮于潜，逾于沔，入于渭，乱于河。（今四川以及陕西、甘肃南端。）
-</pre>
-
-<pre>
-sn 帝王  在位时间       都城  都城今址	         remark
-1  黄帝  前2495-前2395                           少典之子
-2  昌意  未在位                                  黄帝次子
-3  颛顼  前2322-前2245                           昌意之子 zhuān xū
-4  帝喾  前2245-前2176                           蟜极长子、颛顼侄 kù jiǎo
-5  尧    前2168-前2097                           帝喾次子
-6  舜    前2097-前2037                           瞽瞍长子、黄帝的七世孙
-7  鲧    前2037-前2029  大夏  山西运城夏县       颛顼玄孙
-
-1  大禹  前2029-前1978  阳城  今河南登封告成镇   鲧之子
-                        平阳  今山西安邑或晋阳  
-                        阳翟  今河南许昌禹州  
-2  启    前1978-前1963  阳翟  河南许昌禹州    禹之子
-3  太康  前1963-前1955  斟鄩  河南偃师二里头  
-4  中康  前1955-前1946  斟鄩  河南偃师二里头  
-5  相   前1946-前1916  商丘  河南商丘睢阳区西南  
-                        帝丘  河南濮阳西南  
-6  后羿  前1916-1871    鉏    鉏→穷石             后羿、寒浞 ---
-7  少康  前1871-前1852  纶城  河南商丘虞城县利民镇东南  
-8  予    前1852-前1837  原    河南济源西北2公里庙街原城  杼
-9  槐    前1837-前1795  老丘  河南开封市祥符区国都里村  
-10  芒    前1795-前1779  老丘  同上  
-11  泄    前1779-前1756  老丘  同上  
-12  不降  前1756-前1699  老丘  同上  
-12  扃    前1699-前1682  老丘  同上 jiōng 
-13  廑    前1682-前1675  西河  河南安阳东南    胤甲 qín
-14  孔甲  前1675-前1669  西河  同上             姒廑堂兄  
-15  皋    前1667-前1657  西河  同上  
-16  发    前1657-前1651  西河  安阳东南  
-                         斟鄩  偃师二里头  
-17  桀    前1651-前1600  斟鄩  偃师二里头      履癸
-</pre>
- </div>
-
-<!-- 商朝 -->
-<div class="item" iname="商朝：约公元前1600年—约公元前1046年，都城<span class='commona'><a style='color:white' href='#' title='bó'>亳</a></span>，今河南商丘，约公元前14世纪盘庚迁都于殷（今安阳），此后商也称为殷。" fyear="-1600" tyear="-1046" linepos="1"></div>
-<div class="item" iname="摩西-1357~-1237" fyear=-1357 tyear="-1237" linepos="6" title="摩西（Moses；希伯来语：מֹשֶׁה‎；阿拉伯语：موسىٰ‎）是公元前13世纪时犹太人的民族领袖。史学界认为他是犹太教（Judaism）的创始者。在犹太教、基督教、伊斯兰教和巴哈伊信仰等宗教里都被认为是极为重要的先知。按照以色列人的传承，摩西五经便是由其所著。"></div>
-<div class="item2" iname="" fyear="-1600" tyear="-1046" linepos="2">
-<!-- <div style="position:absolute; top:100px; left:940px; width:1000px; font-size:14px;"> -->
-<a href="https://baike.baidu.com/item/%E5%95%86%E6%9C%9D/194655?fromtitle=%E5%95%86&fromid=3820941">商朝</a>是中国第一个有直接的同时期的文字记载的王朝。甲骨文和金文的记载是目前已经发现的中国最早的成系统的文字符号。
-<p>甲骨文，具有对称、稳定的格局。备书法的三个要素，即用笔、结字、章法。从字体的数量和结构方式来看，甲骨文已经是发展到了有较严密系统的文字了。汉字的“六书”原则，在甲骨文中都有所体现。但是原始图画文字的痕迹还是比较明显。</p>
-<p>六书：</p>
-<p>一曰指事，指事者，视而可识，察而见意，上下是也；</p>
-<p class="commona">二曰象形，象形者，画成其物，随体<a href="#" title="诘诎 [jié qū]1.屈曲；屈折。2.滞塞；艰涩。
-诎[qū]1.缩短。2.言语迟钝。3.同“屈”。4.姓。">诘诎</a>，日月是也；</p>
-<p>三曰形声，形声者，以事为名，取譬相成，江河是也；</p>
-<p class="commona">四曰会意，会意者，比类合谊，以见指<a href="#" title="[huī]：1.分裂；剖开。2.挥；挥散。3.指挥。4.挥动。5.挥手呵斥或挥手示退。6.谦抑。 [wéi]：辅佐。">撝</a>，武信是也；</p>
-<p>五曰转注，转注者，建类一首，同意相受，考老是也；</p>
-<p>六曰假借，假借者，本无其字，依声托事，令长是也。
-<p>其一“指事”，有的字一眼看上去便能识其大体，再略加仔细观察就可以得出其意义所在，比如上、下这些字。</p>
-<p>其二“象形”，这类型字的特点是照葫芦画瓢，字体的字形结构与其实物的形象相仿，随着物体的外形而曲折字的笔画，比如日、月等等。</p>
-<p>其三“形声”，用与字义所表事物有关的字来作形符，取比拟新字读音的字（即读音与新字相同或相近的字）来跟它合成新字。这一类的字分为两个部分，其一为形符，表示字义的属性，另一部分为声符，表示声音的属性，比如江、河等等。</p>
-<p>其四“会意”，这类字是并列字类即两个以上的字，会和成它们的意义，来表现该字义所指向的事物，如武、信就是这样的字。</p>
-<p>其五“转注”，部首相同，字义相同或相近，则可以相互转注，如老、考。</p>
-<p>第六“假借”，有些词意本没有专门为其造字，而是依据其读音去找一个音同或音近的现成字来寄托这个字的字义。就在现有的字中挑选了一个读音相仿的来替用，久而久之，这个字就归其意所有了，比如令、长。</p>
-<p><strong>象形</strong>：属于“独体造字法”。用文字的线条或笔画，把要表达物体的外形特征，具体地勾画出来。例如“月”字像一弯明月的形状。象形字来自于图画文字，但是图画性质减弱，象征性质增强，它是一种最原始的造字方法。它的局限性很大，因为有些事物是画不出来的。</p>
-<p><strong>指事</strong>：属于“独体造字法”。与象形的主要分别，是指事字含有绘画中较抽象的指示符号。例如“刃”字是在“刀”的锋利处加上一点，以作标示；“上”、“下”二字则是在主体“一”的上方或下方画上标示符号；</p>
-<p>指事字可分为两类。一类是所谓纯指事字，全部用指事性的符号来表示，如一、二、三、四；这类指示字可能是来自原始的刻划符号。另一类是在象形字的某一部位加上点画性符号，以表明造字的意图所在。如“刃”是在刀口处加一点，指明刀刃。“本”是在“木”字下方加上一短画，指明是树木的下端，“末”与此相反，指明是树木的上端。这一类指示字，有些文字学著作称为合体指事或加体指事。</p>
-<p><strong>形声</strong>：属于“合体造字法”。形声字由两部分组成：形旁(又称“义符”)和声旁(又称“音符”)。形旁是指示字的意思或类属，声旁则表示字的相同或相近发音。例如“樱”字，形旁是“木”，表示它是一种树木，声旁是“婴”，表示它的发音与“婴”字一样；“齿”字的下方是形旁，画出了牙齿的形状，上方的“止”是声旁，表示两字韵母相同。</p>
-<p>左声右形：锦、刊</p>
-<p>上形下声：草、房</p>
-<p>上声下形：想、袈</p>
-<p>外形内声：街、衷</p>
-<p>外声内形：闻、衡</p>
-<p>形声字在汉字中数量最多，占百分之八十以上。</p>
-<p><strong>会意</strong>：属于“合体造字法”。会意字由两个或多个独体字组成，所以组成的字形或字义，合并起来，表达此字的意思。例如“酒”字，以酿酒的瓦瓶“酉”和液体 “水”合起来，表达字义；“解”字的剖拆字义，是以用“刀”把“牛”和“角”分开来字达；“鸣”指鸟的叫声，于是用“口”和“鸟”组成而成。</p>
-<p>会意字中较普遍的是用不同的字组成的“异文会意”。如“戍，守边也，从人持戈。”还有相当一部分会意字是“叠文会意”。如“林，平土有丛木曰林，从二木。”“轰轰，群车声也。从三车。”</p>
-<p>有部分汉字，会同时兼有会意和形声的特点。例如“功”字，既可视为以“力”和“工”会意，而“工”亦有声旁的特点；“返”字，既可视为以“反”和“辵”（解作行走，变形作“辶”）会意，而“反”亦有声旁的特点。这类字称为会意兼形声字。</p>
-<p><strong>转注</strong>：属于“用字法”。转注是古人制造“同义字”的方法，换言之，转注就是用同义字辗转相注的方法造字。许慎说：“转注者，建类一首，同意相受，考老是也。”“同意相受”是统一字首的具体方法，即授与一个同义字，也就是说用一个同义字相注释，作为它的义符。各说文家解释不同。大致有“形转”“音转”“义转”三说。“考”和“老”同属老部。戴震认为转注就是互训，《说文解字》“考”字下说“老也”，“老”字下说“考也”，“转相为注，互相为训”的例子。</p>
-<p>不同地区因为发音有不同，以及地域上的隔阂，以至对同样的事物会有不同的称呼。“窍”、“空”二字，本义都是孔。这些字有着相同的部首(或部件)及解析，读音上也是有音转的关系。</p>
-<p><strong>假借</strong>：汉字是由象形 、象意的文字发展起来的。有的外物有形象可以描绘，有的意思可以利用图像和笔画来表现 ，可是有很多代表某些事物的概念不能用象形、象意的方式随时造出文字来表现，于是就假借已有的音同或音近的字来代表 ，这种跟借用的字的形义完全不合的字就称为假借字。假借字有两类。一类是本无其字的假借，那就是上面所说的假借字。如“北”，甲骨文字形像二人相背。北方的“北”无形可像 ，就借语音相同的“背”来表示北方的意思。许慎在《说文叙》里所说“假借者，本无其字，依声托事”，就是这一类。在语言发展过程中这一类的字很多。假借字的另一类是本有其字的假借。本有其字的意思是在日常使用的文字当中本来有表示某个词义的书写形式 ，但是在使用当中不用本来约定俗成的字形而写为另外一个意义不相涉而音同或音近的字 。这一类在秦汉以上的古书中极为常见 。如借“汤”为“荡”；前一类可以说是不造字的假借，后一类是在用字当中的假借。在用字当中既然本有其字，为什么还要另外写一个假借字呢，其中可能有两种原因。一种原因是写书者仓促间写为一个音同的字，历代传抄因其旧而不改；另一种原因是某一时期 、某一地区或某一师承，经常习惯以某字代某字用，后世传写也就一仍其旧。</p>
-<p>清代语言学家戴震于乾嘉时期分析汉字“六书”得出“四体二用”的结论。“四体”即为象形、指事、会意、形声四种为造字法，“二用”则指转注、假借两种为用字法。
-</p>
-</div>
-
-<!-- 西周 -->
-<div class="item" iname="西周：前1046－前771，都城镐京，今陕西西安" fyear="-1046" tyear="-771" linepos="1"></div>
-
-<div class="item2" iname="" fyear="-1046" tyear="-771" linepos="2">
-<!-- <div style="position:absolute; top:100px; left:1960px; width:460px; font-size:14px;"> -->
-<a href="https://baike.baidu.com/item/%E8%A5%BF%E5%91%A8/510056">西周</a>的周人是一个后起的姬姓部族，兴起于今陕甘一带，十分重视农业。
-<p>公元前841年(西周共和元年)为中国历史确切纪年的开始。</p>
-<p>井田的疆理，一般是以每一方块为一百亩（约合今三十一亩多），作为一个耕作的单位，称为一田。纵横相连的九田合为一井，面积约为一平方里。十井称为一成，百井称为一同。也有以一田为一夫，十夫为一井，再以百夫、千夫作为计算大田的单位的。</p>
-</div>
-
-<!-- 东周 -->
-<div class="item" iname="东周：前770年－前256年，都城洛邑，今河南洛阳" fyear="-770" tyear="-256" linepos="1"></div>
-<div class="item" iname="释迦牟尼-563~-483" fyear="-563" tyear="-483" linepos="6" title="乔达摩·悉达多-563~-483"></div>
-<div class="item2" iname="" fyear="-770" tyear="-256" linepos="3">
-<!-- <div style="position:absolute; top:130px; left:2470px; width:1000px; font-size:14px;"> -->
-<a href="https://baike.baidu.com/item/%E4%B8%9C%E5%91%A8/507892">东周</a>是诸侯拥立原先被废的太子宜臼为王，史称周平王，延续周朝，史称东周，以别于西周。东周的前半期，诸侯争相称霸，称为春秋时代；公元前453年，韩赵魏三家联手灭智氏家族；公元前403年，周威烈王封三家为诸侯。公元前376年，三家分晋，各诸侯相互征伐，称为战国时代。周平王东迁到洛邑，国号仍是周，因在此之前的周朝国都在洛邑之西的关中地区，所以称呼周平王之前的周朝为西周，周平王之后的为东周。东周共传25王，历时515年，这一时期是中国的社会制度转变的时期，以铁器的广泛使用为标志。</p>
-</div>
-
-<!-- 春秋 -->
-<div class="item" iname="春秋：前770年－前476年（或前453年，韩赵魏灭智氏、前403年，三家分晋）" fyear="-770" tyear="-476" linepos="2"></div>
-
-<div class="item" iname="孔子-551~-479" fyear="-551" tyear="-479" linepos="7" title="前551年9月28日―公元前479"></div>
-<div class="item2" iname="" fyear="-770" tyear="-476" linepos="7">
-<!-- <div style="position:absolute; top:220px; left:2470px; width:500px; font-size:14px;"> -->
-<p><a href="https://baike.baidu.com/item/%E6%98%A5%E7%A7%8B/982807">春秋</a>时期，简称春秋，前770年~前476年（另一说，前770年~前403年），春秋时代周王的势力减弱，诸侯群雄纷争，齐桓公、晋文公、宋襄公、秦穆公、楚庄王相继称霸，史称“春秋五霸”。（一说是齐桓公、晋文公、楚庄王、吴王阖闾、越王勾践）。 </p>
-<p>春秋时期的得名，是因孔子修订《春秋》而得名。这部书记载了从鲁隐公元年（前722年）到鲁哀公十四年（前481年）的历史。现代的学者为了方便起见，一般从周平王元年（前770年）东周立国起，到周敬王四十三年（前477年）为止，称为“春秋时期”。（鲁国史官把当时各国报导的重大事件，按年、季、月、日记录下来，一年分春、夏、秋、冬四季记录，简括起来就把这部编年史名为《春秋》。）</p>
-<p>固化和统一，带来的是僵化与只对狭隘的正统的关注。春秋战国、民国等大变革大动荡时期，虽处变局之中，但知识分子获得了一定的政治、思想上的自由；都能够自由地著书立说和四处奔走宣传自己的思想和主张，并不受到地主阶级统治思想的排挤和束缚。</p>
-<p>老子 约公元前571年－前471年，道家学派创始人，提出辩证法思想、无为而治，代表作品《道德经》</p>
-<p>孔子 公元前551年9月28日―公元前479年4月11日，倡导仁、义、礼、智、信，是儒家学派创始人。</p>
-<p>齐桓公（公元前716年－前643年10月7日），公元前685－前643年在位，桓公任管仲为相，推行改革。</p>
-<p>晋文公（前671年或前697年－前628年），前636年春在秦穆公的支持下回晋杀晋怀公而立。任用狐偃、先轸、赵衰、贾佗、魏犨等人实行通商宽农、明贤良、赏功劳等政策。</p>
-<p>楚庄王（？—公元前591年），公元前613—公元前591年在位，任用孙叔敖大胆革新，楚国大治。</p>
-<p>秦穆公（前682年—前621年），任用百里奚、蹇叔、由余为谋臣。</p>
-<p>宋襄公（？－前637年），公元前650年至637年在位。</p>
-</div>
-
-
-<!-- 战国 -->
-<div class="item" iname="战国：前453年－前221年" fyear="-475" tyear="-221" linepos="2"></div>
-
-<div class="item" iname="苏格拉底-469~-399" fyear="-469" tyear="-399" linepos="5" title="苏格拉底（希腊语：Σωκράτης/英语：Socrates，公元前469年—公元前399年），古希腊著名的思想家、哲学家、教育家、公民陪审员。"></div>
-<div class="item" iname="柏拉图-427~-347" fyear="-427" tyear="-347" linepos="6" title="柏拉图（Plato，Πλάτeων， 公元前427年—公元前347年），古希腊伟大的哲学家，也是全部西方哲学乃至整个西方文化最伟大的哲学家和思想家之一。"></div>
-<div class="item" iname="亚里士多德-384" fyear="-384" tyear="-322" linepos="7" title="亚里士多德（Aristotle公元前384～前322），古代先哲，古希腊人，世界古代史上伟大的哲学家、科学家和教育家之一，堪称希腊哲学的集大成者。他是柏拉图的学生，亚历山大的老师。"></div>
-<div class="item" iname="亚" fyear="-336" tyear="-323" linepos="6" title="亚历山大帝国-336~-323。亚历山大大帝（Alexander the Great，公元前356年7月20日—前323年6月10日），即亚历山大三世，马其顿王国（亚历山大帝国）国王，生于古马其顿王国首都佩拉，世界古代史上著名的军事家和政治家。"></div>
-
-<div class="item" iname="屈原-340" fyear="-340" tyear="-278" linepos="5" title="屈原（约公元前340—公元前278年），中国战国时期楚国诗人、政治家。出生于楚国丹阳秭归（今湖北宜昌）。芈姓，屈氏，名平，字原；又自云名正则，字灵均。楚武王熊通之子屈瑕的后代。少年时受过良好的教育，博闻强识，志向远大。早年受楚怀王信任，任左徒、三闾大夫，兼管内政外交大事。 他提倡“美政”，主张对内举贤任能，修明法度，对外力主联齐抗秦。因遭贵族排挤诽谤，被先后流放至汉北和沅湘流域。楚国郢都被秦军攻破后，屈原自沉于汨罗江，以身殉国。"></div>
-
-<div class="item" iname="阿基米德-287~-212" fyear="-287" tyear="-212" linepos="6" title="阿基米德（公元前287年—公元前212年），伟大的古希腊哲学家、百科式科学家、数学家、物理学家、力学家，静态力学和流体静力学的奠基人，并且享有“力学之父”的美称，阿基米德和高斯、牛顿并列为世界三大数学家。"></div>
-
-<div class="item2" iname="" fyear="-475" tyear="-221" linepos="7">
-<!-- <div style="position:absolute; top:220px; left:3000px; width:480px; font-size:14px;"> -->
-<p>因应强者生存、弱者淘汰的残酷政治法则，以魏国的李<span class="commona"><a href="#" title="[kuī]：用于人名，李悝，战国时政治家。 [lǐ]：忧；悲。">悝</a></span>改革为起点，各国争相进行以富国强兵为目标的变法运动。变法的核心是将劳动者固定到土地上，以增加国家的赋税收入。社会文明程度的加深，使统治者对物质享受的贪欲急遽膨胀。增加剥削量的最直接的办法，是掠夺更多的土地，而掠夺土地的最便捷的途径是战争。从前475年-前221年的255年中，有大小战争230次。战争打起来，双方动辄出动几万至几十万人。西汉末年的刘向，将有关这段历史的各种资料编成一本书，取名《战国策》，从此，这一历史阶段称为<a href="https://baike.baidu.com/item/%E6%88%98%E5%9B%BD/4819">战国</a>时期。到了战国中期，剩下来的七个主要被称为战国七雄。</p>
-<p>七雄疆域：东南西北上中下；齐楚秦燕赵魏韩。</p>
-<p></p>
-<pre>
-齐：约占有今山东北部，河北南部、西部和山西东南部。
-楚：约占有今湖北全省，河南，安徽，湖南，江苏，浙江的一部分。
-秦：约占有今陕西关中、汉中，甘肃东南部，四川中东部。
-燕：约占有今河北北部，辽宁，吉林的一部分。
-赵：约占有今山西北部、中部和河北中部、西南部，内蒙古自治区的一部分。
-魏：约占有今山西南部，河南北部、中部和东部。
-韩：约占有今河南中部、西部和山西东南部。
-</pre>
-</div>
-
-<!-- 秦 -->
-<div class="item" iname="秦" fyear="-221" tyear="-207" linepos="1"></div>
-<div class="item2" iname="" fyear="-221" tyear="15" linepos="2">
-
-<a href="https://baike.baidu.com/item/%E7%A7%A6%E6%9C%9D">秦</a>灭六国，统一天下，车同轨、书同文、行同伦：
-<p>统一货币：秦始皇废止战国时各国形制和轻重大小各不相同的货币，改以黄金为上币，以镒（二十两）为单位；以秦国旧行的圆形方孔铜钱为下币，文曰半两，重如其文。</p>
-<p>统一度量衡：六尺为步，二百四十步为亩。不过二百四十步为亩的制度实际上只行于旧秦，可能还有旧赵境内，东方许多地区仍以百步为亩，直到汉武帝时期为止。</p>
-<p>统一文字：战国时期，各国文字的基本结构虽然相同，但字体繁简和偏旁位置却有差异。李斯受命统一文字，他以秦国的文字为基础，参照六国文字，制定小篆，并写成范本，在全国推行。当时还流行一种书法，叫做隶书，比小篆更简便。</p>
-<p>统一车轨：规定车辆上两个轮子的距离一律改为六尺，使车轮的距离相同。车轨统一宽六尺；古时候都是土路，车轮反复碾压之后会形成与车轮宽度相同的两条硬地车道。为了政令畅通，物资交流便利，李斯又立刻建议让全国的车轨统一，并在全国范围内修筑驰道。</p>
-</div>
-
-<!-- 西汉 -->
-<div class="item" iname="西汉:前206－公元25，都城长安，今陕西西安" fyear="-206" tyear="25" linepos="1"></div>
-<div class="item" iname="恺撒-102" fyear="-102" tyear="-44" linepos="5" title="盖乌斯·尤利乌斯·恺撒（Gaius Julius Caesar，公元前102年7月12日—公元前44年3月15日），史称恺撒大帝，又译盖厄斯·儒略·凯撒、加伊乌斯·朱利叶斯·凯撒等，罗马共和国（今地中海沿岸等地区）末期杰出的军事统帅、政治家，并且以其卓越的才能成为了罗马帝国(公元前27年-公元476年)的奠基者。"></div>
-<div class="item2" iname="" fyear="-206" tyear="25" linepos="15">
-<!-- <div style="position:absolute; top:100px; left:3500px; width:420px; font-size:14px;"> -->
-
-<p><a href="https://baike.baidu.com/item/%E8%A5%BF%E6%B1%89">西汉</a>的都城长安位于刘秀所建汉室（东汉）都城洛阳之西，为加以区别，故称为“西汉”包括王莽建立的“新”王朝(公元8-23年)。</p>
-<p>建元三年（前138年），张骞应募远道出使西域，以联合大月氏夹击匈奴 。途中被匈奴抓去，拘禁十余年。后乘机逃回。</p>
-<p>元狩二年（前121年）。霍去病西征匈奴，大获全胜；</p>
-<p>竟宁元年（前33年），汉元帝以宫人王嫱（王昭君）嫁给了呼韩邪单于，结束了百余年来汉、匈之间的武装冲突。</p>
-</div>
-
-<!-- 东汉 -->
-<div class="item" iname="东汉：25—220，都城洛阳，今河南洛阳" fyear="25" tyear="220" linepos="1"></div>
-
-<div class="item2" iname="" fyear="25" tyear="220" linepos="2">
-<!-- <div style="position:absolute; top:100px; left:3950px; width:300px; font-size:14px;"> -->
-新莽末年爆发绿林赤眉起义，汉朝宗室后裔刘秀趁势而起。公元25年，刘秀称帝，定都洛阳，和刘邦所建西汉都于长安，在地理位置上一东一西，故称刘邦所建汉室为西汉，刘秀所建汉室为<a href="https://baike.baidu.com/item/%E4%B8%9C%E6%B1%89">东汉</a>。又因为刘邦建立的政权和刘秀建立的政权一先一后，所以称呼西汉为前汉，东汉为后汉。
-<p>东汉永平十年（67年），汉明帝派人去西域，迎来两位高僧，并且带来了许多佛像和佛经，用白马驼回首都洛阳，皇帝命人修建房屋供其居住，翻译佛经 。并将寺院取名为“白马寺”。</p>
-<p>顺帝（125年—144年）在位时张陵作道书，并向群众传道。受道的人都要出五斗米，故称五斗米道。东汉末年，五斗米道活动的地区主要在雍、益二州，根据地在汉中。张陵死后，其子张衡传其道，张衡死，其子张鲁又继之。</p>
-<p>东汉时期班超（32年－102年）出使西域，在西域长驻了三十多年，先后击破了被匈奴控制的西域诸国，不但令西域诸国一一归顺汉朝，并开拓了东西文化的交流。东汉在91年灭北匈奴。南匈奴内附汉朝。</p>
-</div>
-
-<!-- 三国 -->
-<div class="item" iname="魏" fyear="220" tyear="265" linepos="1"></div>
-<div class="item" iname="蜀" fyear="221" tyear="263" linepos="2"></div>
-<div class="item" iname="吴：222-280" fyear="222" tyear="280" linepos="3"></div>
-<div class="item" iname="三国：220-280" fyear="220" tyear="280" linepos="4"></div>
-
-<!-- 西晋 -->
-<div class="item" iname="西晋：265-317 洛阳 河南洛阳" fyear="265" tyear="317" linepos="1"></div>
-
-<div class="item2" iname="" fyear="220" tyear="317" linepos="5">
-<!-- <div style="position:absolute; top:200px; left:4300px; width:170px; font-size:14px;"> -->
-<a href="https://baike.baidu.com/item/%E4%B8%89%E5%9B%BD/5428">三国</a>（220年－280年）赤壁之战（208），曹操被孙刘联军击败，奠定了三国鼎立的雏型。
-<p></p>
-<pre>
-魏 220-265 洛阳 河南洛阳
-蜀 221-263 成都 四川成都
-吴 222-280 建业 江苏南京
-</pre>
-<p>东吴辖荆州、扬州、交州（越南中北、两广）</p>
-<p><a href="https://baike.baidu.com/item/%E8%A5%BF%E6%99%8B">西晋</a>：265-317 洛阳 河南洛阳</p>
-<p>魏晋玄学虽然自称学老子，但只强调“有生于无”，这样，道生于无，不生于自然，也就是道先于自然而存在了。因而玄学属于唯心论范畴，是变质的道家学说。王戎、王衍是西晋玄学清谈家的首领。</p>
-</div>
-
-<!-- 东晋 -->
-<div class="item" iname="东晋：317-420 建康 江苏南京" fyear="317" tyear="420" linepos="1"></div>
-
-<!-- 五胡十六国 -->
-<div class="item" iname="五胡十六国：304-439" fyear="304" tyear="439" linepos="2" title='这时期，在我国北方，先后存在过一些封建政权，其中有：汉(前赵)、成(成汉)、前凉、后赵(魏)、前燕、前秦、后燕、后秦、西秦、后凉、南凉、北凉、南燕、西凉、北燕、夏等国，历史上叫做"十六国"。'></div>
-
-<div class="item2" iname="" fyear="317" tyear="420" linepos="4">
-<!-- <div style="position:absolute; top:150px; left:4500px; width:170px; font-size:14px;"> -->
-司马睿311年在建康建立政权，317年称帝，<a href="https://baike.baidu.com/item/%E4%B8%9C%E6%99%8B">东晋</a>疆域大体上局限于淮河、长江流域以南。相应地，北方基本处于分裂状态，先后出现了16个“能建邦命氏成为战国者” 的国，故将该时期泛称为五胡十六国。
-<p>304年匈奴贵族刘渊建立汉国，316年灭掉西晋，到439年鲜卑拓跋部统一北方，北方各民族相互争战，先后建立了<a href="https://baike.baidu.com/item/%E5%8D%81%E5%85%AD%E5%9B%BD/912598?fromtitle=%E4%BA%94%E8%83%A1%E5%8D%81%E5%85%AD%E5%9B%BD&fromid=804458">十六国</a>。</p>
-<pre>
-前赵（匈奴）、后赵（羯）、
-前燕（鲜卑）、前凉（汉）、
-前秦（氐）、  后秦（羌）、
-后燕（鲜卑）、西秦（鲜卑）、
-后凉（氐）、  南凉（鲜卑）、
-西凉（汉）、  北凉（卢水胡）
-南燕（鲜卑）、北燕（汉）、
-夏  （匈奴）、成汉（巴氐）
-</pre>
-<p>除十六国之外，还有：<p>
-<pre>
-汉人冉闵     魏、
-丁灵翟氏     魏、
-武都氐帅杨氏 仇池国、
-鲜卑慕容氏   西燕、
-鲜卑拓跋氏   代，
-</pre>
-<p>总计先后建立了21个政权。上述政权中，后赵、前燕、前秦都曾占据过北方的大部分疆域。<p>
-</div>
-
-<!-- 南北朝 -->
-<div class="item" iname="宋" fyear="420" tyear="479" linepos="1" title="南朝-宋"></div>
-<div class="item" iname="齐" fyear="479" tyear="502" linepos="1" title="南朝-齐"></div>
-<div class="item" iname="梁" fyear="502" tyear="557" linepos="1" title="南朝-梁"></div>
-<div class="item" iname="陈" fyear="557" tyear="589" linepos="1" title="南朝-陈"></div>
-<div class="item" iname="北魏：386-534 平城 山西大同→河南洛阳" fyear="386" tyear="534" linepos="3" title="北朝-北魏"></div>
-<div class="item" iname="东魏" fyear="534" tyear="550" linepos="3" title="北朝-东魏"></div>
-<div class="item" iname="北齐" fyear="550" tyear="577" linepos="3" title="北朝-北齐"></div>
-<div class="item" iname="西魏" fyear="535" tyear="557" linepos="2" title="北朝-西魏"></div>
-<div class="item" iname="北周" fyear="557" tyear="581" linepos="2" title="北朝-北周"></div>
-<div class="item" iname="南北朝：420-589" fyear="420" tyear="589" linepos="4"></div>
-
-<div class="item2" iname="" fyear="420" tyear="589" linepos="5">
-<!-- <div style="position:absolute; top:180px; left:4700px; width:270px; font-size:14px;"> -->
-<a href="https://baike.baidu.com/item/%E5%8D%97%E6%9C%9D/7131305">南朝</a>（420-589），420年东晋灭亡，刘宋取代东晋，在中国南方地区相继出现了宋、齐、梁、陈四个汉人政权，都城建康（今江苏南京），史称“南朝”，嫡传华夏文化之正朔，司马光的《资治通鉴》奉南朝为正统。南朝与鲜卑人或鲜卑化汉人在中国北方地区建立的北魏、东魏（北齐）、西魏（北周）等<a href="https://baike.baidu.com/item/%E5%8C%97%E6%9C%9D/456678">北朝</a>（386-581）政权对峙，合称<a href="https://baike.baidu.com/item/%E5%8D%97%E5%8C%97%E6%9C%9D/6417">南北朝</a>。
-<pre>
-东魏 534-550 邺   河北临漳 16  
-北齐 550-577 邺   河北临漳 27  
-西魏 535-557 长安 陕西西安 22  
-北周 557-581 长安 陕西西安 24
-宋   420-479 建康 江苏南京 59  
-齐   479-502 建康 江苏南京 23  
-梁   502-557 建康 江苏南京 55  
-陈   557-589 建康 江苏南京 32
-</pre>
-<p>530年，军阀高欢起兵于信都拥元朗为帝，并在532年攻下洛阳后，改立孝武帝。魏孝武帝为其所制，有意联合关中镇将贺拔岳对付高欢。高欢先发制人，于534年暗杀贺拔岳。孝武帝则任宇文泰代之，并与高欢决裂，西逃投奔宇文泰。高欢再立清河王世子元善见为帝，即东魏孝静帝，迁都邺城。孝武帝西奔后不久被宇文泰毒杀，宇文泰改立南阳王元宝炬为帝，即西魏文帝，定都长安。北魏于534年分裂成东魏及西魏后灭亡。 </p>
-</div>
-<div class="item" iname="穆罕默德570-632" fyear="572" tyear="632" linepos="12" title="穆罕默德约570年－632年6月8日），政治家、宗教领袖，穆斯林认可的伊斯兰先知，广大穆斯林认为他是安拉派遣人类的最后一位使者。伊斯兰教教徒之间俗称“穆圣”。享年63岁，葬于麦地那。"></div>
-<!-- 隋 -->
-<div class="item" iname="隋：西安" fyear="581" tyear="618" linepos="2"></div>
-<div class="item2" iname="" fyear="589" tyear="818" linepos="3">
-<!-- <div style="position:absolute; top:120px; left:4990px; width:370px; font-size:14px;"> -->
-581年二月，北周静帝禅让帝位于杨坚，北周覆亡。杨坚定国号为<a href="https://baike.baidu.com/item/%E9%9A%8B%E6%9C%9D/196103?fromtitle=%E9%9A%8B&fromid=7217663">“隋”</a>，定都大兴城。随后于589年南下灭陈朝，统一中国。
-<p>政治上初创三省六部制；正式推行科举制，选拔优秀人才，弱化世族垄断仕官的现象；</p>
-<p>606年，隋炀帝迁都洛阳，以洛阳为中心，修建了贯通南北的隋唐大运河以及驰道。</p>
-</div>
-
-<!-- 唐 -->
-<div class="item" iname="唐：618-907 长安 陕西西安 289" fyear="618" tyear="907" linepos="1"></div>
-<div class="item" iname="" fyear="618" tyear="626" linepos="2" title="李渊 618-626"></div>    
-<div class="item" iname="世民" fyear="627" tyear="649" linepos="2" title="627-649"></div>
-<div class="item" iname="李治" fyear="650" tyear="683" linepos="2" title="650-683"></div>
-<div class="item" iname="" fyear="684" tyear="690" linepos="2" title="李显684；李旦684-690"></div>
-<div class="item" iname="武" fyear="690" tyear="705" linepos="2" title="武周690年-705年"></div>
-<div class="item" iname="" fyear="705" tyear="710" linepos="2" title="李显705-710；李重茂710；"></div>
-<div class="item" iname="" fyear="710" tyear="712" linepos="2" title="李旦710-712"></div>
-<div class="item" iname="李隆基" fyear="712" tyear="756" linepos="2" title="李隆基712-756"></div>
-<div class="item" iname="14/21" fyear="756" tyear="907" linepos="2" title="756-907"></div>    
-<div class="item" iname="查理曼大帝742" fyear="742" tyear="814" linepos="8" title="查理大帝（Charlemagne或Charles the Great,公元742---814年），或称为查理曼、查尔斯大帝、卡尔大帝（德语：Karl der Große），法兰克王国加洛林王朝国王，神圣罗马帝国的奠基人。他建立了那囊括西欧大部分地区的庞大查理曼帝国。公元800年，由罗马教皇立奥三世加冕“罗马人的皇帝”。他在行政、司法、军事制度及经济生产等方面都有杰出的建树，并大力发展文化教育事业。是他引入了欧洲文明，他被后世尊称为“欧洲之父”。"></div>
-<div class="item2" iname="" fyear="618" tyear="907" linepos="9">
-<!-- <div style="position:absolute; top:320px; left:5050px; width:500px; font-size:14px;"> -->
-617年，唐国公李渊晋阳起兵，618年于长安称帝建立<a href="https://baike.baidu.com/item/%E5%94%90%E6%9C%9D/53699?fromtitle=%E5%94%90&fromid=9515102">唐朝</a>（唐朝的国号是“唐”，原意是晋的古名。）。690年，武则天以周代唐，定都洛阳，史称武周。705年，神龙革命后，唐中宗恢复唐朝国号。907年，朱温篡唐，唐朝覆亡，中国进入五代十国。
-<p>唐代开创了中国政区史上道和府的建制。贞观元年（627年），唐太宗分天下为10道：关内、河南、河东、河北、山南、陇右、淮南、江南、剑南、岭南等十道，不过这些道没实际权力，唐代城市等级主要是总管府、都督府、节度使等，府以下为州、县。贞观十四年（640年），全国共设360州（府），下辖1557县。开元年间又将山南、江南各分东西，并增置京畿、都畿、黔中三道，形成十五道的格局。道设州、府，州、府下再设县，开元末年，全国共有州、府三百二十八座，县一千五百七十三座。</p> 
-<pre>
-三省：中书省、门下省、尚书省
-六省：中书省、门下省、尚书省、殿中省、秘书省、内侍省
-道置观察使
-州（郡）：刺史（太守）；别驾、长史、司马；录事、参军事；
-六曹：司功、司仓、司户、司兵、司法、司士。
-县：县令；县丞、主簿；县尉、录事、佐史。
-乡：耆老；五里一乡
-里：里正；五保一里
-村：村正；一自然村为一村
-保：保长；五邻一保
-邻：邻长；四家一邻
-坊：坊正。城市内无村设坊，坊正和村正同级
-</pre>
-<pre>
-共历二十一帝
-sn	庙号	姓名	在位年限在位年数
-1	高祖	李渊	618-626	8
-2	太宗	李世民	627-649	22
-3	高宗	李治	650-683	33
-4	中宗	李显	684	
-5	睿宗	李旦	684-690	6
-6	     	武曌	690-705	15
-7	中宗	李显	705-710	5
-8	恭宗	李重茂	710	
-9	睿宗	李旦	710-712	2
-10	玄宗	李隆基	712-756	44
-11	肃宗	李亨	756-762	6
-12	代宗	李豫	762-779	17
-13	德宗	李适	780-805	25
-14	顺宗	李诵	805	
-15	宪宗	李纯	806-820	14
-16	穆宗	李恒	821-824	3
-17	敬宗	李湛	824-826	2
-18	文宗	李昂	826-840	14
-19	武宗	李炎	840-846	6
-20	宣宗	李忱	846-859	13
-21	懿宗	李漼	859-873	14
-22	僖宗	李儇	873-888	15
-23	昭宗	李晔	888-904	16
-24	景宗	李柷	904-907	3
-</pre>
-</div>
-
-<!-- 五代 -->
-<div class="item" iname="五代：907-960" fyear="907" tyear="960" linepos="1" title="五代十国时期，中原地区依次更替的5个朝代。后梁(907-923),后唐(923-936),后晋(936-946),后汉(947-950),后周(951-960)。只能说是藩镇型的朝廷，且没有成为所有藩镇认可的共主，主要势力范围也不出华北地区"></div>
-<!-- 十国 -->
-<div class="item" iname="十国：902-979" fyear="902" tyear="979" linepos="2" title='五代十国时期，除中原外出现过的10个主要政权。吴、前蜀、吴越、楚、闽、南汉、荆南(南平)、后蜀、南唐、北汉等国，历史上叫做"十国"。'></div>
-<!-- 五代十国 -->
-<div class="item" iname="五代十国" fyear="907" tyear="979" linepos="4" title='五代十国时期，我国历史上唐灭到宋初之间的一段大分裂时期，是对五代和十国的合称。'></div>
-
-<div class="item2" iname="" fyear="907" tyear="982" linepos="5">
-<!-- <div style="position:absolute; top:180px; left:5570px; width:140px; font-size:14px;"> -->
-<a href="https://baike.baidu.com/item/%E4%BA%94%E4%BB%A3">五代十国</a>，一般又简称五代。唐朝灭亡之后，在中原地区相继出现了定都于开封和洛阳的后梁、后唐、后晋、后汉和后周五个朝代以及割据于西蜀、江南、岭南和河东等地的十几个政权，合称五代十国。
-<pre>
-后梁 907-923 汴 开封
-后唐 923-936    洛阳
-后晋 936-946 汴 开封
-后汉 947-950 汴 开封
-后周 951-960 汴 开封
-</pre>
-<p>吴、前蜀、吴越、楚、闽、南汉、荆南(南平)、后蜀、南唐、北汉等国，历史上叫做“十国”。五代十国只是称其大者，事实上还有不少割据政权。</p>
-</div>
-
-<!-- 北宋 -->
-<div class="item" iname="北宋：960-1127 开封 河南开封" fyear="960" tyear="1127" linepos="1"></div>
-<!-- 辽 -->
-<div class="item" iname="辽：907-1125 上京内蒙古赤峰市巴林左旗→中京 内蒙古赤峰市宁城县）" fyear="907" tyear="1125" linepos="3"></div>
-<!-- 西夏 -->
-<div class="item" iname="西夏：1038-1227 兴庆府 宁夏银川" fyear="1038" tyear="1227" linepos="2"></div>
-
-<div class="item2" iname="" fyear="988" tyear="1114" linepos="4">
-<!-- <div style="position:absolute; top:160px; left:5725px; width:230px; font-size:14px;"> -->
-907年，<a href="https://baike.baidu.com/item/%E8%BE%BD%E6%9C%9D/890068?fromtitle=%E8%BE%BD&fromid=9050148#viewPageContent">辽</a>太祖耶律阿保机成为契丹部落联盟首领，916年始建年号，国号“契丹”。947年，辽太宗率军南下中原，攻占汴京开封府（今河南开封）灭后晋，耶律德光于开封登基改汗称帝，并改国号为辽。1125年为金国所灭 。
-<p>1038年，党项人（羌族的一支）李元昊称帝建国。 因其在西方，宋人称之为<a href="https://baike.baidu.com/item/%E8%A5%BF%E5%A4%8F/698">西夏</a>。西夏在宋夏战争与辽夏战争中大致获胜，形成三国鼎立的局面。1227年亡于蒙古。</p>
-
-<p>960年，后周诸将发动陈桥兵变，拥立赵匡胤为帝，建立<a href="https://baike.baidu.com/item/%E5%8C%97%E5%AE%8B/396063">北宋</a>，定都东京开封府（河南开封）。后通过杯酒释兵权，将兵权与财政权集中于中央，避免了中晚唐藩镇割据的乱象。但也导致宋朝与辽国、西夏、金国的战争中失利。靖康元年（1126年）发生靖康之难，次年被金国灭亡。</p>
-<p>为了收复幽云十六州，北宋与辽国进行了长期的战争。自宋太宗起，北宋曾多次与辽交战。1004年，宋战胜辽，宋真宗与辽国在澶州定下了停战和议，约定宋辽为兄弟之邦，规定宋每年赠辽银十万两、绢二十万匹。为“澶渊之盟”。庆历二年（1042），又增银十万两、绢十万匹，并改“赠”为“纳”。</p>
-<p>北宋时期，因推广占城稻，人口从太平兴国五年（980年）的3710万迅速增至宣和六年（1124年）的12600万。</p>
-</div>
-<div class="item" iname="十字军东征1096-1291" fyear="1096" tyear="1291" linepos="21" title="十字军东征（拉丁文：Cruciata，1096年－1291年）是一系列在罗马天主教教皇的准许下进行的、持续近200年的、有名的宗教性军事行动，由西欧的封建领主和骑士以收复阿拉伯穆斯林入侵占领的土地的名义对地中海东岸国家发动的战争，前后共计八次。十字架是基督教的象征，因此每个参加出征的人胸前和臂上都佩戴“十”字标记，故称“十字军”。"></div>
-<!-- 南宋 -->
-<div class="item" iname="南宋：1127-1279 临安 浙江临安" fyear="1127" tyear="1279" linepos="1"></div>
-<!-- 金 -->
-<div class="item" iname="金：1115-1234" fyear="1115" tyear="1234" linepos="4"></div>
-
-<div class="item2" iname="" fyear="1115" tyear="1234" linepos="5">
-<!-- <div style="position:absolute; top:180px; left:5970px; width:230px; font-size:14px; color:black;"> -->
-女真(靺鞨(mò hé)部落中的一支)原为辽朝臣属，1114年，金太祖完颜旻统一女真诸部后起兵反辽。1115年在上京会宁府（今黑龙江省哈尔滨市）建都立国(→中都 北京→南京（汴京） 河南开封)，国号大<a href="https://baike.baidu.com/item/%E9%87%91%E6%9C%9D/889740?fromtitle=%E9%87%91&fromid=2641630">金</a>。并于1125年灭辽朝，两年后再灭北宋。1234年，金朝在南宋和蒙古南北夹击下覆亡。
-
-<p>1127年，靖康之变后，宋徽宗第九子康王赵构幸免于难，定都南京应天府（今河南商丘）继承大宋皇位，史称<a href="https://baike.baidu.com/item/%E5%8D%97%E5%AE%8B/457341">南宋</a>。1138年，皇室南迁定都临安府（今浙江杭州）。1279年崖山（今广东江门市新会）海战宋军战败，左丞相陆秀夫遂背时年8岁的赵昺在崖山跳海而死，南宋至此彻底灭亡。 </p>
-</div>
-
-<!-- 元 -->
-<div class="item" iname="元：1206-1368 大都 北京" fyear="1206" tyear="1368" linepos="3"></div>
-<div class="item2" iname="" fyear="1234" tyear="1368" linepos="4">
-<!-- <div style="position:absolute; top:150px; left:6220px; width:200px; font-size:14px;"> -->
-1206年，成吉思汗铁木真统一漠北建立蒙古帝国后开始对外扩张，先后攻灭西辽、西夏、花剌子模、东夏、金等国。1260年忽必烈即汗位，建元“中统”。1271年，忽必烈取《易经》“大哉乾元”之意改国号为“大<a href="https://baike.baidu.com/item/%E5%85%83%E6%9C%9D/266205?fromtitle=%E5%85%83&fromid=2634049">元</a>”，次年迁都燕京，称大都。1279年，元军在崖山海战消灭南宋，结束了长期的战乱局面。1368年，朱元璋称帝建立明朝，随后北伐驱逐元廷攻占北京。此后元廷退居漠北，史称北元。1402年，元臣鬼力赤篡夺政权建立鞑靼，北元灭亡。
-<pre>
-元朝(1271-1368)五世11帝
-庙号  名      在位时间   代
-烈祖  也速该  
-太祖  铁木真  1206-1227
-睿宗  拖雷    1227-1229
-太宗  窝阔台  1229-1241
--     脱列哥那1242-1246
-定宗  贵由    1246-1248
--     海迷失  1248-1251
-宪宗  蒙哥    1251-1259
-世祖  忽必烈  1260-1294 铁木真之孙
--     阿里不哥1260-1264
-裕宗  真金               2
-成宗  铁穆耳  1295-1207 忽必烈之孙
-顺宗  答剌麻八剌  
-武宗  海山    1308-1311  4
-仁宗爱育黎拔力八达1312-1320武宗弟
-英宗  硕德八剌1321-1323  5
-显宗  甘麻剌             3 真金子
--  也孙铁木儿 1324-1328  4 真金孙
--  阿速吉八   1328       5
-文宗  图帖睦尔1328-1332  5 武宗子
-明宗  和世琜  1329       5 武宗子       
-宁宗  懿璘质班1332       6 明宗子
-惠宗妥欢帖睦尔1333-1368  6 明宗子
-北元          1368-1402
-惠宗妥欢帖睦尔1368-1370
-昭宗猷识理达腊1371-1379
-脱古思帖木儿 1379-1388
--  也速迭儿  1388-1391
-孛儿只斤·恩克1391-1394
--  额勒伯克  1393-1399
--  坤帖木儿  1400-1402
-</pre>
-</div>
+<body onload="document.formmain.searchkey.focus();tvset();MM_displayStatusMsg('Dancing like nobody\'s Watching!Sing nobody\'slistening!那么拘束干嘛，做人要放开怀抱!');mytarget();init();return document.MM_returnValue">
 	
-<!-- 明 -->	
-<div class="item" iname="明：1368-1644 北京" fyear="1368" tyear="1644" linepos="2"></div>    
-<div class="item" iname="朱元璋" fyear="1368" tyear="1398" linepos="3" title="洪武：1368-1398在位，生卒1328年-1398年"></div>
-<div class="item" iname="" fyear="1398" tyear="1402" linepos="3" title="建文 朱允炆：1398-1402在位，生卒1377年-1402年"></div>
-<div class="item" iname="永乐" fyear="1402" tyear="1424" linepos="3" title="朱棣：1402-1424在位，生卒1360年-1424年"></div>
-<div class="item" iname="嘉靖" fyear="1521" tyear="1566" linepos="3" title="世宗 朱厚熜 1507-1566 嘉靖 1521-1566 46 "></div>
-<div class="item" iname="万历" fyear="1572" tyear="1620" linepos="3" title="朱翊钧：1572-1620在位，生卒1563年-1620年"></div>
-<div class="item" iname="崇祯" fyear="1627" tyear="1644" linepos="3" title="朱由检：1627-1644在位，生卒1609年-1644年"></div> 
+<div id="frame">
 
-<div id="gbn" class="item" iname="哥白尼1473-1543" fyear="1473" tyear="1543" linepos="21" title="尼古拉·哥白尼（波兰文：Nikolaj Kopernik，1473年2月19日—1543年5月24日，享年70岁），是文艺复兴时期的波兰天文学家、数学家、教会法博士、神父。"></div> 
-<div id="gbn" class="item" iname="马丁路德1483-1546" fyear="1483" tyear="1546" linepos="22" title="马丁·路德（Martin Luther，1483年11月10日——1546年2月18日） ，16世纪欧洲宗教改革倡导者，基督教新教路德宗创始人。出生于德意志（人称德意志为改革发源地）中部。"></div> 
+<!--start 1st line-->
+<div class="topdup">
+	<div id="topup1">
+		<a href="javascript:void(null)" onclick=changecss("zfirst/css/indexpx.css") title="改变CSS为PX的单位">宠辱</a><a href="javascript:void(null)" onclick=changecss("zfirst/css/indexcss.css") title="改变CSS为%的单位(默认)">不惊</a>，闲看庭前花开花谢；去留无意，漫随天外云卷云舒
+	</div>
 
-<div class="item" id="gln" iname="伽利略1564-1642" fyear="1564" tyear="1642" linepos="21" title="伽利略（Galileo Galilei，1564-02-15-1642-01-08）。意大利数学家、物理学家、天文学家，科学革命的先驱。伽利略发明了摆针和温度计，在科学上为人类作出过巨大贡献，是近代实验科学的奠基人之一。"></div> 
+	<div id="topup2">
+<!--calendar--一部分写在Html,一部份写在JS-->
+		<script type="text/javascript">     //农历的另一年份时，需更改6处（第6处是节气更改，作为变量中的字符的"2011"不更改）	
+			document.write(Year+"-"+"<font color=#008040>"+"<strong>"+"<span style='FONT-SIZE: 12px'>"+enym+"&nbsp;"+isnDay[today.getDay()]+"</font>"+"</strong>"+"</span>"+"&nbsp;")
+			document.write(cnyear+"<strong>"+"<span style='FONT-SIZE: 12px'>"+"<font color=#0000FF>"+cnym+"</span>"+"</strong>"+"</font>"+"&nbsp;")/*农历月日*/
+			document.write("已逝:"+cndayed+"天"+"<sup>"+"+"+"</sup>"+"&nbsp;")
+			document.write("可期:"+"<font face='Arial' size='2px' color=#FF8040>"+"<strong>"+haveday+"</strong>"+"</font>"+"天"+"<sup>"+"+"+"</sup>"+"&nbsp;"+"&nbsp;")
+		</script>
+<!--calendar一部分写在Html,一部份写在JS-->
+	</div>
 
-<div class="item" id="gln" iname="莎士比亚1564-1616" fyear="1564" tyear="1616" linepos="22" title="威廉·莎士比亚（英语：William Shakespeare，1564年4月23日－1616年4月23日），华人社会常尊称为莎翁，清末民初鲁迅在《摩罗诗力说》（1908年2月）称莎翁为“狭斯丕尔”，是英国文学史上最杰出的戏剧家，也是欧洲文艺复兴时期最重要、最伟大的作家，全世界最卓越的文学家之一。"></div>
+	<div id="topup3">
+		<a href="javascript:void(null)" onclick="MM_showHideLayers('tim1','','hide');MM_showHideLayers('tim2','','hide')" onmouseover="MM_showHideLayers('tim1','','show');MM_showHideLayers('tim2','','show')">|悠然</a>&nbsp;
+		<a href="javascript:void(null)" onclick="tabSwitch2('tab7',3)">随心</a><a href="javascript:void(null)" onclick="MM_showHideLayers('c41','','hide','c42','','hide','c43','','hide','c44','','hide','c45','','hide','c46','','hide','ones','','show')">&nbsp;</a><a href="javascript:void(null)" onclick="tabSwitch2('tab7',1)">随性</a><a href="other data/love.html">&nbsp;</a><a href="javascript:void(null)" onclick="tabSwitch2('tab7',2)">随缘</a>
+	</div>
+</div>
+<!--end 1st line topup1 -->
 
-<div class="item" iname="牛顿1643-1727" fyear="1643" tyear="1727" linepos="21" title="艾萨克·牛顿（1643年1月4日—1727年3月31日）爵士，英国皇家学会会长，英国著名的物理学家，百科全书式的“全才”，著有《自然哲学的数学原理》、《光学》。"></div> 
+<!--start pic part topup -->
+<div id="top">
+	<div id="topleft">
+		<div class="top11"><strong style="font-size:22px"><span style="font-family:华文新魏">悠然笑看</span></strong><span style="font-size:22px; font-family:"幼圆"">云淡风轻</span></div>
+		<div class="top21"  style="font-size:14px;">云淡天蓝 花绽风轻&nbsp;&nbsp;&nbsp;<marquee behavior="scroll" align="middle" width="80" height="23" direction="up" scrolldelay="44" scrollamount="1"><em><strong>&nbsp;<span class="white16">随意的风</span></strong></em>
+		</marquee>
+		</div><!--top21 -->
+	</div><!--end topleft-->
+	
+	<div id="topright">
+	<table width="100%" height="66" border="0" cellpadding="0" cellspacing="0">
+	  <tr>
+		<td colspan="4" align="center" valign="middle"><font color="#005681">静看窗前花开花落,漫随心潮云卷云舒.天这样蓝，树这样绿，生活原来可以这样安宁和美丽！</font></td>
+		<td align="center" valign="middle">&nbsp;</td>
+	  </tr>
+	  <tr align="center">
+		<td colspan="4" align="center" valign="middle">太阳明天照样会升起，新的太阳，新的一天，新的生命，新的期待！太多不可预测，一切皆有可能。</td>
+		<td align="right" valign="middle">期待&nbsp;</td>
+	  </tr>
+	  <tr>
+		<td width="12" align="center" valign="middle">&nbsp;</td>
+		<td width="165" rowspan="2" align="center" valign="middle" style="font-size:12px;">乘风破浪&middot;追风而行</td>
+		<td width="249" align="center" valign="middle"><font color="#005681">前行路上,因为爱,被爱,责任</font></td>
+		<td width="164"  rowspan="2" align="center" valign="middle"><a href="http://tansitong.memsky.com/templet/memorial/名山·峨眉.aspx?gid=34" style="color:#FFFFFF;font-size:12px" >禅心剑气</a>&nbsp;&nbsp;<a href="http://baike.baidu.com/view/1655.htm" style="color:#FFFFFF;font-size:12px">剑胆琴心</a></td>
+		<td width="50" align="right" valign="middle">分享&nbsp;</td>
+	  </tr>
+	  <tr>
+		<td width="12" align="center" valign="middle">&nbsp;</td>
+		<td align="center" valign="middle">萌生了动力</td>
+		<td width="50" align="right" valign="middle"><a href="javascript:void(null)" onclick="MM_showHideLayers('float1b','','show','float2b','','show','float3b','','show','float4b','','show')" onmouseover="MM_showHideLayers('float1b','','hide','float2b','','hide','float3b','','hide','float4b','','hide')">共鸣&nbsp;</a></td>
+	  </tr>
+	</table>
+	</div><!--end topright-->
+</div>
+<!--end pic part top -->
 
-<div class="item" iname="拿破仑1769" fyear="1769" tyear="1821" linepos="15" title="拿破仑·波拿巴（法语：Napoléon Bonaparte/意大利语：Napoleone Buonaparte，1769年8月15日－1821年5月5日），即拿破仑一世（Napoléon I），出生于科西嘉岛，十九世纪法国伟大的军事家、政治家，法兰西第一帝国的缔造者。历任法兰西第一共和国第一执政（1799年－1804年），法兰西第一帝国皇帝（1804年－1815年）。"></div> 
+<!--start below pic part topdown -->
+<div class="topdown">
+	 <div class="topdown1"><a href="javascript:void(null)" target="_self" onclick="tabSwitch2('tab6',1)">天涯</a>·<a href="javascript:void(null)" target="_self" onclick="tabSwitch2('tab6',2)">流浪</a>·<a href="javascript:void(null)" target="_self" onclick="tabSwitch2('tab6',3)">随风</a></div>
+		<div class="topdown2">&nbsp;天涯行客,山中归路,望断故园心眼
+</div>
 
+<!--start menu -->
+<div class="menu">
+<ul id="menu1">
+<li><a href="javascript:void(null)" target="_self">wwu</a>
+	<ul>
+	<li style="border:0; height:4px; background-color:#fff; border-left:1px solid #603;  ">&nbsp;</li>
+	<li><a href="whoarewho/youran.html">wwu</a></li>
+	<li><a href="zfirst/exam.html">exam</a></li>
+	<li><a href="../wwuhn/familyPic/family/family.html">familyPic</a></li>
+	<li><a href="javascript:void(null)">contact</a></li>
+	</ul>
+</li>
 
-<div class="item" iname="A" fyear="1775" tyear="1783" linepos="-2" title="美国独立战争（英语：American Revolutionary War，1775年—1783年），或称美国革命战争，是大英帝国和其北美十三州殖民地的革命者，以及几个欧洲强国之间的一场战争。
-这场战争是始于为了对抗英国的经济政策，但后来却因为法国加入战争对抗英国，而使战争的范围远远超过英属北美之外。
-由于英国一直以来对殖民地进行剥削，对北美殖民地经济的发展起到严重阻碍作用，为了对抗英国的经济政策，北美人民奋起抗争。始于1775年4月的莱克星顿枪声，1776年7月4日大陆会议通过了由托马斯·杰斐逊执笔起草的《独立宣言》，宣告了美国的诞生。"></div> 
+<li><a href="javascript:void(null)" target="_self">reading</a>
+	<ul>
+	<li style="border:0; height:4px; background-color:#fff; border-left:1px solid #603;  ">&nbsp;</li>
+	<li><a href="http://www.shuku.net/">Yifan</a></li>
+	<li><a href="../wwuhn/novel/EnNovel/gone with the wind/frame gone/gone.html">Gone</a></li>
+	<li><a href="../wwuhn/novel/平凡的世界/pingfa.html">Pingfan</a></li>
+	<li><a href="../wwuhn/novel/EnNovel/three days to see/three.html">Three</a></li>
+	<li><a href="../wwuhn/novel/EnNovel/who moved my cheese/who_moved_my_cheese.htm">Cheese</a></li>
+	</ul>
+</li>
 
-<div class="item" iname="南北战争" fyear="1861" tyear="1865" linepos="-2" title="南北战争（American Civil War，即美国内战，1861年4月12日 - 1865年4月9日），是美国历史上唯一一次内战，参战双方为北方美利坚合众国和南方的美利坚联盟国。战争以南方联盟炮击萨姆特要塞为起点 [1]  ，最终以北方联邦胜利告终。战争之初，北方为了维护国家统一而战，后来，演变为一场消灭奴隶制的革命战争。"></div> 
+<li><a href="javascript:void(null)" target="_self">Video</a>
+	<ul>
+	<li style="border:0; height:4px; background-color:#fff; border-left:1px solid #603;  ">&nbsp;</li>
+	<li><a href="http://www.le.com/?home">乐视</a></li>
+	<li><a href="http://www.iqiyi.com/">爱奇艺</a></li>
+	<li><a href="http://www.youku.com/?spm=a2h1n.8261147.qheader.5~5~5~A">优酷</a></li>
 
-<div class="item" iname="毛泽东1893" fyear="1893" tyear="1976" linepos="15" title="毛泽东（1893年12月26日-1976年9月9日），字润之（原作咏芝，后改润芝），笔名子任。湖南湘潭人。中国人民的领袖，马克思主义者，伟大的无产阶级革命家、战略家和理论家，中国共产党、中国人民解放军和中华人民共和国的主要缔造者和领导人，诗人，书法家。"></div> 
+	<li><a href="http://tv.sohu.com/">搜狐</a></li>
 
-<div class="item" iname="法拉第1791-1867" fyear="1791" tyear="1867" linepos="19" title="1831年，他作出了关于电力场的关键性突破，永远改变了人类文明。"></div> 
-<div class="item" iname="麦克斯韦1831-1879" fyear="1831" tyear="1879" linepos="20" title="詹姆斯·克拉克·麦克斯韦（James Clerk Maxwell，1831-1879），出生于苏格兰爱丁堡，英国物理学家、数学家。经典电动力学的创始人，统计物理学的奠基人之一  。"></div> 
-<div class="item" iname="达尔文1809-1882" fyear="1809" tyear="1882" linepos="21" title="查尔斯·罗伯特·达尔文（Charles Robert Darwin，1809年2月12日—1882年4月19日，英国生物学家，进化论的奠基人。曾经乘坐贝格尔号舰作了历时5年的环球航行，对动植物和地质结构等进行了大量的观察和采集。出版《物种起源》，提出了生物进化论学说，从而摧毁了各种唯心的神造论以及物种不变论。"></div> 
-<div class="item" iname="马克思1818-1883" fyear="1818" tyear="1883" linepos="22" title="卡尔·马克思，全名卡尔·海因里希·马克思（德语：Karl Heinrich Marx，1818年5月5日－1883年3月14日），马克思主义的创始人之一，第一国际的组织者和领导者，马克思主义政党的缔造者，全世界无产阶级和劳动人民的革命导师，无产阶级的精神领袖，国际共产主义运动的开创者。"></div> 
-<div class="item" iname="爱因斯坦1879-1955" fyear="1879" tyear="1955" linepos="20" title="阿尔伯特·爱因斯坦（Albert.Einstein，1879年3月14日—1955年4月18日），出生于德国符腾堡王国乌尔姆市，毕业于苏黎世联邦理工学院，犹太裔物理学家。"></div> 
-<div class="item2" iname="" fyear="1368" tyear="1616" linepos="4">     
-<!-- <div style="position:absolute; top:150px; left:6460px; width:400px; font-size:14px;"> -->
-1368年朱元璋称帝，国号为大<a href="https://baike.baidu.com/item/%E6%98%8E%E6%9C%9D/141291?fromtitle=%E6%98%8E&fromid=9473149">明</a> ，定都于应天府；1420年朱棣迁都至顺天府。1644年李自成攻入北京，崇祯帝自缢殉国，明朝覆灭。明朝宗室在江南建立南明，随后清朝击败大顺、大西、南明弘光、隆武、绍武等诸政权。1662年永历帝被杀，南明覆灭。1683年清军攻占台湾，奉明正朔的明郑覆灭。
-<p>为加强与海外诸国的联系，朱棣派郑和出使西洋。从1405年到1433年，郑和七次航海，访问亚非30多个国家和地区，最远到达红海沿岸和非洲东海岸地区。</p>
+	<li style="border:0; height:4px; background-color:#fff; border-left:1px solid #603;  ">&nbsp;</li>
 
-<pre>
-sn 庙号 名讳   生卒时间 年号 在位时间 在位年数 remark
-1  德祖 朱百六 - - -  
-2  懿祖 朱四九 - - -  
-3  熙祖 朱初一 - - -  
-4  仁祖 朱世珍 1283-1344 - -  
-5  太祖 朱元璋 1328-1398 洪武 1368-1398 31 
-6  兴宗 朱标   1355-1392 - -           
-7  惠宗 朱允炆 1377-1402 建文 1398-1402 5 
-8  太宗 朱棣   1360-1424 永乐 1402-1424 23 
-9  仁宗 朱高炽 1378-1425 洪熙 1424-1425 2 
-10 宣宗 朱瞻基 1398-1435 宣德 1425-1435 11 
-11 英宗 朱祁镇 1427-1464 正统 1435-1449 15 
-12 代宗 朱祁钰 1428-1457 景泰 1449-1457 9 
+	</ul>
+</li>
 
+<li><a href="javascript:void(null)" target="_self">CCTV</a>
+	<ul>
+	<li style="border:0; height:4px; background-color:#fff; border-left:1px solid #603;  ">&nbsp;</li>
+	<li><a href="http://tv.cntv.cn/epg">cctv jmd</a></li>
+	<li><a href="http://tv.cntv.cn/live/">cctv直播</a></li>
+	<li><a href="http://tv.cctv.com/top/index.shtml">cctv频道介绍</a></li>
+	<li><a href="http://www.tvsou.com/">TVsou</a></li>
+	<li><a href="http://www.tvmao.com/program">TVmao</a></li>
+	<li style="border:0; height:4px; background-color:#fff; border-left:1px solid #603;  ">&nbsp;</li>
+	<li><a href="http://tv.cntv.cn/live/cctv1">1 综合</a></li>
+	<li><a href="http://tv.cntv.cn/live/cctv2">2 财经</a></li>	
+	<li><a href="http://tv.cntv.cn/live/cctv3">3 综艺</a></li>	
+	<li><a href="http://tv.cntv.cn/live/cctv4">4 国际</a></li>	
+	<li><a href="http://tv.cntv.cn/live/cctv5">5 体育</a></li>
+	<li style="border:0; height:4px; background-color:#fff; border-left:1px solid #603;  ">&nbsp;</li>
+	<li><a href="http://tv.cntv.cn/live/cctv6">6  电影</a></li>	
+	<li><a href="http://tv.cntv.cn/live/cctv7">7 军事农业</a></li>	
+	<li><a href="http://tv.cntv.cn/live/cctv8">8 电视剧</a></li>
+	<li><a href="http://tv.cntv.cn/live/CCTV9ducumentary">9 纪录</a></li>		
+	<li><a href="http://tv.cntv.cn/live/cctv10">10 科教</a></li>
+	<li style="border:0; height:4px; background-color:#fff; border-left:1px solid #603;  ">&nbsp;</li>
+	<li><a href="http://tv.cntv.cn/live/cctv11">11 戏曲</a></li>	
+	<li><a href="http://tv.cntv.cn/live/cctv12">12 社会与法</a></li>	
+	<li><a href="http://tv.cntv.cn/live/cctv13">13 新闻</a></li>
+	<li><a href="http://tv.cntv.cn/live/cctvchildren">14 少儿</a></li>
+	<li><a href="http://tv.cntv.cn/live/cctvmusic">15 音乐</a></li>
+	<li style="border:0; height:4px; background-color:#fff; border-left:1px solid #603;  ">&nbsp;</li>
+	<li><a href="http://tv.cntv.cn/live/cctv9">9 news</a></li>
+	<li><a href="http://tv.cntv.cn/live/cctvgaoqing">22 高清</a></li>
+	<li><a href="http://tv.cntv.cn/live/fengyunzuqiu/">cctv足球</a></li>
+	<li><a href="http://tv.cctv.com/live/cctv5plus//">cctv5+</a></li>	
+	</ul>
+</li>
 
+<li><a href="javascript:void(null)" target="_self">Live</a>
+	<ul>
+	<li style="border:0; height:4px; background-color:#fff; border-left:1px solid #603;  ">&nbsp;</li>
+	<li><a href="http://live.wasu.cn/show/id/2972036">华数CCTV5</a></li>
+	<li><a href="http://live.wasu.cn/show/id/2519413">华数CCTV5+</a></li>
+	<li><a href="http://live.imgo.tv/">芒果TV</a></li>
+	<li><a href="http://www.gztv.com">GZTV live</a></li>
+	<li><a href="http://live.pptv.com/">PPTV</a></li>
+	<li><a href="http://zhibo.uusee.com/" title="广体、上体、BTV体、安徽、湖北、天津、广东、CETV1">UUsee</a></li>
+	<li><a href="http://www.pps.tv/" title="东方\江苏\北京\广东\安徽\四川\贵州">PPS</a>
+	<li><a href="http://kbs.sports.qq.com/#hot">QQ Live</a>		</li>
+	<li><a href="http://www.hunanzhibo.com/">hntvLive</a></li>
+	<li><a href="http://www.sopcast.cn/cn/" title="东方\江苏\北京">sopcast</a>&nbsp;</li>
+	<Li><a href="http://www.ghzty.com/page/index.php">高画质体育网</a></Li>
+	<li><a href="http://sports.gdtv.cn/">广东体育</a></li>
+	<li><a href="http://v.ifeng.com/live/#270DE943-3CDF-45E1-8445-9403F93E80C4">凤凰卫视</a></li>
+	<li><a href="http://tv.51live.com/">51Live(sports)</a></li>
+</ul>
+</li>
 
-13 英宗 朱祁镇 1427-1464 天顺 1457-1464 8 复辟
-14 宪宗 朱见深 1447-1487 成化 1464-1487 24 
-15 孝宗 朱祐樘 1470-1505 弘治 1487-1505 19 
-16 武宗 朱厚照 1491-1521 正德 1505-1521 17 
-17 睿宗 朱祐杬 1476-1519 - - 
-18 世宗 朱厚熜 1507-1566 嘉靖 1521-1566 46 
-19 穆宗 朱载垕 1537-1572 隆庆 1566-1572 7 
-20 神宗 朱翊钧 1563-1620 万历 1572-1620 49 
-21 光宗 朱常洛 1582-1620 泰昌 1620  
-22 熹宗 朱由校 1605-1627 天启 1620-1627 8 
-23 怀宗 朱由检 1609-1644 崇祯 1627-1644 18 
-24 -    朱慈烺 1629-1644 义兴 1644  
-25 恭宗 朱常洵 1586-1641 - - 
-26 安宗 朱由崧 1607-1646 弘光 1644-1645 2 
-27 绍宗 朱聿键 1602-1646 隆武 1645-1646 2 
-28 文宗 朱聿鐭 1605-1647 绍武 1646  
-29 礼宗 朱常瀛 1597-1645 - - 
-30 昭宗 朱由榔 1623-1662 永历 1646-1662 17 
-</pre>
-</div>       
+<li><a href="javascript:void(null)" target="_self">Music</a>
+	<ul>
+	<li style="border:0; height:4px; background-color:#fff; border-left:1px solid #603;  ">&nbsp;</li>
+	<li><a href="music/herovideo.html">hero</a></li>
+	<li><a href="music/Stronger.html">Stronger</a></li>
+	<li><a href="music/takemetoyourheartv2.html">takeMeToYourHeart</a></li><!--4-->	
+	<li><a href="music/ThroughTheRainV.html">ThroughTheRainV</a></li> <!--4-->
+	<li><a href="music/明天会更好en1.html" title="歌词只有英文">TomorrowBetter</a></li>
+	<li><a href="music/明天会更好en2.html" title="歌词中英文">TomorrowBetter+中文</a></li>
+	<li style="border:0; height:4px; background-color:#fff; border-left:1px solid #603;  ">&nbsp;</li>
+	<li><a href="music/weAreTheWorldVideo.html" title="群星，词与michael jackson的有一些区别。">weAreTheWorld</a></li>
+	<li><a href="music/weAreTheWorldMichael.html" title="Michael Jackson solo">weAreTheWorldMichael</a></li>
+	<li><a href="music/When You Say Nothing At All/whenYouSayNothingAtTallVideo.html">whenYouSayNothingAtTall</a></li>
+	<li style="border:0; height:4px; background-color:#fff; border-left:1px solid #603;  ">&nbsp;</li>	
+	<li><a href="music/奉献.html">奉献 苏芮</a></li>
+	<li><a href="music/感恩的心.html">感恩的心</a></li><!--4-->	
+	<li><a href="music/letitgo.html">letItGo</a></li>
+	<li><a href="music/明天会更好.html">明天会更好</a></li><!--4-->
+	<li><a href="music/望月.html">望月 刘赛孔莹</a></li>
+	<li><a href="music/想和你去吹吹风.html">想和你去吹吹风</a></li><!--4-->
+	<li><a href="music/隐形的翅膀.html">隐形的翅膀 张韶涵</a></li>
+	</ul>
+</li>
+
+<li><a href="javascript:void(null)" target="_self">Shopping</a>
+	<ul>
+	<li style="border:0; height:4px; background-color:#fff; border-left:1px solid #603;  ">&nbsp;</li>
+	<li><a href="http://gz.58.com/">58同城</a></li>
+	<li><a href="http://gz.ganji.com/">赶集网</a></li>
+	<li><a href="http://guangzhou.baixing.com/">百姓网</a></li>
+	<li><a href="http://info.51ganjie.com/">赶街网</a></li>
+	<li style="border:0; height:4px; background-color:#fff; border-left:1px solid #603;  ">&nbsp;</li>
+	<li><a href="http://www.taobao.com/">淘宝网</a></li>
+	<li><a href="http://www.amazon.cn/" title="wwuhnwu@163.bywufw">亚马逊</a></li>
+	<li><a href="http://www.360buy.com/" title="wwuhnwu then none,bywuhnfw">京东</a></li>
+	<li><a href="http://www.dangdang.com/">当当网</a></li>
+	<li><a href="http://www.paipai.com/">拍拍网</a></li>
+	<li><a href="http://www.eachnet.com/">易趣网</a></li>
+	<li style="border:0; height:4px; background-color:#fff; border-left:1px solid #603;  ">&nbsp;</li>
+	<li><a href="http://www.tmall.com/">Tmall</a></li>
+	<li><a href="http://www.yihaodian.com/3/">1号店</a></li>
+	<li><a href="http://www.vancl.com/">凡客诚品</a></li>
+	<li><a href="http://www.suning.com/">苏宁易购</a></li>
+	<li><a href="http://www.gome.com.cn/ec/homeus/index.html">国美电器</a></li>
+	<li style="border:0; height:4px; background-color:#fff; border-left:1px solid #603;  ">&nbsp;</li>
+	<li><a href="http://vacations.ctrip.com/">携程网</a></li>
+	<li><a href="http://www.17u.cn/">同程网</a></li>
+	<li><a href="http://www.qunar.com/">去哪儿</a></li>
+	<li style="border:0; height:4px; background-color:#fff; border-left:1px solid #603;  ">&nbsp;</li>
+	<li><a href="http://china.alibaba.com" title="阿里巴巴小额批发">阿里巴巴</a></li>
+	<li><a href="https://www.alipay.com/">支付宝</a></li>
+	</ul>
+</li>
+
+<li><a href="javascript:void(null)" target="_self">Encyclopedia</a>
+	<ul>
+	<li style="border:0; height:4px; background-color:#fff; border-left:1px solid #603;  ">&nbsp;</li>
+	<li><a href="http://kejiao.cntv.cn/zuiai/index.shtml">科学世界</a></li>
+	<li><a href="witiso/36/douZhouXingYi.html">斗转星移</a></li>
+	<li><a href="http://docuchina.cntv.cn/bingdongxingqiu/videopage/index.shtml">冰冻星球</a></li>
+	<li><a href="http://docuchina.cntv.cn/lsclhy/videopage/index.shtml">梁思成林徽因</a></li>
+	</ul>
+</li>
+
+<li><a href="javascript:void(null)" target="_self">EXpress</a>
+	<ul>
+	<li style="border:0; height:4px; background-color:#fff; border-left:1px solid #603;  ">&nbsp;</li>
+	<li><a href="http://www.hao123.com/haoserver/kuaidi.htm">Hao123快递查询</a></li>
+	<li><a href="http://www.sf-express.com/cn/sc/">顺丰</a></li>
+	<li><a href="http://www.yto.net.cn/cn/index/index.html">圆通</a></li>
+	<li><a href="http://www.sto.cn/">申通</a></li>
+	<li><a href="http://www.zto.cn/">中通</a></li>
+	<li><a href="http://www.zto.cn/">汇通</a></li>
+	<li><a href="http://yjcx.chinapost.com.cn/">中国邮政</a></li>
+	<li><a href="http://www.htky365.com/">韵达</a></li>
+	</ul>
+</li>
   
-<!-- 清 -->
-<div class="item2" iname="" fyear="1616" tyear="1912" linepos="5">
-<!-- <div style="position:absolute; top:190px; left:6950px; width:450px; font-size:14px;"> -->
-1616年，建州女真部首领努尔哈赤建立后金。1636年，皇太极改国号为大<a href="https://baike.baidu.com/item/%E6%B8%85%E6%9C%9D/175141?fromtitle=%E6%B8%85&fromid=10030559">清</a>。1644年大顺攻占北京，驻守山海关的明将吴三桂降清，摄政王多尔衮率领清军入关，同年顺治帝迁都北京，从此清朝取代明朝成为全国统治者。军事上在随后的二十余年间平定大顺、大西、南明等政权。后又平定三藩之乱、统一郑氏台湾，逐步掌控全国。
-<p></p>
-<pre>
-   庙号 名       年号 在世时间  在位时间 登基 在位 年龄 备注
-1  太祖 努尔哈赤 天命 1559-1626 1616-1626 57 10 67  
-2  太宗 皇太极   崇德 1592-1643 1626-1643 44 17 51  
-   成宗 多尔衮     -  1612-1650 -      
-3  世祖 福临     顺治 1638-1661 1643-1661 5  18 23  
-4  圣祖 玄烨     康熙 1654-1722 1661-1722 7  61 68  
-5  世宗 胤禛     雍正 1678-1735 1722-1735 44 13 57  
-6  高宗 弘历     乾隆 1711-1799 1735-1795 24 60 88 退位四年后过世
-7  仁宗 顒琰     嘉庆 1760-1820 1796-1820 36 24 60 （原名永琰）
-8  宣宗 旻宁     道光 1782-1850 1820-1850 38 30 68 （原名绵宁）
-9  文宗 奕詝     咸丰 1831-1861 1850-1861 19 11 30  
-10 穆宗 载淳     同治 1856-1875 1861-1875 5  14 19 慈禧儿子 
-11 德宗 载湉     光绪 1871-1908 1875-1908 4  33 37 同治堂弟
-12 逊宗 溥仪     宣统 1906-1967 1908-1912 2  4  61 光绪侄子
-</pre>
-</div>  
-<div class="item" iname="清：1616-1911 北京" fyear="1616" tyear="1911" linepos="1"></div>    
-<div class="item" iname="努尔哈赤" fyear="1616" tyear="1626" linepos="4"></div>
-<div class="item" iname="皇太极" fyear="1626" tyear="1643" linepos="4"></div>
-<div class="item" iname="顺治" fyear="1643" tyear="1661" linepos="4"></div>
-<div class="item" iname="康熙1661-1722" fyear="1661" tyear="1722" linepos="4"></div>
-<div class="item" iname="雍正" fyear="1722" tyear="1735" linepos="4"></div>
-<div class="item" iname="乾隆1735-1795" fyear="1735" tyear="1795" linepos="4"></div>
-<div class="item" iname="嘉庆" fyear="1795" tyear="1820" linepos="4"></div>
-<div class="item" iname="道光" fyear="1820" tyear="1850" linepos="4"></div>
-<div class="item" iname="咸丰" fyear="1850" tyear="1861" linepos="4"></div>
-<div class="item" iname="同治" fyear="1861" tyear="1875" linepos="4"></div>
-<div class="item" iname="光绪" fyear="1875" tyear="1908" linepos="4"></div>
-<div class="item" iname="宣统" fyear="1908" tyear="1912" linepos="4"></div>  
-<div class="item" iname="慈禧" fyear="1861" tyear="1908" linepos="3" title="慈禧（1835年11月29日—1908年11月15日，咸丰帝的妃嫔，同治帝的生母。）"></div> 
+</ul>
+</div>
+<!--end menu -->
+</div>
+<!--topdown2 -->
 
-<!-- 民国 -->
-<div class="item" iname="民国" fyear="1912" tyear="1949" linepos="1" title="1912-1949 南京" onclick="drag"></div>
-<div class="item2" id="drag1" iname="" fyear="1912" tyear="2000" linepos="2" style="width:1220px;">
-1911年辛亥革命爆发后，革命党在南京建立临时政府，各省代表推举孙中山为临时大总统，1912年元月民国正式建立。以袁世凯为首的北洋势力主政中国，北洋政府分崩离析后政局动荡不安，孙中山南下广州，召开国民党一大，建立黄埔军校随而建立国民政府，促成国共合作后的孙中山1925年3月病逝。1926年蒋介石继承孙中山遗志领导国民北伐，意欲统一中国，到1928年东北易帜，国民政府从形式上统一中国，蒋介石成为继孙中山之后的国民党领袖。统一之后，民国进进入所谓的“黄金十年”建设时期，此间社会稳定，教育稳步发展、趋于定型。1937年抗战全面爆发，中国成为反法西斯同盟国，国际地位大大提高，一举成为美英中苏四大国。1949年后因国共内战失利而迁台。
+
+<div id="mainx">
+	<!--start main1 -->	
+	<div class="main">
+		<!--start left1 -->
+		<div class="left">
+			<!--tab1 -->	
+<div id="tab">
+<h3 class="up" onclick="tabSwitch('tab',1);">Overall 1st</h3>
+<h3 onclick="tabSwitch('tab',2);">Reading</h3>
+<h3 onclick="tabSwitch('tab',3);">Novel</h3>
+<h3 onclick="tabSwitch('tab',4);">武侠&传记</h3>
+<h3 onclick="tabSwitch('tab',5);">Character</h3>
+<h3 onclick="tabSwitch('tab',6);">Beauty</h3>
+
+<!--p11 block -->	
+<div class="block" id="c11">
+<ul>
+<li><a href="you2/index.html">you2</a></li>
+<li><a href="dataiso/index.html">DataIso</a></li>
+<li><a href="witiso/index.html">Witiso</a><a href="witisopc/index.html">PC</a></li>
+<li><a href="http://localhost:8088">self</a><a href="witisopc/23/selfrecords/ADO录入数据到Access.xlsm">Records</a></li>
+<li><a href="http://localhost:8084">notes</a><a href="http://localhost:8082">PC</a><a href="desktoppaper/piclist.html">desktopPaper</a></li>
+</ul>
+
+<ul> 
+<li><a href="http://tv.cctv.com/lm/wmzl/videoset/">文明之旅</a></li>
+<li><a href="http://v.baidu.com/show/470.htm?&amp;q=%D1%EE%C0%BD%B7%C3%CC%B8%C2%BC">杨澜访谈录</a></li>
+<li><a href="http://v.baidu.com/show/540.htm?&q=%E5%A4%A9%E5%A4%A9%E5%90%91%E4%B8%8A">天天向上</a></li>
+<li><a href="http://v.baidu.com/show/454.htm?&q=%E5%B9%B3%E6%B0%91%E8%8B%B1%E9%9B%84" >平民英雄</a></li>
+<li><a href="http://v.baidu.com/show/1797.htm?&amp;q=%E5%BC%80%E8%AE%B2%E5%95%A6">开讲了</a><a href="http://v.baidu.com/show/1631.htm?&q=%E5%AF%B9%E8%AF%9D" style="color:#930;">对话</a></li>
+</ul>
+
+<ul>
+<li><a href="http://v.baidu.com/show/6167.htm?&q=%E5%86%B7%E6%9A%96%E4%BA%BA%E7%94%9F">冷暖</a><a href="http://v.ifeng.com/vlist/tv/lnrs/all/0/1/detail.shtml" style="color:#993300;">人生</a></li>
+<li><a href="http://v.baidu.com/show/1529.htm?&q=%E5%86%9B%E6%83%85%E8%A7%82%E5%AF%9F%E5%AE%A4">军情</a><a href="http://v.ifeng.com/vlist/tv/jqgcs/all/0/1/detail.shtml" style="color:#993300;">观察室</a></li>
+<li><a href="http://v.baidu.com/show/1534.htm?&amp;q=%E4%B8%96%E7%BA%AA%E5%A4%A7%E8%AE%B2%E5%A0%82">世纪</a><a href="http://v.ifeng.com/vlist/tv/sjdjt/all/0/1/detail.shtml" style="color:#993300;">大讲堂</a></li>
+<li><a href="http://v.baidu.com/show/6213.htm?&q=%E5%90%8D%E4%BA%BA%E9%9D%A2%E5%AF%B9%E9%9D%A2">名人</a><a href="http://so.v.ifeng.com/video?q=%E5%90%8D%E4%BA%BA%E9%9D%A2%E5%AF%B9%E9%9D%A2&c=5" style="color:#993300;">面对面</a></li>
+<li><a href="http://v.baidu.com/show/6498.htm?&q=%E4%B8%80%E8%99%8E%E4%B8%80%E5%B8%AD%E8%B0%88">一虎</a><a href="http://v.ifeng.com/vlist/tv/yhyxt/all/0/1/detail.shtml" style="color:#993300;">一席谈</a></li>
+</ul>
+
+<ul>
+
+<li><a href="http://v.baidu.com/show/1488.htm?&q=%E6%96%87%E5%8C%96%E5%A4%A7%E8%A7%82%E5%9B%AD">文化</a><a href="http://phtv.ifeng.com/program/whdgy/#0197f1d5-c448-478d-847d-320ced1c631e" style="color:#993300;">大观园</a></li>
+<li><A href="http://v.baidu.com/show/1387.htm?&q=%E9%B2%81%E8%B1%AB%E6%9C%89%E7%BA%A6">鲁豫</A><a href="http://v.ifeng.com/vlist/tv/lyyy/all/0/1/detail.shtml" style="color:#993300;">有约</a></li>
+<li><a href="http://v.ifeng.com/documentary/index.shtml#_v_www8">凤凰纪实</a></li>
+<li><a href="http://v.baidu.com/show/461.htm?&q=%E9%94%B5%E9%94%B5%E4%B8%89%E4%BA%BA%E8%A1%8C">锵锵</a><a href="http://v.ifeng.com/vlist/tv/qqsrx/all/0/1/detail.shtml" style="color:#993300;">三人行</a></li>
+<li><a href="http://v.baidu.com/show/5981.htm?&amp;q=%E5%87%A4%E5%87%B0%E5%A4%A7%E8%A7%86%E9%87%8E">凤凰</a><a href="http://v.ifeng.com/vlist/tv/fhdsy/all/0/1/detail.shtml" style="color:#993300;">大视野</a></li>	
+</ul>
+
+<ul>
+<li><a href="http://v.baidu.com/show/5836.htm?&q=%E7%99%BE%E5%AE%B6%E8%AE%B2%E5%9D%9B" >百家讲坛</a></li>
+<li><a href="http://v.baidu.com/show/1703.htm?&q=%E8%89%BA%E6%9C%AF%E4%BA%BA%E7%94%9F">艺术人生</a></li>
+<li><a href="http://v.baidu.com/show/1578.htm?&q=%E4%BA%BA%E7%89%A9">人</a><a href="http://cctv.cntv.cn/lm/renwu/index.shtml" style="color:#993300;">物</a> <a href="http://tv.cctv.com/lm/dajia/" title="大家_央视网(cctv.com)">大家</a></li>
+
+<li><a href="http://v.baidu.com/show/880.htm?&q=%E4%B8%9C%E6%96%B9%E7%9B%B4%E6%92%AD%E5%AE%A4">东方直播室</a></li>
+<li><a href="http://v.baidu.com/show/6627.htm?&q=%E5%A6%88%E5%A6%88%E5%92%AA%E5%91%80">妈妈咪呀</a></li>
+</ul>
+<ul>
+	
+<li><a href="http://www.ylws.net/index.html">月落无声</a></li>
+<li><a href="http://v.baidu.com/v?ct=301989888&rn=20&pn=0&db=0&s=25&ie=utf-8&word=%E8%80%81%E6%A2%81">老梁</a><a href="http://v.baidu.com/show/1073.htm?fr=ala9&ty=26" style="color:#993300;">故事汇</a></li>
+<li><a href="http://v.baidu.com/show/402.htm?&q=%E8%80%81%E6%A2%81">观世界</a><a href="http://v.baidu.com/show/1732.htm?&q=%E8%80%81%E6%A2%81" style="color:#930;">说天下</a></li>
+<li><a href="http://v.baidu.com/show/47.htm?&q=%E8%B6%85%E7%BA%A7%E8%AE%BF%E9%97%AE&frp=bdbrand">超级访问</a></li> 
+<li><a href="http://v.baidu.com/show/379.htm?&q=%E5%8F%AF%E5%87%A1%E5%80%BE%E5%90%AC">可凡倾听</a></li>
+</ul>
+
+<ul>
+<li><a href="http://v.baidu.com/show/12206.htm?&q=%E5%B1%80%E9%83%A8">局部</a><a href="http://v.baidu.com/show/1561.htm?&q=%E8%AE%B2%E8%BF%B0" style="color:#930;">讲述</a></li>
+<li><a href="http://v.baidu.com/show/225.htm?&amp;q=%E9%9D%9E%E5%B8%B8%E9%9D%99%E8%B7%9D%E7%A6%BB&amp;frp=bdbrand">非常静距离</a></li>
+<li><a href="http://v.baidu.com/show/9717.htm?&q=%E7%AD%89%E7%9D%80%E6%88%91">等着我</a></li>
+<li><a href="http://v.baidu.com/show/6207.htm?&amp;q=%E9%9D%A2%E5%AF%B9%E9%9D%A2">面对面</a></li>
+<li><a href="http://v.baidu.com/show/1595.htm?&q=%E8%B5%B0%E8%BF%91%E7%A7%91%E5%AD%A6">走近科学</a></li>
+</ul>
+
+<ul>
+<li><a href="http://www.yuantengfei123.com/" title="袁腾飞在线 - 藤枝官方网站">袁腾飞在线</a></li>
+<li><a href="http://v.baidu.com/show/8238.htm?fr=ala9&ty=26">探秘时刻</a></li>
+<li><a href="http://v.baidu.com/show/1553.htm?&q=%E5%9C%B0%E7%90%86%E4%B8%AD%E5%9B%BD">地理中国</a></li>
+<li><a href="http://v.baidu.com/show/1594.htm?&q=%E8%87%AA%E7%84%B6%E4%BC%A0%E5%A5%87">自然传奇</a></li>
+<li><a href="http://v.baidu.com/show/17976.htm?fr=ala9&ty=26" title="">咣咣十日谈</a></li>
+</ul>
+</div>
+<!--p11 block -->
+
+
+
+<!--start p12 reading -->
+<div>
+<ul>
+<li><a href="zfirst/book100.htm">book100</a></li>
+<li><a href="http://www.xxsy.net/">潇湘书院</a></li>
+<li><a href="http://www.hongxiu.com/">红袖添香</a></li>
+<li><a href="http://www.duzhe.com">读者</a></li>
+<li><a href="http://www.oklink.net/">白鹿书院</a></li>
+</ul>
+
+<ul>
+<li><a href="reading/读书日仅存的意义.html">读书日仅存的意义</a></li>
+<li><a href="http://www.xiaoshuo.com/">榕树下</a></li>
+<li><a href="http://www.xiaoshuo.com/">小说网</a></li>
+<li><a href="http://www.mwcj.cn/">美文采撷</a></li>
+<li><a href="http://www.75111.com/book/">75111读书</a></li>
+</ul>
+
+
+<ul>
+<li><a href="http://www.gzlib.gov.cn/" title="01000 00034867">广图</a></li>
+<li><a href="zfirst/gzlibrary.html">GZlibrary</a><a href="reading/gzlibrary.html">&nbsp;2</a></li>
+<li><a href="http://lib.by.gov.cn/">白云区图书馆</a></li>
+<li><a href="http://www.zslib.com.cn">孙中山图书馆</a></li>
+<li><a href="http://www.gzlglib.com/about.asp">萝岗区图书馆</a></li>
+</ul>
+
+<ul>
+<li><a href="http://www.nlc.gov.cn/">国家图书馆</a></li>
+<li><a href="http://www.gg1994.com/">购书中心</a></li>
+<li><a href="http://www.gzlib.gov.cn/readcommend/bang/bang_index.jsp" title="国家大型图书馆借阅排行榜">借阅排行榜</a></li>
+<li><a href="http://www.xiexingcun.net/">最美书房</a></li>
+<li><a href="http://www.readers365.com/">读书人</a></li>
+
+</ul>
+
+<ul>
+<li><a class="doc" href="../wwuhn/Encyclo/《百家讲坛》系列.exe" title="内容达27个讲座">百度讲坛系列</a></li>
+<li><a class="pdf" href="../wwuhn/Encyclo/中华文化5000年.pdf" title="分朝代:著名人物、重大事件、战争典范、文化典籍、典章制度">中华文化5000年</a></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+
+<ul>
+<li><a href="http://www.ituring.com.cn/">图灵图书</a></li>
+<li><a href="http://www.ssreader.com">超星数字</a></li>
+<li><a href="http://book.kanunu.org/">卡努努</a></li>
+<li><a href="http://www.shuku.net:8082/novels/gaoshi/gaoshi.html">亦凡</a></li>
+<li><a href="http://www.sbkk8.cn/mingzhu/">随便看看</a></li>
+</ul>
+
+<ul>
+<li><a href="reading/bible.chm">Holy Bible</a></li>
+<li><a href="http://www.tianyabook.com/zongjiao/shengjing/index.htm" title="中英文对照">圣经</a>&nbsp;<a href="http://www.zanmeishi.com/holybible/niv.html">听</a></li>
+<li><a href="reading/格林童话.html">格林童话</a></li>
+	<li><a href="http://baike.baidu.com/subview/9679/4911891.htm">孙子兵法</a></li>
+	<li><a href="http://baike.baidu.com/view/187040.htm">易学</a><a href="http://baike.baidu.com/view/851618.htm" style="color:#930;">金学</a><a href="http://baike.baidu.com/view/4089.htm">红学</a></li>
+	<li><a href="reading/红楼梦.html">红楼梦</a></li>
+	<li><a href="reading/23本经典/a.html">23本经典</a></li>
+</ul>
+
+</div> 
+<!--end p12 reading -->
+
+
+<!--start p13 novel -->
+<div>
+<ul>
+<li><a href="../wwuhn/novel/EnNovel/Englishnovel.html">英文小说</a></li>
+<li><a href="http://zh.wikipedia.org/wiki/20%E4%B8%96%E7%BA%AA%E7%99%BE%E5%A4%A7%E8%8B%B1%E6%96%87%E5%B0%8F%E8%AF%B4">20世纪100大英文小说</a></li>
+<li><a href="../wwuhn/novel/人生/content.html">人生</a></li>
+<li><a href="../wwuhn/novel/平凡的世界/pingfa.html">平凡的世界</a></li>
+<li><a href="http://www.tianyabook.com/wangxiaobo/hjsd/index.htm">黄金时代</a></li>
+</ul>
+
+<ul>
+<li><a href="../wwuhn/novel/novel.html">华文小说</a></li>
+<li><a href="../wwuhn/novel100.html">20世纪100大中文小说</a></li>
+<li><a href="../wwuhn/novel/透明的红萝卜/content.html">透明的红萝卜</a></li>
+
+<li><a href="http://www.newxue.com/weicheng/">围城</a><a href="../wwuhn/novel/围城/9.html">&nbsp;L</a></li>
+</ul>
+
+<ul>
+<li><a href="../wwuhn/novel/overall/more.html">小说评论</a></li>
+<li><a href="http://www.tianyabook.com/feidu/index.html">废都</a>&nbsp;<a href="http://www.sbkk8.cn/mingzhu/zhongguoxiandaiwenxuemingzhu/feidu/">2</a>&nbsp;<a href="../wwuhn/novel/废都/content.html">L</a></li>
+<li><a href="http://www.tianyabook.com/xiandai/bailuyuan/index.htm">白鹿<a href="http://www.sbkk8.cn/mingzhu/bailuyuan/">2</a>&nbsp;<a href="F:/wwuhn/novel/白鹿原/content.html">原</a></li>
+
+</ul>
+
+<ul>
+
+<li><a href="http://www.gosky.net/files/article/html/22/22797/" title="第一部：1-74">疯狂的硬盘</a></li>
+<li><a href="../wwuhn/novel/overall/简明西游记.html">简明西游记</a></li>
+</ul>
+
+<ul>
+<li><a href="../wwuhn/novel/classic novel/曹雪芹 红楼梦/index.htm">红楼梦</a>&nbsp;<a href="http://baike.baidu.com/view/2571.htm">bd</a></li>
+
+<li><a href="http://music.baidu.com/artist/2925560">蒋勋细说红楼梦</a></li>
+<li><a href="reading/煮酒探西游1.html">煮酒</a><a href="http://bbs.tianya.cn/post-no05-131661-1.shtml">探西游</a></li>
+<li><a href="reading/西游记中计1.html">Klingkun</a><a href="http://bbs.tianya.cn/post-no05-412828-1.shtml">读西游</a></li>
+<li><a href="http://bbs.tianya.cn/post-no05-168271-1.shtml">星光灿烂水浒传</a></li>
+<li><a href="http://bbs.tianya.cn/post-no05-265690-1.shtml">少不读水浒</a></li>
+</ul>
+<ul>
+<li><a href="http://www.popocy.com/book/jpm/027.htm">金瓶梅</a> <a href="../wwuhn/novel/love/金瓶梅27.html">L</a></li>
+
+<li><a href="../wwuhn/novel/love/肉蒲团\肉蒲团1_5.html">肉蒲团</a></li>
+<li><a href="../wwuhn/novel/love/渡边/失乐园/contents.html">失乐园</a> <a href="../wwuhn/novel/love/渡边/再爱一次/contents.html">再爱一次</a></li>
+<li><a href="../wwuhn/novel/love/渡边/爱的流放地/contents.html">爱的流放地</a></li>
+<li><a href="../wwuhn/novel/三体/地球往事/index.html">地球往事</a></li>
+<li><a href="../wwuhn/novel/三体/黑暗森林/index.html">黑暗森林</a></li>
+<li><a href="../wwuhn/novel/三体/死神永生/index.html">死神永生</a></li>
+<li><a href="../wwuhn/novel/overall/路遥传.html">路遥传</a></li>  
+<li><a href="../wwuhn/novel/overall/早晨从中午开始.html">早晨从中午开始</a></li>  
+<li><a href="../wwuhn/novel/overall/大唐玄奘西行/a.html">大唐玄奘西行</a></li> 
+<li><a href="../wwuhn/novel/白夜行/index.html">白夜行</a></li> 
+<li><a href="../wwuhn/novel/活着/index.html">活着</a></li> 
+<li><a href="../wwuhn/novel/北京法源寺/index.html">北京法<a href="http://www.tianyabook.com/liao/bjfy/index.html">源寺</a></a></li> 
+<li><a href="../wwuhn/novel/推理小说/list.html">推理小说</a></li>
+<li><a href="../wwuhn/novel/小说评论/list.html">小说评论</a></li>
+</ul>
+</div> 
+<!--end p13 novel -->
+
+<!--start p14 武侠&传记-->
+<div>
+<ul>
+<li><a href="../wwuhn/novel/CNfeat/overall/more.html">武侠小说评述</a></li>
+<li><a href="http://www.jinyongwang.com/">金庸网</a></li>
+<li><a href="http://www.tianyabook.com/hyzpj/hyzpj/wx/jingyong/sjc/index.html">书剑恩仇录</a></li>
+<li><a href="../wwuhn/novel\Sword of the Yue Maiden.html">Sword of the Yue Maiden</a></li>
+<li><a href="http://baidu.cntv.cn/act/schedule.jsp?scheduleId=SCHE1271144419069197&amp;videoId=173a7eaa66a04d212d7fdab3cfe0f667">孔庆东看金庸</a></li>
+</ul>
+
+<ul>
+<li><a href="http://www.rxgl.net/">热血古龙</a></li>
+<li><a href="http://www.gulongbbs.com/" class="size12">古龙武侠</a></li>
+<li><a href="http://www.juzimi.com/writer/%E5%8F%A4%E9%BE%99">古龙经典语录</a></li>
+</ul>
+<ul>
+<li><a href="reading/王朔看鲁迅.html">王朔看鲁迅</a></li>
+
+<li><a href="http://www.kanunu8.com/book/4340/">乔布斯</a><a href="http://www.sbkk8.cn/mingzhu/renwuchuanji/qiaobusichuan/">传</a></li>
+
+<li><a href="http://www.tianyabook.com/renwu2005/js/y/yiming/mzdz/index.html" title="金冲及">毛泽东传</a></li>
+<li><a href="http://www.tianyabook.com/renwu2005/js/k/keluoce/jjsz/index.html" title="布赖恩.克罗泽">蒋介石传</a></li>
+<li><a href="reading/王朔·王小波与1990年代.html">王朔·王小波与1990年代</a></li>
+<li><a class="pdf" href="../wwuhn/biography/爱因斯坦(生活和宇宙).pdf">爱因斯坦(生活和宇宙)</a></li> 
+<li><a class="pdf" href="../wwuhn/biography/爱因斯坦传(上)亚伯拉.pdf">爱因斯坦传(上)亚伯拉</a></li> 
+
+<li><a class="pdf" href="../wwuhn/biography/爱因斯坦传(下)亚伯拉.pdf">爱因斯坦传(下)亚伯拉</a></li> 
+<li><a href="../wwuhn/biography/雍正皇帝(二月河)/index.html">雍正皇帝(二月河)</a></li> 
+<li><a href="../wwuhn/biography/康熙大帝(二月河)/index.html">康熙大帝(二月河)</a></li> 
+<li><a href="../wwuhn/biography/毛泽东传(金冲及)/index.html">毛泽东传(金冲及)</a></li> 
+<li><a href="../wwuhn/biography/墨迹/index.html">墨迹</a></li>
+</ul>
+</div> 
+<!--endp14 武侠&传记-->
+
+<!--start p15 character-->
+<div>
+<ul>
+	<li><a href="character/character/character.html">Character</a></li>
+	<li><a href="http://baike.baidu.com/view/1655.htm">谭嗣同</a></li>
+	<li><a href="http://baike.baidu.com/view/3036.htm" style="color:#996600">周</a><a href="http://tieba.baidu.com/f?kw=周润发">润发</a></li>
+	<li><a href="http://baike.baidu.com/view/3390.htm" style="color:#996600">张</a><a href="http://tieba.baidu.com/f?ct=&amp;tn=&amp;rn=&amp;pn=&amp;lm=&amp;sc=&amp;kw=张学友&amp;rs2=0&amp;myselectvalue=1&amp;word=张学友&amp;submit=百度一下&amp;tb=on">学友</a></li>
+	<li><a href="http://baike.baidu.com/view/2969.htm" style="color:#996600">古</a><a href="http://tieba.baidu.com/f?ct=&amp;tn=&amp;rn=&amp;pn=&amp;lm=&amp;sc=&amp;kw=古龙&amp;rs2=0&amp;myselectvalue=1&amp;word=古龙&amp;submit=百度一下&amp;tb=on">龙</a>
+<a href="character/pic/piclist.html">picSay</a></li>
+</ul>
+	
+<ul>
+	<li><a href="http://baike.baidu.com/view/2797.htm" style="color:#996600;">李</a><a href="http://tieba.baidu.com/f?kw=%C0%EE%B0%BD&fr=ala0">敖</a></li>
+	<li><a href="http://baike.baidu.com/view/22512.htm" style="color:#960">高</a><a href="http://tieba.baidu.com/f?kw=%B8%DF%CF%FE%CB%C9&fr=ala0">晓松</a></li>
+	<li><a href="http://culture.ifeng.com/huodong/special/luyao1/">路遥</a></li>
+	<li><a href="http://baike.baidu.com/view/16390.htm">崔永元</a><a href="http://www.iqiyi.com/v_19rrn6cooo.html?src=frbdaldjunest&vfm=bdvtx&kwid=10236#frp=v.baidu.com%2Fv">lyyy</a></li>
+	<li><a href="http://baike.baidu.com/view/228832.htm">陈文茜</a></li>
+</ul>
+	
+<ul>
+	<li><a href="http://zh.wikipedia.org/w/index.php?title=%E6%AF%9B%E6%B3%BD%E4%B8%9C&amp;variant=zh-cn" style="color:#996600;">毛</a><a href="http://en.wikipedia.org/wiki/Mao_Zedong">泽东</a></li>
+	<li><a href="http://www.jstv.com/s/wrb/" style="color:#996600">吴</a><a href="http://baike.baidu.com/view/958302.htm">仁宝</a></li>
+	<li><a href="http://v.ifeng.com/history/renwujingdian//201212/6250c67b-9dad-4c9a-8393-c3a404538fd7.shtml">林彪影像记忆</a></li>	
+	<li><a href="http://v.ifeng.com/history/renwujingdian//201203/acf1ddbb-1425-44ba-99b4-53b91bce4e49.shtml">恩来影像记忆</a></li>
+	<li><a href="character/当今世界的10大天才聪明人物/a.html">10大天才</a></li>
+</ul>
+
+<ul>
+	<li><a href="http://baike.baidu.com/view/13519.htm">宋祖英</a></li>
+	<li><a href="http://baike.baidu.com/view/952627.htm">阿幼朵</a></li>
+	<li><a href="http://baike.baidu.com/view/8716.htm">杨钰莹</a></li>
+	<li><a href="http://baike.baidu.com/view/109030.htm">吴敏霞</a></li>
+	<li><a href="http://tieba.baidu.com/f?kw=%C5%ED%CB%A7">彭帅吧</a></li>
+</ul>
+
+<ul>
+	<li><a href="http://baike.baidu.com/view/3700.htm">刘若英</a></li>
+	<li><a href="http://baike.baidu.com/view/34416.htm" style="color:#960">孙</a><a href="http://tieba.baidu.com/f?kw=%CB%EF%BA%EC%C0%D7">红雷</a></li>	
+	<li><a href="http://www.hygzh.com/">阳光足画</a></li>
+	<li><a href="http://baike.baidu.com/view/1266342.htm">雷庆瑶</a></li>
+	<li><a href="http://baike.baidu.com/subview/1480471/10681347.htm">廖智</a></li>
+</ul>
+
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz">G W&nbsp;</a><a href="http://baike.baidu.com/view/21694.htm">Leibniz</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Boole">George</a>&nbsp;<a href="http://baike.baidu.com/view/46060.htm">Boole</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Claude_Elwood_Shannon">C E&nbsp;</a><a href="http://baike.baidu.com/view/63224.htm">Shannon</a></li>
+<li><a href="http://baike.baidu.com/view/1366465.htm">洛克菲勒家族</a></li>
+<li><a href="http://baike.baidu.com/link?url=j7I8tafBK9dzB-Nd2BjNayV2M2AonEmiNCQ0ynJUe35xVclcGHYB4MTHhcQxMizO">伊莎贝拉女王</a></li>
+</ul>
+
+<ul>
+<li><a href="http://baike.baidu.com/view/17759.htm">张纯如</a></li>
+<li><a href="http://baike.baidu.com/view/2414016.htm">魏特琳</a> <a href="http://baike.baidu.com/view/405038.htm">拉贝</a></li>
+<li><a href="character/爱的天使德蕾莎修女/爱的天使德蕾莎修女.html">爱的天使德蕾莎修女</a></li>
+<li><a href="http://baike.baidu.com/view/844967.htm?fromId=488666">辛德勒</a></li>
+<li><a href="character/HelenKeller.html">Helen </a><a href="http://en.wikipedia.org/wiki/Helen_Keller">Keller</a></li>
+</ul>
+
+<ul>
+<li><a href="http://baike.baidu.com/view/9084.htm">林徽因</a></li>
+<li><a href="http://baike.baidu.com/view/2126.htm">梁思成</a></li>
+<li><a href="http://baike.baidu.com/view/2031.htm">金岳霖</a></li>
+<li><a href="http://baike.baidu.com/view/14176.htm">徐志摩</a> <a href="http://baike.baidu.com/subview/68119/5124906.htm">赵小兰</a></li>
+<li><a href="character/overall/more.html">人物综述</a></li>
+</ul>
+
+</div> 
+<!--end p15 character-->
+
+
+
+<!--start p16 beauty-->
+<div>
+
+<ul>
+	<li><a href="http://uurenti.com/index.html">优优</a>&nbsp;<a href="http://11rtys.com/">11rt</a></li>
+	<li><a href="http://www.rtysxs.net/">~xs</a>&nbsp;<a href="http://www.cocort.com/"></a>&nbsp;<a href="http://www.youyourenti.com/">you</a></li>
+	<li><a href="http://www.renti80.com/">renti80</a>&nbsp;<a href="http://2009renti.com/">2009renti</a></li>
+	<li><a href="http://www.rtysu.net/">~u</a>&nbsp;<a href="http://www.rentiyy.com/">歪歪</a></li>
+	<li><a href="http://www.rtysf.com/">~f</a>&nbsp;<a href="http://www.rtysi.net/">~i</a></li>
+</ul>
+
+<ul>
+	<li><a href="http://www.1616ys.com/">1616ys</a>&nbsp;<a href="http://www.mtzxy.net/index.html">mtzxy</a></li>
+	<li><a href="http://www.rtyse.com/">~e</a>&nbsp;<a href="http://www.61link.com/top/2012/1019/3521_16.html">guangxi</a></li>
+	<li><a href="http://www.61renti.com/">61renti</a>&nbsp;<a href="http://mm.laoan.net/hot/3132_12.html">baizhi</a></li>
+	<li><a href="http://www.mtrtys.com/">mt~</a>&nbsp;<a href="http://www.fqrenti.com/">fq~</a></li>
+	<li><a href="http://www.juemei.cc/">绝美</a>&nbsp;<a href="http://www.rtysaa.com/">~aa</a></li>
+</ul>
+ 
+<ul>
+	<li><a href="http://www.g2h.tw/mainsite/main.php">g2h</a>&nbsp;<a href="http://tw.search.yahoo.com/search;_ylt=A2oKmJV_x9NR0h8AI69r1gt.;_ylc=X1MDMjExNDcwNTAwMwRfcgMyBGFvA2FvBGNzcmNwdmlkAzBXbkZlV29LaVhBLndjWUpVZE42dlF2d2NGNXVxbEhUeDhZQUNDR1YEZnIyA3NidG4Ebl9ncHMDMTAEb3JpZ2luA3NycARwcXN0cgNoEcXVlcnkD6BHNhbwMxBHZ0ZXN0aWQDVklQVFc0MA--?p=%E8%8B%8D%E4%BA%95%E7%A9%BA&fr2=sb-top&vs=g2h.net&pqstr=%E8%8B%8D%E4%BA%95%E7%A9%BA">奇摩</a></li>
+	<li><a href="http://www.metcn.com/new.html">相约中国</a></li>
+	<li><a href="http://www.16rt.cc/">16rt</a>&nbsp;<a href="http://www.bg67.com/">bg67</a></li>
+	<li><a href="lifefeeling/solaaoi/content.html">艾薇</a>&nbsp;<a href="http://www.ttpaihang.com/vote/rank.php?voteid=1089">AV top</a></li>
+	<li><a href="http://www.hilive.tv/index.aspx">hilive</a>&nbsp;<a href="http://www.941hd.com/index.php?agree=y">941</a></li>
+</ul>
+
+<ul>
+	<li><a href="lifefeeling/性和美丽就是她们的生存技能.html" title="性和美丽就是她们的生存技能">性和美丽就是她们的生存技能</a></li>
+	<li><a href="lifefeeling/tips/tips.html">tips</a>&nbsp;<a href="lifefeeling/性学.pdf">性学</a></li>
+	<li><a href="lifefeeling/《玉房秘诀》.exe">玉房秘诀</a></li>
+	<li><a href="lifefeeling/御女心经/content.html">御女心经</a></li>
+	<li><a href="http://www.girl-h.com/news/qggs/11220174757BCCI0D6DI41K4DF834G4.htm">曼娜</a><a href="lifefeeling/曼娜回忆录.html">回忆录</a></li>
+</ul>
+
+<ul>
+	<li><a href="http://www.girl-h.com/news/qggs/11220184012AJB1DKG8JKH9CJA7CJE7.htm">午夜悄悄话</a></li>
+	<li><a href="lifefeeling/Gpoint.html">Gpoint</a></li>
+	<li><a href="lifefeeling/posture/posture.html">posture</a></li>
+	<li><a href="lifefeeling/yichang/yichang.html">YiChang</a></li>
+	<li><a href="lifefeeling/HanHeng/hanfeng.html">HanFeng</a></li>
+</ul> 
+
+<ul>	
+<li><a href="http://www.ganyinbi.com">ganyinbi</a></li>
+<li><a href="http://www.lairiba.com">lairiba</a></li>
+<li><a href="http://www.kk123.us">kk123</a> <a href="http://www.v2013.us">v2013</a></li>
+
+<li><a href="http://www.cao458.com">cao458</a></li>
+<li><a href="lifefeeling/家庭幻想/index.html">家庭</a><a href="lifefeeling/家庭幻想2/index.html" style="color:red;">幻想</a></li>
+	
+<li><a href="http://www.lubayy.com/" title="先下载先锋播放器">比比资源</a></li>
+<li><a href="http://www.wse123.com/">wse123</a></li>
+<li><a href="http://www.hhshe18.com/index.html">hhshe</a> <a href="http://www.huangsedaohang.com">hsdh</a></li>
+
+<li><a href="lifefeeling/novel/index.html">novel<a href="lifefeeling/novel2/index.html"> 2</a></a></li>
+
+<li><a href="http://www.yy1p.com/meinv/11008.html">yy1p</a> <a href="http://www.698vvv.com/m01/index.html">cjk</a></li>
+
+<li><a href="http://www.qvod888.com/index.html">qvod</a> <a href="http://www.videoboy.tv">vboy</a></li>
+<li><a href="http://www.baikenvyou.com">av baike</a></li>
+<li><a href="http://www.ttpaihang.com/vote/rank.php?voteid=1089">jp av top</a></li>
+<li><a href="http://www.ttpaihang.com/vote/rank.php?voteid=1410">欧美av top</a></li>
+	<li><a href="lifefeeling/桃色体育.html">桃色体育</a></li>
+</ul>
+
+</div>
+<!--end p16 beauty-->
+
+			</div>
+			<!--end tab1 -->
+		</div >
+		<!--end left1 --> 
+
+
+
+		<!--start main1 right-->
+		<div class="right">
+	<!--start tab2-->
+<div id='tab2'>
+<h3 class="up" onclick="tabSwitch('tab2',1);">Encyclopedia</h3>
+<h3 onclick="tabSwitch('tab2',2);">Video</h3>
+<h3 onclick="tabSwitch('tab2',3);">Movie</h3>
+<h3 onclick="tabSwitch('tab2',4);">Music</h3>
+<h3 onclick="tabSwitch('tab2',5);">琴棋</h3>
+<h3 onclick="tabSwitch('tab2',6);">书画</h3>
+
+<!--start p21 encyclo-->
+<div class="block">
+<ul>
+	<li><a href="http://www.kepu.gov.cn/">中国科普</a></li>
+	<li><a href="http://www.cdstm.cn/">数字科技馆</a></li>
+	<li><a href="http://songshuhui.net/">科学松鼠会</a></li>
+	<li><a href="http://plant.kpzs.net/">科普植物馆</a></li>
+	<li><a href="http://www.kepu.net.cn/gb/index.html">科普网</a></li>
+</ul>
+
+
+<ul>
+	<li><a href="country/country.html">country</a></li>
+	<li><a href="Encyclopedia/province.html">province</a></li>
+	<li><a href="http://www.gdmuseum.com/exhibit3.php?ReLibID=41">粤博物馆</a></li>
+	<li><a href="http://amuseum.cdstm.cn/AMuseum/time/index.html" title="">时间科普</a></li>
+	<li><a href="http://www.guokr.com/">果壳网</a></li>	
+</ul>
+
+
+<ul>
+	<li><a href="http://phtv.ifeng.com/epg/">凤凰导视</a></li>
+	<li><a href="http://china.nba.com/standings/">NBA排名</a></li>
+	<li><a href="http://china.nba.com/thunder/">雷霆</a><a href="http://www.cba-chinaleague.com/team.html?id=20">北控</a></li>
+	<li><a href="http://china.nba.com/players/#!/russell_westbrook">WestBrook</a></li>
+	<li><a href="http://cba.sports.sina.com.cn/cba/stats/teamrank/?dpc=1">CBA</a><a href="http://cba.sports.sina.com.cn/cba/schedule/all/">赛程</a></li>
+</ul>
+
+<ul>
+	<li><a href="http://www.5ixiaopin.com/">我爱小品</a></li>
+	<li><a href="http://www.hjenglish.com/yingyuxiaohua/yingyuxiaoxiaohua/">英文小笑话</a></li>
+	<li><a href="http://v.baidu.com/v?word=%E6%AC%A2%E4%B9%90%E5%96%9C%E5%89%A7%E4%BA%BA&ct=301989888&rn=20&pn=0&db=0&s=0&fbl=800&ie=utf-8#">欢乐喜剧人</a></li>
+	<li><a href="http://v.baidu.com/v?s=8&word=%C0%EE%E7%E2%CD%D1%BF%DA%D0%E3&fr=ala11#pn=20">李玮</a><a href="http://www.cztv.com/videos/lwtkx/" style="color:#930;">脱口秀</a>
+	<li><a href="http://www.lijixiao.com/index">立即笑</a></li>
+</ul>
+
+<ul>
+	<li><a href="http://www.baidu.com/baidu?tn=zhongguosou&ct=&lm=&z=&rn=&word=papi%E9%85%B1&_si.x=4&_si.y=2">papi酱</a></li>
+	<li><a href="http://www.youku.com/show_page/id_ze3b38316ae0711e5be16.html">金</a><a href="http://list.youku.com/show/id_zb1ce591fc29d11e68fae.html?tpa=dW5pb25faWQ9MTAzNzUzXzEwMDAwMV8wMV8wMQ">星秀</a></li>
+	<li><a href="http://music.163.com/#/djradio?id=101015" title="网易十点读书：代代、夏萌、安静">十点读书163</a></li>
+	<li><a href="http://www.ximalaya.com/zhubo/9887414/">十点喜马拉雅</a></li>
+	<li><a href="http://v.baidu.com/show/9913.htm?&q=%E5%90%B4%E6%99%93%E6%B3%A2%E9%A2%91%E9%81%93">吴晓波频道</a></li>	
+<li><a href="http://list.youku.com/show/id_z6e782defbfbd0d4e11ef.html?tpa=dW5pb25faWQ9MTAzNzUzXzEwMDAwMV8wMV8wMQ">晓说2017</a></li>
+<li><a href="http://v.baidu.com/show/11243.htm?frp=browse">超级老师</a></li>
+<li><a href="http://v.baidu.com/show/17217.htm?frp=browse">大唐雷音寺</a></li>
+<li><a href="http://v.baidu.com/v?word=%E8%99%8E%E6%88%90%E8%AE%BA%E9%87%91&ct=301989888&rn=20&pn=0&db=0&s=0&fbl=800&ie=utf-8">虎成论金</a></li>
+<li><a href="http://www.xiaopin5.com/xiangsheng/">小品屋</a></li>
+<li><a href="http://tv.sohu.com/show/">搜狐综艺</a></li>
+<li><a href="http://v.baidu.com/show/19222.htm?frp=browse">大伽一日行</a></li>
+<li><a href="http://v.baidu.com/show/5903.htm?frp=browse">大揭秘</a></li>
+<li><a href="http://tv.cctv.com/lm/kjy/">科技苑</a></li>
+<li><A href="http://jishi.cctv.com/doc/ml/index.shtml">央视纪录片</A></li>	
+<li><a href="http://shop.10086.cn/list/140_200_663_0_0_0_0.html">中国移动套餐</a></li>
+<li>
+<a href="f:/wwuhn/worldcup2018/A/a.html">A</a>
+<a href="f:/wwuhn/worldcup2018/B/a.html">B</a>
+<a href="f:/wwuhn/worldcup2018/C/a.html">C</a>
+<a href="f:/wwuhn/worldcup2018/D/a.html">D</a>
+</a>
+<li>
+<a href="f:/wwuhn/worldcup2018/E/a.html">E</a>
+<a href="f:/wwuhn/worldcup2018/F/a.html">F</a>
+<a href="f:/wwuhn/worldcup2018/G/a.html">G</a>
+
+<a href="f:/wwuhn/worldcup2018/H/a.html">H</a>
+</a>
+</ul>
+
+</div>
+<!--end p21 encyclo-->
+
+
+<!--start p22 video-->
+<div>
+<ul>
+	<li><a href="zfirst/videoList1.html">VList</a></li>
+	<li><a href="zfirst/documentary.html">纪录片</a></li>
+	<li><a href="../wwuhn/video/more.html">videoLocal</a></li>
+    <li><a href="mobileHD/zhaobenshan.html">赵本山</a><a href="http://www.zhaobenshan.org/online/juanzhu.htm#taici">小品</a></li>
+	<li><a href="../wwuhn/video/为变法流血的谭嗣同/为变法流血的谭嗣同.htm">为变法流血的谭嗣同</a>
+</ul>
+
+<ul>
+	<li><a href="http://www.flvcd.com/">硕鼠视频下载</a></li>
+	<li><a href="http://v.ifeng.com/documentary/history/201502/033daf1a-89a2-4893-af02-7f965e967d38.shtml" title="蒋的中央军与地方军阀貌合神离，蒋逼红军长征，一石二鸟，借此削藩地方军阀；此外此时日军的入侵，红军虽也有领导层面的分赴和失误，但最终在夹缝中获得了生存。长征的放水者是蒋或西南军阀？">追兵的长征</a></li>
+	<li><a href="http://v.ifeng.com/gongkaike/sjdjiangtang/201112/390e56a3-39b1-4d6c-905e-6fc7024ab4a9.shtml">解读苏联解体</a><a href="http://v.ku6.com/show/I02_WlkYDSk793FJ326qvA...html" style="color:#930;">内幕</a></li>
+	<li><a href="http://v.ifeng.com/documentary/history/201304/19879a8b-0148-4bb4-b56a-1b5059eddaae.shtml">中美擦枪走火启示录</a></li>
+	<li><a href="http://v.ifeng.com/news/finance/201502/01bbe381-c5e7-472c-8128-7b9ca50552d3.shtml">美联储百年揭秘</a></li>
+</ul>
+
+<ul>
+	<li><a href="../wwuhn/video/于丹论语心得/于丹论语心得.html">于丹理想</a><a href="http://v.baidu.com/v?word=%E4%BA%8E%E4%B8%B9%E7%90%86%E6%83%B3%E4%B9%8B%E9%81%93&ct=301989888&rn=20&pn=0&db=0&s=0&fbl=800&ie=utf-8#pn=0">之道</a></li>
+	<li><a href="http://v.ifeng.com/documentary/figure/201111/1c300ca5-804d-4f1d-ae91-70063e9b6fcf.shtml" >柳传志</a><a href="http://v.ifeng.com/documentary/figure/201111/0a1a47aa-56fc-46ad-9943-84c56d690a7e.shtml">lyyy</a></li>
+	<li><a href="http://v.ifeng.com/documentary/figure/201202/1713779a-4dd6-471b-bcad-e2127dddb630.shtml" >倪萍Lyyy</a></li>
+	<li><a href="http://v.ifeng.com/documentary/figure/201205/1a73fb20-f778-402d-ba5e-ab9704f53cb5.shtml">晓松做客lyyy</a></li>
+	<li><a href="http://www.iqiyi.com/w_19rrcjtp2t.html">刘赛孔莹望月</a></li>
+</ul>
+
+<ul>
+	<li> <a href="http://list.mp3.baidu.com/radio/">Broadcast</a></li>
+	<li><a href="http://media.cnr.cn/">网听天下</a></li>
+	<li><a href="http://china.cnr.cn/">中国之声</a></li>
+	<li><a href="http://www.cnr.cn/">央广电台</a></li>
+	<li><a href="http://www.ylws.net/a/laoliangdianshi/sanguo/">三国三人行</a></li>
+</ul>
+
+<ul>
+<li><a href="http://www.tingbook.com/">天方听书网</a></li>
+<li><a href="http://www.tshu.cn/ps/l_3.htm">听书网</a></li>
+<li><a href="http://www.tinpai.com/ting.asp?id1=262&amp;bu=全">听派网</a></li>
+<li><a href="http://www.ps12345.com/">永远的评书</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzAxMTAwNzI0NA==&amp;mid=402529813&amp;idx=8&amp;sn=933996e3b59912096fdcc81620e8e303&amp;scene=2&amp;srcid=0315xx63eWzwTpL5P8oiYu67&amp;from=timeline&amp;isappinstalled=0#wechat_redirect">补锅</a></li>
+</ul>
+
+<ul>
+	<li><a href="http://v.youku.com/v_show/id_XODUyMDAwMDQ=.html">林清玄vs于丹</a></li>
+	<li><a href="http://v.youku.com/v_show/id_XOTUwNDc5NzI=.html">林清玄讲座</a></li>
+	<li><a href="http://v.ifeng.com/documentary/history/201306/d837f030-bbb9-4aa1-8515-df9ed4a8a7d2.shtml">毛诗词手稿</a></li>
+    <li><a href="http://toutiao.com/i6262628216599478786/">雷庆瑶秀书法</a></li>
+    <li><a href="http://v.ifeng.com/documentary/figure/201010/0dee3d14-b09f-43ad-90ac-6368d123074b.shtml">吴法宪夫人谈林</a></li>
+</ul>
+
+<ul>
+<li><a href="../wwuhn/video/朱镕基讲话/朱镕基讲话.html">朱镕基讲话</a></li>
+	<li><a href="../wwuhn/video/TheLieWeLive.html">TheLieWeLive</a></li>
+	<li><a href="http://www.tudou.com/albumplay/vN8gNiF7Feg/LsXxYDrmRH0.html">送水工唱那片海</a></li>
+	<li><a href="mobileHD/Liao.html">liaoVideo</a></li>
+	<li><a href="http://v.baidu.com/v?word=%E6%96%B0%E7%BB%8F%E6%B5%8E100%E4%BA%BA&ct=301989888&rn=20&pn=0&db=0&s=0&fbl=800&ie=utf-8">新经济100人</a></li>
+</ul>
+
+<ul>
+<li><a href="http://v.qq.com/cover/j/j47kgc2lmvz514g.html?vid=e0155vtl4vn" title="2016-05-30期 谢乐尔·桑德伯格：为什么女性领导那么少？">SandbergTalk</a></li>
+<li><a href="http://v.qq.com/cover/c/c9zr0i7xey0dg9c.html?vid=g0304so6ywv" title="2016-06-13期 哈佛持续76年跟踪700人一生：什么样的人最幸福？">什么样的人最幸福</a></li>
+<li><a href="http://v.qq.com/page/p/w/j/p0305kzw6wj.html" title="光荣与梦想 一个特奥运动员">光荣与梦想</a></li>
+<li><a href="video/晓松说.html">晓松说</a></li>
+<li><a href="http://toutiao.com/a6318147568303866114/?tt_from=weixin&utm_campaign=client_share&app=news_article&utm_source=weixin&iid=5310637180&utm_medium=toutiao_android&wxshare_count=1" title="陈思念">火火的姑娘</a></li>
+</ul>
+
+</div> 
+<!--end p22 video-->
+
+
+<!--start p23 movie -->
+<div>
+<ul>
+	<li><a href="http://v.hao123.com/">影视排名</a></li>
+	<li><a href="http://www.mtime.com/">时光网</a></li>
+	<li><a href="http://www.sowang.com/zy/movies.htm">影视导航</a></li>
+	<li><a href="http://www.chinafilm.com/">~中国电影</a></li>
+	<li><a href="http://www.xfdy.cc/">~先锋电影</a></li>
+</UL>
+<ul>		
+	<li><a href="http://www.china3-d.com">3d中国</a></li>
+	<li><a href="http://www.cnliti.com">立体中国</a></li>
+    <li><a href="http://shooter.cn/">射手网</a></li>
+	<li><a href="http://www.xiazaiba.com/html/1467.html" title="制作字幕软件">Timem</a></li>
+    <li><a href="http://baike.baidu.com/view/1843366.htm" title="播放+下载">快播</a>&nbsp;<a href="http://www.kuaibo.com/">官方</a></li>
+</ul>
+
+<ul>
+	<li><a href="mobileHD/Zhouyunfa.html">周润发</a></li>
+	<li><a href="http://gaoqing.la/">高清电影网</a></li>
+	<li><a href="http://www.mp4ba.com/">高清Mp4吧</a></li>
+	<li><a href="http://www.dygang.com/">电影港</a></li>
+	<li><a href=""></a></li>
+</ul>
+
+<ul>
+<li><a href="http://www.dy2018.com/" title="下载迅雷播放器">电影天堂</a></li>
+<li><a href="http://www.lubayy.com/" title="先下载先锋播放器"></a><a href="http://dianyingku.cntv.cn/">電影目錄</a></li>
+<li><a href="http://www.nibavod.com/">泥巴影院</a></li>
+<li><a href="http://www.shunwang.com/web/newchannel/general/tv/">顺网影视</a></li>
+<li><a href="movie/黑色幽默电影/b.html">黑色幽默电影</a></li>
+
+<li><a href="https://movie.douban.com/tag/%E7%BA%AA%E5%BD%95%E7%89%87">豆瓣纪录片</a></li>
+<li><a href="https://movie.douban.com/tag/">豆瓣电影分类</a></li>
+<li><a href="http://www.ss59.com/">双视影院</a></li>
+<li><a href="http://www.xiamp4.com/" title="所有的付费电影里面全都可以免费下载！">迅播网</a></li>
+
+<li><a href="http://www.5di.tv/" title="">无敌电影网</a></li>
+
+<li><a href="http://www.tepian.com/" title="">特片网</a></li>
+<li><a href="http://www.tonghuacun.com/" title="">童话村</a></li>
+<li><a href="http://98ja.com" title="需安装西瓜影音">色河马</a></li>
+<li><a href="http://www.2hao123.cn/" title="">色网导航</a></li>
+
+<li><a href="http://www.a2012.com/" title="">蓝色导航</a></li>
+<li><a href="http://34cr.com/" title="">34CR</a></li>
+<li><a href="http://www.66ys.tv/" title="">66影视网</a></li>
+<li><a href="http://www.dytt8.net/index.html" title="">电影天堂</a></li>
+<li><a href="http://www.1905.com/" title="CCTV6电影频道">1905电影网</a></li>
+</ul>
+
+</div> 
+<!--end p23 movie -->
+
+
+<!--start p24 music-->
+<div>
+<ul>
+	<li><a href="http://music.sina.com.cn/yueku/s/2504.html" >Maria</a></li>
+	<li><a href="music/hero.html">Hero</a></li>
+	<li><a href="music/ThroughTheRain.html">ThroughRain</a></li>
+	<li><a href="music/ByeBye.html#fit">ByeBye</a></li>
+	<li><a href="music/IStayInLove.html#fit">IStayInLove</a></li>
+</ul>
+
+<ul>
+	<li><a href="music/wearetheworld.html" title="Mp3">We The</a><a href="http://baike.baidu.com/subview/283836/5230395.htm" title="百度百科">World</a></li>
+	<li><a href="music/IStillBelieve.html#fit">IStillBelieve</a></li>
+	<li><a href="music/myheartwillgoon.html">HeartGoOn</a></li>
+	<li><a href="music/casablanca.html">Casablanca</a></li>
+	<li><a href="music/Howfar.html" >HowFar</a></li>
+</ul>
+
+<ul>
+	<li><a href="music/MeMoreOfUs.html">MeMoreOfUs</a></li>
+	<li><a href="music/IfIcould.html">IfICould</a></li>
+	<li><a href="music/takemetoyourheart.html">TakeMeToYourHeart</a></li>
+	<li><a href="music/believe.html#fit">相信自己</a></li>
+	<li><a href="music/IAmYourLove.html#fit">IYourWoman</a></li>
+</ul>
+
+<ul>
+	<li><a href="music/mp3.html">Local MP3</a></li>
+	<li><a href="music/wildlily.html">Lily也有春天</a></li>
+	<li><a href="music/xing_alegl.html">新阿瓦尔古丽</a></li>
+	<li><a href="music/float.html">Float</a>&nbsp;<a href="music/心悸.wmv">心悸</a></li>
+	<li><a href="music/youmyeyes.html#fit">youMyEyes</a></li>
+</ul>
+
+<ul>
+	<li><a href="http://music.baidu.com/artist/2507">Xueyou</a></li>
+	<li><a href="music/weicheng.html">微</a><a href="http://music.sina.com.cn/yueku/m.php?id=946914&amp;FLAG_ADDLIST=0">尘</a>&nbsp;<a href="music/donnot_ask.html">别</a><a href="http://music.sina.com.cn/yueku/m.php?id=946859&amp;FLAG_ADDLIST=0">问</a></li>
+	<li><a href="music/yilushang_yn.html">一路上有你</a></li>
+	<li><a href="music/fangzhu.html">放</a><a href="http://music.sina.com.cn/yueku/m.php?id=759231&amp;FLAG_ADDLIST=0">逐</a></li>
+	<li><a href="http://www.5ilrc.com/">51lrc</a>&nbsp;<a href="http://www.lrcgc.com/">lrcgc</a></li>
+</ul>
+
+
+
+<ul>
+	<li><a href="http://music.baidu.com/artist/235020">Alison Krauss</a></li>
+	<li><a href="music/When You Say Nothing At All\When You Say Nothing At All.html">SayNothing</a></li>
+    <li><a href="music/When You Say Nothing At All\DownRiverPray.html">DownRiverPray</a></li>
+	<li><a href="http://www.ptx123.com">谱天下</a></li>
+    <li><a href="http://www.sooopu.com">歌谱网</a><a style="color:#930;" href="http://play.baidu.com/?__methodName=mboxCtrl.playSong&fm=altg&__argsValue=265243630#">灰姑娘</a></li>
+</ul>
+
+<ul>
+	<li><a href="http://music.baidu.com/artist/2387380">Carly Rae Jepsen</a></p></li>
+	<li><a href="music/CallMeMaybe/CallMeMaybe.htm">CallMeMaybe</a></li>
+	<li><a href="music/CallMeMaybe/Tonight I am Getting Over You.html">GetoverYou</a></li>
+<li><a href="http://music.baidu.com/artist/9918?pst=musicartistd_list&fr=-1||-1">Kelly Clarkson</a></li>
+	<li><a href="http://play.baidu.com/?__m=mboxCtrl.playSong&__a=13741177&__o=/artist/9918||songIcon&fr=-1||-1#loaded">Stronger</a></li>
+	</ul>
+<ul>
+<li><a href="http://www.cnscore.com/">乐谱网</a></li>
+<li><a href="http://www.qupu123.com">曲谱123</a></li>
+</ul>
+</div> 
+<!--end p24 mucsic-->
+
+
+<!--start p25 琴棋-->
+<div>
+
+<ul>
+<li><a href="guitar\和弦\各音常用和弦指法图\各音常用和弦指法图.html">各音常用和弦指法图</a></li>
+<li><a href="guitar\和弦\各调常用和弦指法图\各调常用和弦指法图.html">各调常用和弦指法图</a></li>
+<li><a href="guitar\和弦\和弦指法图\chord.html">和弦指法图</a></li>
+<li><a href="guitar\和弦\横按\横按.html">横按</a></li>
+<li><a href="guitar\和弦\和弦怎么按\和弦怎么按.html">和弦怎么按</a></li>
+</ul>
+
+<ul>
+	<li><a href="http://www.dpxq.com/hldcg/search/">东萍棋谱</a></li>
+	<li><a href="http://www.dpxq.com">东萍象棋</a></li>
+	<li><a href="http://sports.sohu.com/qipai.shtml">中国象棋</a></li>
+	<li><a href="http://www.zgxqds.com/">象棋大师</a></li>
+	<li><a href="http://www.chesssky.net">弈天棋缘</a></li>
+</ul>
+	 
+<ul>
+	<li><a href="http://www.ia48">牌九网</a></li>
+	<li><a href="http://www.xqbase.com">象棋巫师</a></li>
+	<li><a href="http://video.baidu.com/v?ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=19&amp;rsp=1&amp;word=%CF%F3%C6%E5%CA%C0%BD%E72010&amp;fbl=1024">象棋世界</a></li>
+	<li><a href="http://www.gdchess.com/xqgame/xqpgame.asp?pid=0261">唐丹棋谱</a></li>
+	<li><a href="games/CNchess">CNchess</a></li>
+</ul>
+
+<ul>	
+	<li><a href="games/tank.swf" >Tanks</a></li>
+	<li><a href="games/police.swf" >RagePolice</a></li>
+	<li><a href="games/Russiablock.htm">Russiablock</a></li>
+	<li><a href="games/fivechess.htm">FiveChess</a> </li>
+	<li><a href="http://flash.17173.com/" title="flash小游戏可在临时文件内可复制到：C:\Users\wwu\AppData\Local\Microsoft\Windows\Temporary Internet Files">17173</a></li>
+</ul>	
+
+<ul>
+	<li><a href="games/hundouluo">contraOld</a></li>
+	<li><a href="games/car.html">car</a>&nbsp;<a href="games/contra.html">contra</a></li>
+	<li><a href="http://www.4399.com/flash/59630_2.htm">魂斗罗</a>&nbsp;<a href="http://flash.973.com/1301/126951/13572822945.swf" title="在临时文件内可复制到：C:\Users\wwu\AppData\Local\Microsoft\Windows\Temporary Internet Files">2</a></li>
+	<li><a href="http://toutiao.com/m6616170436/">中智网</a></li>
+	<li><a href="games/cnchess/弃车后神兵摆尾.html">弃车后神兵摆尾</a></li>
+	<li><a href="games/cnchess/象棋巫师手册.html">象棋巫师用户手册</a></li>
+<li><a href="http://www.gdchess.com/xqplayer/xqplist.asp" title="棋手的棋谱在编排卡一栏可以看到。">中国象棋棋手</a></li>
+<li><a href="http://www.qipai.org.cn/web/index/xiangqi/" title="象棋-中国棋牌网">中国棋牌网-象棋</a></li>
+
+<li><a href="http://www.imsa.cn/plus/list.php?tid=3" title="象棋协会中国智力运动网">智力运动网象棋协会</a></li>
+<li><a href="http://www.xiangqiqipu.com/">中国象棋棋谱</a></li>
+<li><a href="http://www.gdchess.com/xqplayer/xqplayer.asp?pid=0312">王天一</a> <a href="http://www.gdchess.com/xqplayer/xqplayer.asp?pid=0261">唐丹</a></li>
+<li><a href="http://www.gdchess.com/xqplayer/xqplayer.asp?pid=1799">郑惟恫</a></li>
+<li><a href="http://www.gdchess.com/xqplayer/xqplayer.asp?pid=0281">孙浩宇</a></li>
+<li><a href="http://www.gdchess.com/xqplayer/xqplayer.asp?pid=1830">梁妍婷</a></li>
+<li><a href="http://www.gdchess.com/xqplayer/xqplayer.asp?pid=6344">吴可欣</a></li>
+
+<li><a href="games/CNchess/象甲联赛.html">男子</a><a href="games/CNchess/女子象甲竞赛规程.html">女子象甲联赛</li>
+
+<li><a href="games/CNchess/陶汉明炮轰事件的疑问与分析.html" title="陶汉明炮轰事件的疑问与分析">陶汉明炮轰事件的疑问与分析</a></li>
+<li><a href="games/CNchess/解密网络主播怎样靠象棋软件作弊.html" title="解密网络主播怎样靠象棋软件作弊">解密网络主播怎样靠象棋软件作弊</a></li>
+<li><a href="games/中国象棋谚语.html">中国象棋谚语</a></li>
+<li><a href="games/中国象棋和国际象棋比较研究.html">中国象棋和国际象棋比较研究</a></li>
+</ul>
+
+</div> 
+<!--end p25 琴棋-->
+
+
+
+<!--start p26 书画-->
+<div>
+<ul>
+	<li><a href="calligraphy/书法.html">书法</a></li>
+	<li><a href="calligraphy/三大行书/三大行书.html">三大行书</a></li>
+	<li><a href="calligraphy/天下第一草书/天下第一草书.html">天下第一草书</a></li>
+	<li><a href="http://www.shxw.com/lidai/2008/0625/content_707.html">黄州寒食诗帖</a></li>
+	<li><a href="images/handwriting/index1.htm">handwriting</a></li>
+</ul>
+
+<ul>
+	<li><a href="calligraphy/piclist.html">笔法与结构</a></li>
+	<li><a href="http://www.shxw.com/index.html">中华书法</a></li>
+	<li><a href="http://www.shufa.com">书法报</a></li>
+	<li><a href="http://www.shxw.com/lidai/">历代书法</a></li>
+	<li><a href="http://www.freehead.com/index.php">中国书法</a></li>
+</ul>
+
+<ul>
+	<li><a href="calligraphy/明星书法/piclist.html">明星书法</a></li>
+	<li><a href="calligraphy/三体/piclist.html">三体</a></li>
+	<li><a href="calligraphy/周蕙珺/piclist.html">周蕙珺</a></li>
+<li><a href="http://www.toutiao.com/a6317456240167878914/" title="">工笔画观音像</a></li>
+	<li><a href="http://www.toutiao.com/a6318120352687063297/">陈丹青油画创作</a></li>
+</ul>
+
+<ul>
+	<li><a href="http://sf.kdd.cc/">在线书法字典</a></li>
+	<li><a href="http://www.shufami.com/">书法迷</a></li>	
+	<li><a href="http://sf.zdic.net/shufa/0406/64a58206f42524682eaf147abef38a0f.html#ks">汉典书法查</a></li>
+	<li><a href="http://toutiao.com/m4157245623/">神秘侠客</a></li>
+	<li><a href="http://toutiao.com/i6261448600895619586/">琵琶行</a></li>
+</ul>
+
+<ul>
+	<li><a href="calligraphy\名家书法\名家书法.html">名家书法</a></li>
+	<li><a href="calligraphy\陆机《文赋》\陆机《文赋》.html">陆机《文赋》</a></li>
+	<li><a href="calligraphy/毛诗/毛诗.html">毛诗</a></li>
+	<li><a href="calligraphy/毛书法/picList.html">毛书法</a></li>
+	<li><a href="calligraphy/文征明的琵琶行/picList.html">文征明的琵琶行</a></li>
+</ul>
+
+<ul>
+	<li><a href="http://www.shufa.org">书画家网</a></li>
+	<li><a href="http://www.xinhuanet.com/shuhua">新华网书画</a></li>
+	<li><a href="http://arts.tom.com">美术同盟</a></li>
+	<li><a href="http://www.tianya.cn/new/TechForum/ArticlesList.asp?idWriter=0&amp;Key=0&amp;idItem=169">天涯金石</a></li>
+	<li><a href="calligraphy/吴冠中/piclist.html">吴冠中</a></li>
+
+
+<li><a href="http://toutiao.com/a6312369695244992769/" title="">启功书法</a></li>
+
+<li><a href="http://www.qqxiuzi.cn/zh/zlkcx/" title="- 篆书、隶书、楷书、草书、行书字体在线预览">字体转换</a></li>
+
+<li><a href="http://www.cidianwang.com/shufa/shu3304_xs.htm" title="词典网">书法字典</a></li>
+
+<li><a href="http://ocr.wdku.net/" title="- 在线工具 - Powered by Yelky">在线文字识别转换</a></li>
+
+<li><a href="http://www.vividict.com/WordInfo.aspx?id=3517" title="">象形字典</a></li>
+
+</ul>
+	
+</div> 
+<!--end p26 书画-->
+		</div>
+		<!--end #tab2 -->
+	</div>
+	<!--end .right1 -->
+</div> 
+<!--end main1 -->	
+
+
+
+
+
+
+<!--start main2 -->	
+<div class="main">
+<!--start main2 left -->	
+		<div class="left">
+<!--start tab3 -->	
+<div id="tab3">
+<h3 class="up" onclick="tabSwitch('tab3',1);">Life</h3>
+<h3 onclick="tabSwitch('tab3',2);">Auto</h3>
+<h3 onclick="tabSwitch('tab3',3);">Sportsdata</h3>
+<h3 onclick="tabSwitch('tab3',4);">Data</h3>
+<h3 onclick="tabSwitch('tab3',5);">Life</h3>
+<h3 onclick="tabSwitch('tab3',6);">Encyclo</h3>
+
+<!--p31 life -->
+<div class="block">
+<ul>
+<li><a href="http://v.baidu.com/show/10718.html">福重来了</a></li>
+<li><a href="http://v.baidu.com/show/43.htm?&q=%E8%B4%A2%E7%BB%8F%E6%9C%97%E7%9C%BC">财经郎眼</a></li>
+<li><a href="http://v.baidu.com/show/7964.htm?&q=%E9%A9%AC%E5%85%B0%E8%8A%B1%E5%BC%80">马兰花开</a></li>
+<li><a href="http://v.baidu.com/show/6638.htm?&q=%E5%A4%A7%E7%8E%8B%E5%B0%8F%E7%8E%8B">大王小王</a></li>
+<li><a href="https://www.baidu.com/baidu?wd=+%C6%E6%DD%E2%CB%B5&tn=monline_4_dg" title"奇葩说">奇葩说</li>
+</ul>
+
+<ul>
+<li><a href="http://v.baidu.com/show/12190.htm?&q=%E4%B8%80%E5%8D%83%E9%9B%B6%E4%B8%80%E5%A4%9C">一千零一夜</a></li>
+<li><a href="http://v.baidu.com/show/933.htm?&q=%E5%85%AC%E7%9B%8A%E4%B8%AD%E5%9B%BD">公益</a><a href="http://v.ifeng.com/vlist/tv/gyzg/all/0/1/detail.shtml" style="color:#930;">中国</a></li>
+<li><A href="http://www.izqdn.com/">最强</a><a href="http://www.youku.com/show_page/id_za4969972631f11e4abda.html" style="color:#930;">大</a><a href="http://v.baidu.com/show/11194.htm?&q=%E6%9C%80%E5%BC%BA%E5%A4%A7%E8%84%91">脑</a> </li>
+<li><a href="http://v.baidu.com/show/1555.htm?&q=%E8%AF%BB%E4%B9%A6">读书</a><a href="http://v.baidu.com/show/687.htm?&q=%E6%A1%A3%E6%A1%88" style="color:#930;">档案</a></li>
+<li><a href="http://gz.ganji.com/zhaopin/s/_%E4%BB%93%E5%BA%93%E4%B8%BB%E7%AE%A1/?from=zhaopin_indexpage">GJw/s</a></li>
+</ul>
+
+<ul>
+	<li><a href="http://search.51job.com/jobsearch/search_result.php?fromJs=1&jobarea=030200%2C00&district=000000&funtype=0000&industrytype=00&issuedate=1&providesalary=04%2C05%2C06&keyword=%E4%BB%93%E5%BA%93%E4%B8%BB%E7%AE%A1&keywordtype=2&curr_page=1&lang=c&stype=2&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=01&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&list_type=0&dibiaoid=0&confirmdate=9" title="仓库主管(全文) + 广州 + 4501-8000 + 8001-10000 + 10001-15000 + 近三天 + 全职
+">51</a><a href="http://search.51job.com/jobsearch/search_result.php?fromJs=1&jobarea=030200%2C030600%2C030800%2C00&funtype=0000&industrytype=00&keyword=%E4%BB%93%E5%BA%93%E7%BB%8F%E7%90%86&keywordtype=2&lang=c&stype=2&postchannel=0000&fromType=1&confirmdate=9" title="仓库经理(全文) + 广州+佛山+东莞 + 10001-15000 + 8001-10000 + 4501-8000 + 近三天 + 全职
+" style="color:#993300;">Job</a><a href="http://search.51job.com/jobsearch/search_result.php?fromJs=1&jobarea=030200%2C030600%2C030800%2C00&funtype=0000&industrytype=00&keyword=%E4%BB%93%E5%82%A8%E7%BB%8F%E7%90%86&keywordtype=2&lang=c&stype=2&postchannel=0000&fromType=1&confirmdate=9" title="仓储经理(全文) + 广州+佛山+东莞 + 4501-8000 + 8001-10000 + 10001-15000 + 近三天">WM</a></li>
+	<li><a href="http://search.51job.com/jobsearch/search_result.php?fromJs=1&jobarea=030200%2C030600%2C030800&funtype=0000&industrytype=00&keyword=warehouse%20supervisor&keywordtype=2&lang=c&stype=2&postchannel=0000&fromType=1&confirmdate=9" title="warehouse supervisor(全文) + 广州+佛山+东莞 + 8001-10000 + 4501-8000 + 10001-15000 + 近三天 + 全职">WS</a><a href="http://search.51job.com/jobsearch/search_result.php?fromJs=1&jobarea=030200%2C00&district=000000&funtype=0000&industrytype=00&issuedate=9&providesalary=04%2C05%2C06&keyword=%E7%89%A9%E6%B5%81%E4%B8%BB%E7%AE%A1&keywordtype=2&curr_page=1&lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&list_type=0&dibiaoid=0&confirmdate=9" title="物流主管(全文) + 广州 + 4501-8000 + 8001-10000 + 10001-15000 + 近三天 + 全职" style="color:#993300;">LS</a><a href="http://search.51job.com/jobsearch/search_result.php?fromJs=1&jobarea=030200%2C030600%2C030800%2C00&funtype=0000&industrytype=00&keyword=%E7%89%A9%E6%B5%81%E7%BB%8F%E7%90%86&keywordtype=2&lang=c&stype=2&postchannel=0000&fromType=1&confirmdate=9" title="物流经理(全文) + 广州+佛山+东莞 + 4501-8000 + 8001-10000 + 10001-15000 + 近三天 + 全职">LM</a></li> 
+	<li><a href="http://www.job168.com/person/searchresult1.jsp?page=&count1=&count2=&count3=&talent_type=&work_mode=&keyword=%B2%D6%BF%E2%D6%F7%B9%DC&work_loc1_name=%B9%E3%D6%DD&work_loc1=010100&apply_func_name=%C7%EB%D1%A1%D4%F1%D6%B0%CE%BB%C0%E0%B1%F0&apply_func=&pub_date=3&page1=1&page2=1&x=43&y=9
+" title="wuwanqunbybeabea">JOB</a><a href="http://www.job168.com/person/searchresult1.jsp?page=&count1=&count2=&count3=&talent_type=&work_mode=&apply_func_name=%C7%EB%D1%A1%D4%F1%D6%B0%CE%BB%C0%E0%B1%F0&apply_func=%C7%EB%D1%A1%D4%F1%D6%B0%CE%BB%C0%E0%B1%F0&work_loc1_name=%B9%E3%D6%DD&work_loc1=010100&industry_name=%C7%EB%D1%A1%D4%F1%D0%D0%D2%B5&industry=%C7%EB%D1%A1%D4%F1%D0%D0%D2%B5&pub_date=3&keyword=%B2%D6%BF%E2%BE%AD%C0%ED&x=50&y=7" style="color:#930;">168</a></li>
+	<li><a href="http://gz.58.com/cangkujingli/?minxinzi=5000_7999" title="wh manamger mobile number">58w/m</a></li>
+	<li><a href="http://search.51job.com/jobsearch/search_result.php?fromJs=1&jobarea=030200%2C030600%2C030800&keyword=%E4%BB%93%E5%82%A8%E4%B8%BB%E7%AE%A1&keywordtype=2&lang=c&stype=2&postchannel=0000&fromType=1&confirmdate=9">cc</a><a href="http://www.chinahr.com/sou/?city=25%2C291&keyword=%E4%BB%93%E5%BA%93%E7%BB%8F%E7%90%86">ChinaHR</a></li>
+
+</ul>
+ <ul>
+<li><a href="post/knowledge/logistics/index.html">Logistics</a></li>
+<li><a href="post\knowledge\logistics\物流岗位认知.html">物流岗位认知</a></li>
+<li><a href="post/application/application.html">app</a><a href="post/application/application.doc">lication</a></li>
+<li><a href="post/knowledge/岗位知识点.html">岗位知识点</a></li>
+<li><a href="post/resume/disadvantageHowtowork.html">Disadvantage</a></li>
+</ul>
+
+<ul>
+	<li><a href="http://cc.cmbchina.com/">招商银行</a></li>
+	<li><a href="http://creditcard.bankcomm.com/bcms/index.htm">交通银行</a></li>
+	<li><a href="http://www.cgbchina.com.cn/">广发银行</a></li>
+	<li><a href="https://ebsnew.boc.cn/boc15/login.html">中国银行</a></li>
+	<li><a href="http://www.95599.cn/cn/">农业银行</a></li>
+</ul>
+
+<ul>
+<li><a href="http://www.qunat.cn/">Qunat</a><a href="zfirst/tofwu.html" style="color:#930;">tofwu</a></li>
+<li><a href="http://shop113678074.taobao.com/?spm=a1z10.1.0.0.QGXRjy" title="qunatcn wubybeab. need tel confirm;">Ftaobao</a></li>
+<li><a href="doc2/knab.xlsx">knab</a><a href="notes/houseRent.xlsx" style="color:#930;" title="chrome不能直接打开，会先下载；">rent</a></li>
+<li><a href="zfirst/articles.html">articles</a><a href="zfirst/mdisk.html" style="color:#930;">mdisk</a></li>
+<li><a href="zfirst/memo.html" style="color:#930;">memo</a></li>
+</ul>
+
+<ul>
+<li><a href="zfirst/daily.html">daily</a></li>
+<li><a href="zfirst/妙论.html">妙论</a><a href="zfirst/humor.html" style="color:#930;">humor</a></li>
+<li><a href="zfirst/recipes.html">recipes</a></li>
+<li><a href="../wwuhn/funpic/listOnePerFolder.html">funpic</a><a href="../wwuhn/xiusefengqing/listOnePerFolder.html" style="color:#930;">xsfq</a></li>
+<li><a href="../wwuhn/favorite/content.html">beauty</a></li>
+</ul>
+
+<ul>
+<li><a href="http://mail.163.com">163</a><a href="https://mail.qq.com/cgi-bin/loginpage" title="byfw" style="color:#930;">QQ</a></li>
+<li><a href="zfirst/出差用品清单.html">出差用品清单</a></li>
+<li><a href="notes/BookBorrow.xlsm" title="chrome不能直接打开，会先下载；">BookBorrow</a></li>
+<li><a href="zfirst/single.html">single</a></li>
+<li><a href="zfirst/overall.html">overall</a></li>
+</ul>
+
+</div>
+<!--p31 life -->
+
+
+
+<!--p32 Auto-->
+<div>
+<ul>
+	<li><a href="http://www.jiakaobaodian.com/jiakaobaodian?pf=windows&pr=jiakaobaodian&ver=3.1.0.0&vr=jkbd&im=00-1F-16-68-EA-B7&rnd=635592921703032938&cityCode=440100&cityName=%E5%B9%BF%E5%B7%9E&viewpage=index&schoolName=&page=1">驾考宝典</a>
+	<li><a href="http://www.jxedt.com/">驾校一点通</a></li>
+    <li><a href="http://www.xuechela.com/jiaoguanzixun/20140218/2437.html">学车啦</a></li>
+    <li><a href="http://www.gzjd.gov.cn/cgs/html/hall/index.html">车管所</a></li>
+	<li><a href="http://www.gzjd.gov.cn/cgs/html/hall/index.html" title="亲临就近的车管所分所、各交警大队或车管所总所的开户窗口进行实名注册。">驾照网上预约</a></li>
+</ul>
+
+<ul>
+<li><a href="http://car.autohome.com.cn/shuyu/index.html">汽车百科</a></li>
+<li><a href="witiso/44auto/driveback/driveback.html">倒</a><a href="http://jingyan.baidu.com/article/54b6b9c0d6f26d2d583b473d.html">车</a></li>
+<li><a href="http://wenku.baidu.com/browse/downloadrec?doc_id=9a45cfa769dc5022aaea00d3&">道路交通信号灯图解</a></li>
+<li><a href="http://www.360doc.com/content/12/1110/21/2006953_247097159.shtml">动画交通信号</a></li>
+<li><a href="http://bbs.tianya.cn/post-no04-603377-1.shtml">汽车透视图</a></li>
+</ul>
+
+<ul>			
+<li><a href="http://baike.baidu.com/view/93965.htm">化油器</a></li>
+<li><a href="http://baike.baidu.com/view/2162923.htm">怠速控制</a></li>
+<li><a href="witiso/44auto/automobile.dwg">汽车动力传递</a></li>
+<li><a href="witiso/44auto/交通标志/交通标志.html">交通标志</a></li>
+<li><a href="witiso/44auto/汽车故障以及排除方法.html">汽车故障以及排除方法</a></li>
+</ul>
+
+<ul>
+<li><a href="witiso/44auto/新交警手势动画/新交警手势动画.html">新交警</a><a href="http://hi.baidu.com/chinaboy1981/item/fae9e86b2ad1811d6995e660">手势动画</a></li>
+<li><a href="http://v.youku.com/v_show/id_XOTQ5NzEwNjQ=.html">叉车&nbsp;</a><a href="http://www.tudou.com/programs/view/f-9W0TXmLWY/">视频</a></li>
+<li><a href="http://www.tudou.com/programs/view/LyMDAzNGv6s/">叉车注意事项视频</a></li>
+<li><a href="http://reviews.xgo.com.cn/more/2_23.html">汽车点评</a></li>
+<li><a href="http://baike.baidu.com/view/1548170.htm">怠速控制阀</a></li>
+
+<li><a href="http://baike.baidu.com/view/256960.htm">定速巡航系统</a></li>
+<li><a href="http://v.youku.com/v_show/id_XMTc0OTk2NzM2.html?from=y1.2-1-103.3.4-1.1-1-1-3">制动系统v</a></li>
+<li><a href="http://car.auto.ifeng.com/series/1765/spec/">大众速腾配置</a></li>
+<li><a href="http://www.feelcars.com/s2008/7600/s200157601/">汽车探索</a></li>
+<li><a href="http://www.elecfans.com/baike/qichedianzi/">汽车电子</a></li>
+
+<li><a href="http://auto.zyue.com/xueche/gz/?1122">众悦学车</a></li>
+<li><a href="http://v.youku.com/v_show/id_XNjc0NDIxNTE2.html?from=y1.2-1-176.3.1-1.1-1-1-0">变速器原理</a></li>  
+<li><a href="http://v.youku.com/v_show/id_XNDM4NDg5Njg=.html?from=y1.2-1-103.3.4-1.1-1-1-3">换档原理</a></li>
+<li><a href="http://car.bitauto.com/chexingduibi/?carIDs=118722,118567,118493,118625,118697#CarHotCompareList&showdiff&vantage">吉利博越</a>
+<li><a href="http://baike.baidu.com/view/3981276.htm" title="百科09－14年">十佳</a><a href="http://auto.sohu.com/20160129/n436368805.shtml" style="color:#930;">十佳发动机</a></li>
+
+<li><a href="witiso/44auto/分期购车.html">分期购车</a></li>
+<li><a href="http://baike.baidu.com/view/161714.htm">手自一体变速箱</a></li>
+<li><a href="http://bbs.pcauto.com.cn/topic-3758134.html">粤E转A</a></li>
+<li><a href="http://car.auto.ifeng.com/series/3024/spec/">标致408</a></li>
+<li><a href="http://car.bitauto.com/408sanxiang/peizhi/">标致408</a></li>
+<li><a href="http://www.bitauto.com/zhuanti/daogou/gsqgl/">购车流程</a></li>
+<li><a href="http://tousu.315che.com/tousulist/10501/">购车投诉</a></li>
+<li><a href="witiso/44auto/购车与手续/more.html">购车与手续</a></li>
+<li><a href="witiso/44auto/engine.html">Engine</a></li>
+</ul>
+</div>
+<!--p32 Auto-->
+
+
+<!--p33sports -->
+<div>
+
+<ul>
+	<li><a href="http://www.olympic.cn/olympic/index.html">奥运百科</a></li>
+	<li><a href="http://www.olympic.cn/athletes/olympic_champions/">CN奥运冠军</a></li>
+	<li><a href="http://www.olympic.cn/">中国奥委会</a></li>
+	<li><a href="http://baike.baidu.com/view/1207235.htm">体育</a>&nbsp;<a href="http://www.olympic.cn/sports/">项目</a></li>
+	<li><a href="images/sportscourt/sportlogo/index.htm">sportslogo</a></li>
+</ul>
+
+<ul>
+	<li><a href="images/sportscourt/sportscourt.html">运动场地说明</a></li>
+	<li><a href="http://baike.baidu.com/view/8182.htm">乒乓球</a>&nbsp;<a href="http://www.wei-long.com/HTML/product/lanqiu/lanqiu.htm">场地</a></li>
+	<li><a href="http://baike.baidu.com/view/3124.htm">羽毛球</a></li>
+	<li><a href="http://baike.baidu.com/view/1608.htm">网球</a>&nbsp;<a href="http://baike.baidu.com/view/2202.htm">足球</a></li>
+	<li><a href="http://baike.baidu.com/view/2278.htm">篮球</a></li>
+</ul>
+
+<ul>
+<li><a href="http://video.baidu.com/v?word=%C6%B9%C5%D2%C7%F2%BD%CC%D1%A7&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=1024">乒乓球教学</a></li>
+<li><a href="http://video.baidu.com/v?word=%D3%F0%C3%AB%C7%F2%BD%CC%D1%A7&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=1024">羽毛球教学</a></li>
+<li><a href="sports/badminton.html">羽毛球技巧</a></li>
+<li><a href="http://video.baidu.com/v?word=%CB%B9%C5%B5%BF%CB%BD%CC%D1%A7&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=1024">斯诺克教学</a></li>
+<li><a href="sports/basketballDrill.html">篮球技巧</a></li>
+</ul>
+
+<ul>
+<li><a href="http://baike.baidu.com/view/176537.htm">世界纪录</a></li>
+<li><a href="sports/volleyball/排球规则.html">排球规则</a></li>
+<li><a href="sports/volleyball/2016女排.html">2016女排</a></li>
+<li><a href="sports/golf.html">高尔夫规则</a></li>
+<li></li>
+</ul>
+
+<ul>
+<li><a href="sports/Mahjong/Mahjong百科.html">Mahjong百科</a></li> 
+<li><a href="sports/Mahjong/吃(骗)上家,顶下家.html">吃(骗)上家,顶下家</a></li> 
+<li><a href="sports/Mahjong/兜搭舍牌拆搭.html">兜搭舍牌拆搭</a></li> 
+<li><a href="sports/Mahjong/听牌牌型.html">听牌牌型</a></li> 
+<li><a href="sports/Mahjong/一般技巧和俗语.html">一般技巧和俗语</a></li> 
+</ul>
+
+<ul>
+<li><a href="sports/Landlords/Landlords.html">Landlords</a></li>
+<li><a href="sports/Landlords/记牌与算牌.html">记牌与算牌</a></li>
+<li><a href="sports/landlords/各家出牌方法.html">各家出牌方法</a></li>
+<li><a href="sports/landlords/一般技巧.html">一般技巧</a></li>
+<li><a href="sports/landlords/快速记牌法.html">快速记牌法</a></li>
+
+<li><a href="sports/landords/斗地主实战总结.html">斗地主实战总结</a></li>
+<li><a href="doc2/football.xlsm">footballMatch</a></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+
+<ul>
+<li><a href="sports/landlords/记数字举例.html">记数字举例</a></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+
+</div>
+<!--p33 sports-->
+
+
+
+<!--p34 data-->
+<div>
+<ul>
+	<li>Contact</li>
+	<li><a href="javascript:void(null)"  title="194904082018+194709212083tel5873814041,5197811068">twu</a></li>
+	<li><a  style="cursor:hand" href="mailto:waywin188.163.com?cc=wwuhn@hotmail.com&amp;subject=index&amp;body=Hi," title="qq414269573,tel5018426263">Fwu</a></li>
+	<li><a  style="cursor:hand" href="javascript:void(null)" title="7.27 qq37517154,tel3423697295 id430526198107277526">Hyxia</a></li>
+	<li><a href="javascript:void(null)"  title="08.12.26;0202,tel3407482385">zywu</a></li>
+</ul>
+
+<ul>
+	<li><a href="javascript:void(null)"  title="194709212083">Dli</a></li>
+	<li><a href="javascript:void(null)"  title="40:12.11.18,tel5173871838">Zhwu</a></li>
+	<li><a href="javascript:void(null)"  title="qq605009680,tel8688398338">Sywu</a></li>
+	<li><a  style="cursor:hand" href="mailto:baxter2008.sina.com?cc=wwuhn@hotmail.com&amp;subject=index&amp;body=Hi," title="qq408201988,tel3138487275">Jbwu</a></li>
+	<li><a href="javascript:void(null)"  title="qq1477408182,tel3407482385">Xfwu</a></li>
+</ul>
+
+<ul>
+<li>Mail</li>
+<li class="mail">&nbsp;mail to:</li>
+<li>
+	<form name="addresses" id="addresses">
+		<select size="77px" name="list" onchange="update()">
+			<option value="mailto:wwuhn@hotmail.com">wwu	</option>
+			<option value="mailto:2309587932@qq.com">wwuqq	</option>
+			<option value="mailto:waywin188@163.com">fwu	</option>
+			<option value="mailto:baxter2008@sina.com">jwu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+		</select>
+	</form>
+	</li>
+<li class="mail"> <a href="updatelink">&nbsp;ClickSend</a></li>
+	<script language="JavaScript" type="text/javascript">
+		pos = 9999;
+		for(num=0;num<document.links.length;num++) {
+		if (document.links[num].href.indexOf("updatelink") != -1) {
+		pos = num;
+		num = 5000;
+		}}
+		function update() {
+		if (pos!=9999) {
+		sel = document.addresses.list.selectedIndex;
+		document.links[pos].href = document.addresses.list[sel].value;
+		}}
+		update();
+	</script>
+<li><a href="javascript:void(null)" title="60138 219000 6864 8992">cnbfu</a></li>
+</ul>
+
+<ul>
+	<li>HP</li>
+	<li><a href="javascript:void(null)" title="2ce74401vd">HPsn</a></li>
+	<li><a href="http://bpr.hpordercenter.com/hbpr/cn-zh/default.aspx" title="电池召回查询ct:6600301axv7113">Baterry</a></li>
+	<li><a href="http://xwb.ghhed.edu.cn/" title="No.1059042011500857,score:67">Bachelor</a></li>
+	<li><a href="http://www.chsi.com.cn/xlrz" title="CertifNo.1922895，degree29245">学历认证</a></li>
+</ul>
+
+<ul>
+	<li>Diploma</li>
+	<li><a href="javascript:void(null)" title="DegreeNo.97119225">Marketing</a></li>
+	<li><a href="javascript:void(null)" title="DegreeNo.29245;stu.no.2215206045">Adminstra</a></li>
+	<li><a href="javascript:void(null)" title="DegreeNo.65440111022004246">BusinessA</a></li>
+	<li><a href="http://account.chsi.com.cn/passport/login?service=http%3A%2F%2Fmy.chsi.com.cn%2Fachive%2Fj_spring_cas_security_check" title="wwuhn@hotmail.com,by...">学历查询</a></li>
+</ul>
+
+<ul>
+	<li>Birthday</li>
+	<li><a href="javascript:void(null)" title="0921">monter</a></li>
+	<li><a href="javascript:void(null)" title="0406">grandm</a></li>
+	<li><a href="javascript:void(null)" title="0111">brother</a></li>
+	<li><a href="javascript:void(null)" title="12.09.12|07.27">brother's w</a></li>
+</ul>
+
+<ul>
+	<li><a href="http://weibo.com/u/5949061221/home?wvr=5" title="wwuhnwu,sixthree">微博</a></li>
+	<li><a href="javascript:void(null)" title="by---Wuhnxx">hdisk</a></li>
+	<li><a href="javascript:void(null)" title="wwuhnwufuquncn">pc acc</a></li>
+	<li><a href="javascript:void(null)" title="ct:6600301axv7113 dv2000 dv2623tx">DV2623</a></li>
+	<li><a href="zfirst/wwu.html">wwu</a></li>
+	
+	<li><a href="zfirst/exam.html">SelfData</a></li>
+	<li><a href="wwuCalligraphy/index.html">wwuCalligraphy</a></li>
+    <li><a href="javascript:void(null)" title="onethreeWu">163</a></li>
+    <li><a href="zfirst/css/others.html">others</a></li>
+	<li><a class="dir"  href="doc/">doc</a>&nbsp;<a class="dir"  href="witiso/pctips/">pctips</a></li>
+</ul>
+</div>
+<!--p34 data-->
+
+
+	
+<!--p35 Life-->
+<div>
+<ul>
+	<li><a href="http://skype.tom.com/">skype</a></li>
+	<li><a href="http://soft.gougou.com/search?search=%E9%A3%8E%E9%80%9F%E5%85%8D%E8%B4%B9%E7%9F%AD%E4%BF%A1&restype=2&id=1">风速免费短信</a></li>
+	<li><a href="http://tinyurl.com/7alm574">免费网络电话</a></li>
+	<li><a href="http://evaphone.com/local/cn">免费电话</a></li>
+	<li><a href="http://www.rayfile.com/zh-cn/" title="RayFile-飞速网 免费网络硬盘  网盘  网络U盘  上传文件  文件共享">网络硬盘</a></li>
+</ul>
+
+<ul>
+	<li><a href="http://www.aliyiyao.com/">阿里医药</a></li>
+	<li><a href="http://www.jk58.com/">求医问药</a></li>
+	<li><a href="http://keko.chihe.sohu.com/">营养食谱 </a></li>
+	<li><a href="http://dise.health.sohu.com/">疾病查询</a></li>
+	<li><a href="http://www.39.net/">三九健康网</a></li>
+</ul>
+
+<ul>
+	<li><a href="lifewit/六种方法让你的牙齿迅速洁净.html">牙齿洁净方法</a></li>
+	<li><a href="lifewit/kouqiangweisheng.html">口腔卫生</a></li>
+	<li><a href="http://www.ikang.com/med/hospital/index.php?hospid=090">华南口腔</a></li>
+	<li><a href="lifewit/pifumeibai.html">皮肤美白</a></li>
+	<li><a href="lifewit/miewenquwen.html">灭蚊驱蚊</a></li>
+</ul>
+
+<ul>
+	<li><a href="lifewit/360度健康生活指引.html">健康指引</a></li>
+	<li><a href="lifewit/tuofafangzhi.html">脱发防治</a></li>
+	<li><a href="http://jishi.cntv.cn/program/sjsdzg/index.shtml">舌尖上的中国</a></li>
+	<li><a href="http://www.120ask.com/">有问必答</a></li>
+	<li><a href="lifewit/猪肉搭配宜与不宜/猪肉搭配宜与不宜.html">猪肉搭配宜与不宜</a></li>
+</ul>
+
+<ul>
+	<li><a href="http://www.ttmeishi.com/">天天美食</a></li>
+	<li><a href="http://www.zhms.cn/">中华美食</a></li>
+	<li><a href="http://www.meishichina.com/">美食天下</a></li>
+	<li><a href="http://www.hao123.com/caipu.htm">家常菜大全</a></li>
+	<li></li>
+</ul>
+
+ <ul>
+	<li><a href="encyclopedia/tea/tea.html">茶</a></li>
+	<li><a href="http://baike.baidu.com/view/16074.htm">醋</a></li>
+	<li><a href="lifewit/枸杞.html">枸杞</a></li>
+	<li><a href="lifewit/水果挑选秘笈/水果挑选秘笈.html">水果挑选秘笈</a></li>
+	<li></li>
+</ul>
+
+<ul>
+<li><a href="lifewit/sunglass/picList.html">防眩光墨镜</a></li>
+<li><a href="lifewit/吃海带的14大好处和3大禁忌.html">吃海带的14大好处和3大禁忌</a></li>
+<li><a href="lifewit/坐骨神经痛/坐骨神经痛.html">坐骨神经痛</a></li>
+<li><a href="lifewit/坐骨神经痛/坐骨神经书籍.html">坐骨神经痛书籍</a></li>
+<li><a href="lifewit/芦荟养殖.html">芦荟养殖</a></li>
+<li><a href="lifewit/阳台种葱.html">阳台种葱</a></li>
+</ul>
+</div>
+<!--p35 Life-->
+
+
+
+<!--p36 Encyclo-->
+<div>
+<ul>
+<li><a href="http://oil.oilchem.net/oil/">能源网</a></li>
+
+<li><a href="http://www.mysteel.com/">钢铁网</a></li>
+<li><a href="http://www.zhijinwang.com/goldbig/shi.asp">纸金网</a></li>
+<li><a href="encyclopedia/奇闻趣闻.html">奇闻趣闻</a></li>
+<li><a href="encyclopedia/一步有多远.html">一步有多远</a></li>
+<li><a href="encyclopedia/春晚.htm">春晚</a></li>
+
+<li><a href="encyclopedia/house/house.html">house</a></li>
+<li><a href="encyclopedia/三峡真相.html">三峡真相</a></li>
+<li><a href="http://tieba.baidu.com/p/4254291329">朝鲜玩核</a></li>
+<li><a href="encyclopedia/carrier.html">carrier</a></li>
+<li><a href="Encyclopedia/armyorga.html">军队编制</a></li>
+
+<li><a href="Encyclopedia/汉字为何没发展成拼音文字.html">汉字为何没发展成拼音文字</a></li>
+<li><a href="Encyclopedia/六意造字.html">六意造字</a></li>
+<li><a href="http://www.cnki.net/">中国知网</a></li>
+<li><a href="http://open.iot.10086.cn/">创客网</a></li>
+<li><a href="http://www.itongji.cn/cms/article/index">中国统计网</a></li>
+<li><a href="https://shuge.org/">书格</a></li>
+	<li><a href="zfirst/数字百科.html">数字百科</a></li>
+	<li><a href="Encyclopedia/中国数字百科.html">中国数字百科</a></li>
+
+</ul>
+<ul>
+	<li><a href="miracle/miracle.html">Miracle</a></li>
+	<li><a href="../wwuhn/Encyclopic/listOnePerFolder.html">EncycloPic</a></li>
+	<li><a href="encyclopedia/unit.html">unit</a></li>
+	<li><a href="music/alphabet.html">Alphabet</a></li>
+</ul>
+<ul>
+
+</ul>
+<ul>
+
+</ul>
+</div>
+<!--p36 Encyclo-->
+			</div>
+<!--end #tab3 -->
+		</div >
+		<!--end #left2 -->
+	
+	
+	
+		<!--start .right2 -->
+		<div class="right">
+<!--start #tab4 -->
+<div id="tab4">
+<h3 class="up" onclick="tabSwitch('tab4',1);"><a href="javascript:void(null)" onclick="MM_showHideLayers('c41','','show','c42','','hide','c43','','hide','c44','','hide','c45','','hide','c46','','hide','ones','','hide')">Learning</a></h3>
+<h3 onclick="tabSwitch('tab4',2);"><a href="javascript:void(null)" onclick="MM_showHideLayers('c41','','hide','c42','','show','c43','','hide','c44','','hide','c45','','hide','c46','','hide','ones','','hide')">Computers</a></h3>
+<h3 onclick="tabSwitch('tab4',3);"><a href="javascript:void(null)" onclick="MM_showHideLayers('c41','','hide','c42','','hide','c43','','show','c44','','hide','c45','','hide','c46','','hide','ones','','hide')">PCtips</a></h3>
+<h3 onclick="tabSwitch('tab4',4);"><a href="javascript:void(null)" onclick="MM_showHideLayers('c41','','hide','c42','','hide','c43','','hide','c44','','show','c45','','hide','c46','','hide','ones','','hide')">English</a></h3>
+<h3 onclick="tabSwitch('tab4',5);"><a href="javascript:void(null)" onclick="MM_showHideLayers('c41','','hide','c42','','hide','c43','','hide','c44','','hide','c45','','show','c46','','hide','ones','','hide')">IT&互联网</a></h3>
+<h3 onclick="tabSwitch('tab4',6);"><a href="javascript:void(null)" onclick="MM_showHideLayers('c41','','hide','c42','','hide','c43','','hide','c44','','hide','c45','','hide','c46','','show','ones','','hide')">reading2</a></h3>
+
+<!--p41 learning-->	
+<div class="block" id="c41"><!--learning -->
+
+<ul>
+<li><a href="pctips/系统安装(细节).html" title="系统安装细节">系统1</a><a href="pctips/系统安装(简明).html" title="系统安装(简明)" style="color:#930;">2</a><a href="pctips/系统安装(补充).html" title="系统安装(补充)">3</a></li>
+<li><a href="pctips/常用软件list.html">软件</a><a href="pctips/常用软件list1.html" title="常用软件" style="color:#930;">1</a><a href="pctips/常用软件list2.html" title="系统与编程相关软件">2</a><a href="pctips/常用软件list3.html" title="应用及杂项类软件" style="color:#930;">3</a></li>
+
+<li><a href="pctips/ghostModi.html">ghostModi</a></li>
+<li><a href="PC/pc.html">PCclassic</a><a href="PC/1经典计算产品/计算经典.html" style="color:#930;">List</a></li>
+<li><a href="F:/Website/witisopc/21/code/符号大全.htm">符号大全</a></li>
+</ul>
+
+<ul>
+<li><a href="http://tech.baidu.com/">百度科技</a></li>
+<li><a href="http://tech.ifeng.com/">凤凰科技</a></li>
+<li><a href="http://digi.sina.com.cn/">新浪科技</a></li>
+<li><a href="http://digi.sina.com.cn/">新浪数码</a></li>
+<li><a href="http://www.ncdiy.com/">IT行情</a></li>
+</ul>
+
+<ul>
+<li><a href="http://www.admin5.com">站长网</a></li>
+<li><a href="http://www.vista123.com/">vista</a><a href="http://www.win7china.com/" style="color:#930;">Win7之家</a></li>
+<li><a href="http://www.enet.com.cn/eschool/">硅谷动力</a></li>
+<li><a href="http://www.ccidnet.com/">赛迪</a><a href="http://bbs.wuyou.com/index.php" style="color:#930;">无忧论坛</a></li>
+<li><a href="http://www.chinaitlab.com/">it实验室</a></li>
+</ul>
+
+<ul>	
+<li><a href="http://www.pconline.com.cn/" title="硬件报价、比价">太平洋</a><a href="http://www.pchome.net/" style="color:#930;">pchome</a></li>
+<li><a href="http://www.it168.com/">it168</a><a href="http://benyouhui.it168.com/" title="笔记本电脑论坛" style="color:#930;">本友会</a></li>
+<li><a href="http://www.csdn.net/">CSDN</a><a href="http://www.iteye.com/" style="color:#930;">iteye</a></li>
+<li><a href="http://www.pc120.net.cn/">PC救援</a><a href="http://www.zol.com.cn/" style="color:#930;">zol</a></li>
+<li><a href="http://www.iheima.com/">i黑马</a><a href="http://96177.ys168.com/" style="color:#930;">ys168</a></li>
+</ul>
+
+<ul>
+<li><a href="http://cn.bing.com/dict">必应</a><a href="http://www.ichacha.net/" style="color:#930;">查查</a></li>
+<li><a href="http://dict.baidu.com/">百度词典</a></li>
+<li><a href="http://www.dictall.com/dictall/result.jsp?cd=UTF-8&keyword=crank">词都</a><a href="http://dict.eudic.net/" style="color:#930;">欧路</a></li>
+<li><a href="http://ce.linedict.com/dict.html#/cnen/home">N词酷</a><a href="zfirst/hanzi.html">汉字</a></li>
+<li><a href="http://www.cibo.cn/">词博</a> <a href="http://www.juzimi.com/">句子迷</a></li>
+</ul>
+
+<ul>
+<li><a href="http://www.iciba.com/expectation" title="爱词霸可选择“汉英查询”和“汉语查询（有拼音）”">ICIBA</a><a href="http://www.zhongguosou.com/education_graduate_course_tools/chinese_inputing.aspx" title="如何输入不认识的汉字 如何输入输入法中不包含的汉字 使用在线偏旁输入法输入不常见的生僻汉字" style="color:#930;">cn搜</a></li>
+<li><a href="http://www.zdic.net/zd/zi/ZdicE5Zdic90ZdicB4.htm">汉典</a><a href="http://www.hao123.com/ss/fy.htm" style="color:#930;">在线翻译</a></li>
+<li><a href="http://hanyu.iciba.com/pinyin.html">汉字</a>转<a href="http://app.baidu.com/app/enter?appid=153120">拼音</a></li>
+<li><a href="http://hanyu.iciba.com/jiadiao.html">拼音加声调</a></li>
+<li><a href="http://hanyu.iciba.com/jianfan.html">简繁转换</a></li>
+</ul>
+
+<ul>
+<li><a href="zfirst/putonghua.html">普通话总结</a></li>
+<li><a href="zfirst/1tvessay.html" title="电视散文、新年诗会、清明诗会、印象中国">电视散文list</a></li>
+<li><a class="doc" href="../wwuhn/唐诗三百首/唐诗三百首 V2.02.exe" title="有真人发音：(以前的：原文+注释+译文+赏析+诗人简介+插图)">唐诗三百首</a></li>
+<li><a href="http://video.baidu.com/v?ct=301989888&amp;word=%C6%D5%CD%A8%BB%B0%BD%CC%D1%A7&amp;db=0&amp;ty=0&amp;rn=20&amp;nf=0&amp;pn=40&amp;fbl=1024">普通话教学bd</a></li>
+<li><a href="http://www.ximalaya.com/15637545/sound/4864229">DJ晓露</a></li>
+</ul>
+
+<ul>
+<li><a href="pctips/pctips.html">pctipsOverall</a></li>
+<li><a href="pctips/WinR.html">WinR</a><a href="zfirst/browserdata.html" style="color:#930;">Browser</a></li>
+<li><a href="http://blog.csdn.net/simoncoder/article/details/49803827"><a href="http://www.yinwang.org/">王</a><a href="http://www.yinwang.org/">垠扯淡</a></li>
+<li><a href="http://sports.gdtv.cn/">广东体育</a></li>
+<li><a href="http://phtv.ifeng.com/epg/">凤凰导视</a></li>
+</ul>
+
+</div>
+<!--p41 learning-->	
+
+
+<!--p42 computers -->
+<div id="c42">
+
+<ul>
+<li><a href="http://www.huohu123.com/channel/channel_81.html">编程站点</a></li>
+<li><a href="http://www.techcn.com.cn/index.php?category-view-2059.html" title="全球计算机历史博物馆、经典机器和产品大全">科技中国</a></li>
+<li><a href="http://www.old-computers.com/museum/">Old Computer</a></li>
+<li><a href="http://www.columbia.edu/cu/computinghistory/">哥大计史</a></li>
+<li></li>
+</ul>
+
+<ul>
+<li>blog</li>
+<li><a href="http://blog.csdn.net/norains/article/details/6533680" title="那些年，那些事，一个程序员的奋斗史">那些年、那些事、一个程序员的自白</a></li>
+<li><a href="http://hi.baidu.com/xxcxz">虚心初学者</a></li>
+<li><a href="http://blog.hangzhou.com.cn/?uid-466337">红尘摆渡</a></li>
+<li><a href="http://fqs310.blog.hexun.com/rss2.aspx">青松</a>&nbsp;<a href="http://blog.csdn.net/arcan/article/details/7616666">pro b</a></li>
+</ul>
+ 
+<ul>	
+
+<li><a href="http://font.knowsky.com/">字体下载</a></li>
+<li><a href="http://www.bookbao.com/">书包网</a></li>
+<li><a href="http://www.xuexi111.com/yingyv/yuedu/84369.html" title="有下载到爱因斯坦传">学习资料库</a></li>
+<li><a href="http://www.dxsxs.com/zhuanji/743/" title="有在线阅读乔布斯中文版">大学生小说网</a></li>
+<li><a href="http://www.51windows.net/" title="玩游戏、听音乐、看图片、浏览知识库、下载资源、学习Asp、查看在线手册、学英语、读文摘" >~51windows</a></li>
+</ul>
+
+<ul>	
+	
+	<li><a href="http://hi.baidu.com/guoguo6688" >遨翔</a>&nbsp;<a href="http://weibo.com/aoxiang6688">wb</a></li>
+	<li><a href="http://www.pccppc.com/show.php?tid=253">小马激活</a></li>
+	<li><a href="http://bestcbooks.com/">计算机书籍控</a></li>
+<li><a href="http://www.100uu.com/" title="教学资源网|高中试卷|初中课件|小学教案|高中，初中，小学名校试题下载">百分网</a></li>
+	<li></li>
+</ul>
+<ul>
+<li><a href="http://www.onegreen.net/sucai/index.html">绿色第一站素材</a></li>
+<li><a href="http://www.yiihuu.com/">翼狐网</a></li>
+<li><a href="http://www.lanrentuku.com/">懒人图库</a></li>
+<li><a href="https://500px.com/">500px</a></li>
+<li><a href="http://huaban.com/">花瓣网</a></li>
+<li><a href="https://pixabay.com/">PixAbay</a></li>
+<li><a href="http://www.quanjing.com/">全景网</a></li>
+<li><a href="https://www.pexels.com/">pexels</a></li>
+<li><a href="http://photopin.com/">photoPin</a></li>
+<li><a href="http://www.gratisography.com/">gratiso</a></li>
+<li><a href="https://unsplash.com/">unsplash</a></li>
+<li><a href="http://www.ssyer.com/">别样</a></li>
+<li><a href="https://foodiesfeed.com/" title=" Free Food Pictures">Foodies</a></li>
+<li><a href="http://sd.360.cn/" title="">360杀毒</a></li>
+<li><a href="https://wifi.360.cn/easy/pc" title="">360wifi</a></li>
+<li><a href="https://pc.weixin.qq.com/" title="">微信PC端</a></li>
+
+<li><a href="https://pan.baidu.com/" title="">百度网盘</a></li>
+<li><a href="https://notepad-plus-plus.org/" title="">Notepad++ Home</a></li>
+
+</ul>
+
+</div>
+<!--p42 computers -->
+
+
+<!--p43 pctips-->
+<div id="c43"><!--pctips -->
+
+<ul>	
+<li><a href="witisopc/14/电脑通过手机上网/a.html">电脑通过手机上网</a></li>
+<li><a href="witisopc/14/pctips/路由上加路由.html">路由+路由</a></li>
+<li><a href="http://www.newhua.com/soft/36310.htm">搜出周边无线基地</a></li>
+<li><a href="http://onlinedown.net/soft/99606.htm">按需自动关机</a></li>
+<li></li>
+</ul>
+
+<ul>
+	<li><a href="http://www.52wubi.com/wbbmcx/">手写查五笔</a></li>	
+	<li><a class="doc" href="software/jdwb/registry.exe" title="确保ctfmon.exe有运行(进程)，run(运行与注册表)">五笔注册</a></li>
+	<li><a href="pctips/freeime.htm">Freeime</a><a href="http://www.wangma.com.cn/">王码</a></li>
+	<li><a href="pctips/wubi.html" >五笔图键</a></li>
+	<li><a href="pctips/如何造字.html">如何造字</a></li>
+</ul>
+
+<ul>	
+	<li><a href="Encyclopedia/applems.html">AppleMS</a></li>
+	<li></li>
+    <li></li>
+	<li></li>
+</ul>
+
+
+</div>
+<!--p43 pctips-->
+
+
+<!--p44 english-->	
+<div id="c44"><!--english -->
+<ul>
+<li><a href="../wwuhn/novel/EnNovel/gone with the wind/gone_with_the_wind.html" title="Gone With The Wind">Gone</a></li>
+<li><a href="../wwuhn/novel/EnNovel/red and black/red_and_black.html">red_and_black</a></li>
+<li><a href="../wwuhn/novel/EnNovel/three days to see/three.html" title="Three Days to See">ThreeDays</a></li>
+<li><a href="../wwuhn/novel/EnNovel/who moved my cheese/who_moved_my_cheese.htm" title="Who Moved My Chess">WhoMoved</a></li>
+<li><a href="enLearning/AdvisorOfLife.html" title="Some Advice About Life">SomeAdvice</a></li>
+</ul>
+
+<ul>
+<li><a href="../wwuhn/novel/jobs/index.html" title="Steve Jobs">SteveJobs</a></li>
+<li><a href="beautifulenglish/allusions.html">EnAllusion</a>&nbsp;<a href="overall\enBook.html">enBook</a></li>
+<li><a href="NewEtimesE1/index.htm" >NewE_times1</a></li>
+<li><a href="NewEtimesE1/NewEtimesE2/index.htm" > NewE_times2</a></li>
+<li><a href="Elearning/index.htm" >NewE_times3</a></li>
+</ul>
+
+<ul>
+<li><a href="../wwuhn/novel/Einstein/index.html" title="Einstein">Einstein</a></li>
+<li><a href="doc/e grammar.xls" class="doc">EnGrammar</a></li>
+<li><a href="beautifulenglish/beautifulEn.html">BeautifulEn</a></li>
+<li><a href="http://www.sparke.cn/">星火英语</a></li>
+<li><a href="http://www.en8848.com.cn/soft/Nonfiction/Biography/4881.html" title="乔布斯英文版下载">小e英语</a></li>
+<li><a href="https://lingvist.io/" title="Learn a language in 200 hours. Free">Lingvist</a></li>
+<li><a href="https://www.busuu.com/zh/" title="免费学习英语、日语和其他语言">Busuu</a></li>
+<li><a href="https://www.memrise.com/" title="语言学习，从此变得有乐趣">Memrise</a></li>
+<li><a href="https://www.babbel.com/" title="Learn Spanish, French or Other Languages Online - Babbel.com">babbel</a></li>
+
+<li><a href="http://www.duolingo.cn/" title="免费学习英语、西班牙语等多种语言">多邻国</a></li>
+
+</ul>
+
+<ul>
+<li><a href="../wwuhn/novel/EnNovel/classic/more.html">英文经典</a></li>
+<li><a href="http://www.cn.englishtown.com/sp/lesson.aspx">ETown</a></li>
+<li><a href="http://www.hongen.com" title="乱世佳人对白">洪恩在线</a></li>
+<li><a href="http://www.wmmenglish.com/Article/web01/test04/Index.html">英语美文</a></li>
+<li><a href="http://www.yinbiao1.com/">音标学习</a></li>
+</ul>
+
+<ul>	
+<li><a href="../wwuhn/novel/EnNovel/xiyou/index.html">JourneyToWest</a></li>
+<li><a href="http://www.eoezone.com/">一荣英语</a></li>
+<li><a href="http://baike.baidu.com/view/55697.htm">大耳朵英语</a></li>
+<li><a href="http://baike.baidu.com/view/1059096.htm" >李阳疯狂英语</a></li>
+<li><a href="http://en.12999.com/">12999 en</a></li>
+</ul>
+
+<ul>	
+<li><a href="../wwuhn/novel/EnNovel/warArt/WarArt.html">WarArt</a></li>	
+<li><a href="enLearning/发音(音节).html">发音(音节)</a></li>
+
+<li><a href="enLearning/音节(发音).html">音节(发音)</a></li>
+<li><a href="http://tv.gxnews.com.cn/staticmores/956/24956-4.shtml">小媛教</a><a href="http://video.baidu.com/v?word=%D0%A1%E6%C2%BD%CC%D3%A2%D3%EF&ct=301989888&rn=20&pn=0&db=0&s=0&fbl=800">&nbsp;英语</a></li>
+<li><a href="enLearning/enPoverb.html">enPoverb</a></li>
+<li><a href="enLearning/计算机英语.html">计算机英语</a></li>
+<li><a href="http://www.kekenet.com/">可可英语</a></li>
+<li><a href="http://www.koolearn.com/">新东方</a></li>
+<li><a href="http://www.hjenglish.com/">沪江英语</a></li>
+<li><a href="pctips/计算机英语缩写.html">计算机英语缩写</a></li>
+</ul>
+</div>
+<!--p44 english-->	
+	
+		
+<!--p45 hardware-->
+<div id="c45">
+<ul>
+
+<li><a href="http://36kr.com" title="为创业者提供最好的产品和服务">36氪</a></li>
+<li><a href="http://www.niaogebiji.com/" title="移动互联网第一干货平台！">鸟哥笔记</a></li>
+<li><a href="http://www.cyzone.cn/">创业邦</a></li>
+<li><A href="http://www.woshipm.com/">人人都是产品经理</a></li>
+<li></li>
+</ul>
+</div>
+<!--p45 hardware-->
+
+
+<!--p46 start reading2-->
+<div id="c46">
+<ul>
+<li><a href="reading/高考满分作文.html">高考满分作文</a></li>
+<li><a href="reading/美文/情到极致的诗句.html">情到极致的诗</a></li>	
+<li><a href="reading/美文/极美诗句/极美诗句.html">极美诗句</a></li>
+	
+<li><a href="reading/美文/WhatIBelieve.html">我的信仰</a></li>	
+<li><a href="reading/美文/ilove.html">I love...</a></li>	
+
+	
+<li><a href="lifefeeling/cloudwind.html">云淡风轻</a></li>	
+<li><a href="lifefeeling/lifeordinary.html">生活淡然</a></li>	
+<li><a href="lifefeeling/yuyuechunguang.html">预约春光</a></li>	
+	
+<li><a href="lifefeeling/qiangua.html">牵挂</a></li>	
+<li><a href="lifefeeling/huadieying.html">化蝶影</a></li>
+<li style="width:33%;"><a href="reading/自律真的有那么重要.html">自律真的有那么重要</a></li>
+<li style="width:33%;"><a href="reading/工作要快，但生活要慢.html">工作要快，但生活要慢</a></li>
+<li style="width:33%;"><a href="reading/读书读到什么时候才能改变命运.html">读书读到什么时候才能改变命运</a></li>
+<li style="width:33%;"><a href="reading/你真的懂得如何读书吗？.html">你真的懂得如何读书吗？</a></li>
+<li style="width:33%;"><a href="reading/读书到底有什么意义.html">读书到底有什么意义</a></li>  
+<li style="width:33%;"><a href="reading/连自律都做不到，还奢谈什么自由.html">连自律都做不到，还奢谈什么自由</a></li>  
+<li style="width:33%;"><a href="reading/怎样才算读过一本书.html">怎样才算读过一本书</a></li>
+<li style="width:33%;"><a href="reading/走过的路，读过的书.html">走过的路，读过的书</a></li>
+<li style="width:33%;"><a href="reading/天才医生死前写的一本书.html">天才医生死前写的一本书</a></li>  
+
+<li><a href="reading/.html"></a></li>
+<li><a href="reading/.html"></a></li>
+</ul>
+</div>
+<!--p46 end reading2-->
+
+			</div>
+<!--end #tab4 -->
+		</div>
+		<!--end .right2 -->
+	</div>
+	<!--end main2 -->
+</div>
+<!--end #mainx -->
+
+
+<!--below is tv layer set-->
+<div id="main8">
+	<div id="tab8">
+<h3 onclick="tabSwitch('tab8',1);"  class="up">Tools</h3>
+<h3 onclick="tabSwitch('tab8',2);" >Study</h3>
+<h3 onclick="tabSwitch('tab8',3);">programmer</h3>
+<h3 onclick="tabSwitch('tab8',4);">Video</h3>
+
+<!--start bottom11 tools -->
+<div style="clear:both;"  class="block" >
+<ul>
+	<li><a href="http://map.baidu.com" title="同时具有强大的公交线路标识功能">百度地图</a></li>
+	<li><a href="http://ditu.google.cn/maps?hl=zh-CN&amp;tab=wl">谷歌</a><a href="http://map.google.com">map</a></li>
+	<li><a href="http://www.guang.net">逛网</a></li>
+	<li><a href="http://uemap.com/#" title="可即时切换卫星地图与普通地图">地图在线</a></li>
+	<li><a href="http://gzshpqtsg.365ditu.com">365地图</a></li>
+	<li><a href="http://gz.o.cn/">三维地图</a></li>
+	<li><a href="http://tool.114la.com/">114工具</a></li>
+	<li><a href="http://app1.sfda.gov.cn/datasearch/face3/base.jsp?tableId=25&amp;tableName=TABLE25&amp;title=国产药品&amp;bcId=118102890099723943731486814455">药品查询</a></li>
+	<li><a href="http://www.boc.cn/sourcedb/whpj/">当日牌价</a></li>
+	<li><a href="http://www.boc.cn/finadala/lilv/fd31/">存款利率</a></li>
+	<li><a href="http://app.bidu.com/widget?appid=116526">智能</a><a href="zfirst/math/calcTips.html">计算器</a></li>
+	<li><a href="http://www.183.gd.cn/">中国邮政</a></li>
+	<li><a href="http://www.ip138.com/post/">邮编区号</a></li>
+	<li><a href="http://www.nongli.com/">中华农历</a></li>
+	<li><a href="http://123.sogou.com/tools/wnl.html">万年</a><a href="https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&tn=zhongguosou&wd=%E4%B8%87%E5%B9%B4%E5%8E%86&oq=%25E4%25B8%2587%25E5%25B9%25B4%25E5%258E%2586&rsv_pq=ca8573fa00005738&rsv_t=81beq8rkJOUrfpG2L2OwqBxWlkJnRQCkBOhPY5bw%2FXY%2F7vWvsjfJOyeF6Frh2gWRiWY&rqlang=cn&rsv_enter=0">历</a></li>
+	<li><a href="http://time.123cha.com/">世界</a><a href="http://www.worldtimezone.com/">时间</a></li>
+</ul>
+
+<ul>
+	<li><a href="http://guangzhou.8684.cn/">GZ Bus</a></li>
+	<li><a href="http://map.baidu.com/subways/index.html?c=guangzhou">Metro</a></li>
+	<li><a href="zfirst/rili.htm">日历</a></li>
+	<li><a href="map/index.html">map</a></li>
+	<li><a href="zfirst/智能计算器.htm">智能</a><a href="zfirst/math/calcTips.html">计算器</a></li>
+	<li><a href="http://www.zuoche.com">坐车</a></li>
+	<li><a href="http://flights.ctrip.com/Domestic/SearchFlights.aspx">航班</a></li>
+	<li><a href="http://trains.ctrip.com/TrainBooking/SearchTrain.aspx###" title="火车票预订与代购-高铁票价,动车票价-高铁订票,动车订票网-携程火车票订购中心。">火车票预订</a></li>
+	<li><a href="http://www.weather.com.cn/">天气</a><a href="https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&tn=zhongguosou&wd=%E5%A4%A9%E6%B0%94&oq=%25E4%25B8%2587%25E5%25B9%25B4%25E5%258E%2586&rsv_pq=dc04fb0700005e6b&rsv_t=e31etS7ycEiXAq8YtRpjVRnE93oEfOaCDBLPUIbvA0jlgZ1PpEQZaEmKBeo2RaXPl3I&rqlang=cn&rsv_enter=0&inputT=3072&rsv_sug3=20&rsv_sug1=5&rsv_sug7=100&rsv_sug2=0&rsv_sug4=1434455">预报</a></li>
+	<li><a href="http://www.people.com.cn/GB/historic/0213/">历史今天</a></li>
+  <li><a href="http://life.hao123.com/?from=lifebaidu">生活助手</a></li>
+  <li><a href="http://tool.114la.com/">114工具</a></li>
+  	<li><a href="http://www.cesuba.com/cesuba/" title="下载速率的制约因素:1、实际网络带宽；2、下载开放程度；3、下载拥堵态势；4、下载工具良莠。提示:实际 ≠ 名义！包括理论和实际的计算差异，特别是网络运营商对于用户的诚信与否。">测速吧</a></li>
+	<li><a href="http://www.qincai.net/">星魂黄页</a></li>
+	<li><a href="http://data.linkwan.com/gb/broadmeter/SpeedAuto/">网速测试</a></li>
+	<li><a href="http://www.baidu.com/s?word=%E5%8D%95%E4%BD%8D%E6%8D%A2%E7%AE%97&tn=sitehao123&ie=utf-8">单位换算</a></li>
+</ul>
+
+<ul>
+	<li><a href="http://www.hao123.com/">hao123</a></li>
+	<li><a href="http://www.haokan123.com/">好看123</a></li>
+	<li><a href="http://www.188hi.com/?ad">188Hi</a></li>
+	<li><a href="http://www.265.com">谷歌265</a></li>
+	<li><a href="http://www.9900.com.tw/">台湾网站</a></li>
+	<li><a href="http://www.2345.com/world.htm">国外网站</a></li>
+	<li><a href="http://www.chinarank.org.cn/">网站排名</a></li>
+	<li><a href="zfirst/prev1.html">Prev1</a>&nbsp;<a href="zfirst/prev2.html">2</a></li>
+	<li><a href="overall/Layout.html">layout</a></li>
+	<li><a href="http://tool.chinaz.com/">站长工具</a></li>
+	<li><a href="http://www.zhongguosou.com/">cn搜</a></li>
+	<li><a href="http://www.baidu.com/more/" >百度产品</a></li>
+	<li><a href="http://www.google.com.hk/intl/zh-CN/about/products/">Google产品</a></li>
+	<li><a href="http://fefoo.com/" title="为用户提供综合性、便捷的搜索入口，聚合搜索引擎工具，让你随时切换；">fefoo</a></li>
+	<li><a href="http://www.limmz.com/Home.aspx?lang=en&p2=wo&wly=0&wor=0&wcu=0&iph=0&iip=0&ial=0&ipic=0&vve=0&vch=0&vstc=0&vjo=0&vmy=0&vtu=0&vbe=0&vcr=0&vvi=0&mim=0&mwo=0&mip=0&mex=0&mcl=0&mch=0&mdi=0&mpl=0&mfi=0&bca=0&bic=0&bbl=0&bbs=0" title="一站式获得多个搜索引擎的原始结果，无须去打开各个站点重复输入；">Limmz</a></li>
+	<li><a href="http://blekko.com/" title="the spam-free search engine ">blekko</a></li>
+</ul>
+</div>
+<!--end bottom11 tools -->
+
+
+<!--start bottom12 study -->
+<div>
+<ul>
+<li><a href="https://www.coursera.org/">Coursera</a></li>
+
+<li><a href="http://www.creativelive.com/">Creativelive</a></li>
+<li><a href="https://www.udacity.com/" title="学习 Google、亚马逊、Facebook 官方课程，成为全球领先企业认可的技术精英，加速职业发展。">优达学城</a></li>
+
+<li><a href="http://www.chuanke.com/" title="学知识，上百度传课">传课网</a></li>
+<li><a href="http://www.duobei.com/" title="多贝公开课">多贝网</a></li>
+<li><a href="http://edu.yy.com/" title="最专业的互动网络教学平台">YY教育</a></li>
+<li><a href="http://www.icourse163.org/">中国大学</a></li>
+
+<li><a href="http://www.xuetangx.com/">学堂在线</a></li>
+<li><a href="http://www.mooc.cn/">慕课中国</a></li>
+<li><a href="http://www.topu.com/" title="14亿中国人的在线大学 - 中文慕课（MOOC）平台">顶你学堂</a></li>
+
+<li><a href="http://www.cnmooc.org/portal/frontCourseIndex/course.mooc" title="中国顶尖的慕课平台">好大学在线</a></li>
+<li><a href="http://www.wanmen.org/#/">万门大学</a></li>
+</ul>
+
+<ul>
+<li><a href="https://zhuanlan.zhihu.com/p/22248046">免费自学网站</a></li>
+
+<li><a href="http://www.maiziedu.com/course/?sgss=pp_06892_zh" title="IT培训 _ IT职业在线培训 _ 企业直通班-麦子学院">麦子学院</a></li>
+<li><a href="http://www.miguxue.com/" title="学海无涯，咪咕一下">咪咕学堂</a></li>
+<li><a href="https://www.edx.org/" title=" Free online courses from the world's best universities">edx</a></li>
+<li><a href="https://www.skillshare.com/">skillShare</a></li>
+<li><a href="https://www.udemy.com/" title="在线课程 - 时间自由，学您想学">udemy</a></li>
+<li><a href="https://www.khanacademy.org/">可汗学院</a></li>
+<li><a href="http://www.12999.com/index_gk.html">12999高考</a></li>
+<li><a href="http://www.eol.cn/" >教育在线</a></li>
+<li><a href="http://www.hao123.com/eduhtm_qyqx">在线学习</a></li>
+
+<li><a href="http://www.51zxw.net/">我要自学网</a></li>
+<li><a href="http://study.163.com/" title=" 领先的实用技能学习平台">网易云课堂</a></li>
+
+
+<li>IT&互联网</li>
+<li><a href="https://www.jisuanke.com/" title="学习面向未来的计算机科学">计蒜课</a></li>
+<li><a href="http://www.51cto.com/" title="中国领先的IT技术网站">51CTO</a></li>
+<li><a href="http://www.jikexueyuan.com/" title="中国最大的IT职业在线教育平台">极堂学院</a></li>
+<li><a href="http://www.kaikeba.com/" title="互联网从业者技能学习社区">开课吧</a></li>
+<li><a href="http://www.ichunqiu.com/" title="网络安全培训|信息安全培训|防黑客技术">i春秋</a></li>
+
+<li><a href="http://www.zf3d.com/" title="中国最好的3dmax教程网">朱峰社区</a></li>
+<li><a href="http://www.mugeda.com" title="基于云计算的HTML5动画云平台">木疙瘩</a></li>
+
+<li><a href="http://www.codecademy.com/zh/learn" title="wwuhnwu@163">Codecademy</a></li>
+
+<li>高初中</li>
+<li><a href="http://fenbi.com/" title="粉笔题库-手机平板刷题就用粉笔题库(公务员考试、研究生考试)">粉笔网</a></li>
+<li><a href="http://www.hao123.com/eduhtm/211.htm">高校名单</a></li>
+
+<li><a href="http://baike.baidu.com/view/55697.htm">高中物理介绍</a></li>
+<li><a href="http://wl.12999.com/">高中物理</a></li>
+<li><a href="http://www.12999.com/index_gk.html" >高中数学</a></li>
+
+<li><a href="http://www.vko.cn/" title="初高中各学科的在线教育微课程视频，同时你可以和同学组成圈子互动答疑、测试并分享学习动态。">微课网</a></li>
+<li><a href="http://www.istudy.com.cn/" title="中学生个性化在线自主学习平台">爱学网</a></li>
+
+
+</ul>
+</div>
+<!--end bottom12 study -->
+
+
+<!--start bottom13 top10 -->
+<div>
+<li><a href="https://github.com/wwuhn" title="管理软件开发以及发现已有代码的首选方法">Github代码托管</a></li>
+<li><a href="http://stackoverflow.com/" title="一个与程序相关的IT技术问答网站">StackOverFlow技术问答</a></li>
+<li><a href="http://www.csdn.net/" title="">CSDN IT社区</a></li>
+<li><a href="http://www.cnblogs.com/" title="程序员的网上家园">博客园</a></li>
+<li><a href="http://www.proginn.com" title="">程序员客栈</a></li>
+<li><a href="http://www.codeceo.com/" title="">码农网</a></li>
+<li><a href="http://www.v2ex.com/" title="为自己设置一个所在地，从而找到更多和你在同一区域的朋友">V2EX</a></li>
+
+<li><a href="https://dribbble.com/" title="一个面向创作家、艺术工作者、设计师等创意类作品的人群，提供作品在线服务，供网友在线查看已经完成的作品或者正在创作的作品的交流网站。对于前端设计来说真是再好不过的一个网站了">Dribbble设计达人</a></li>
+</div>
+<!--end bottom13 top10 -->
+
+
+<!--start bottom14 videl -->
+<div>
+	
+<ul>
+	<li><a href="http://www.iqiyi.com/w_19rt1lm69l.html#vfrm=3-2-zebra-1" title="Kill Messenger">ChrisRock</a></li>
+	<li><a href="http://v.baidu.com/show/13334.htm?&q=%E9%83%BD%E5%98%9F">都嘟</a></li>
+	<li><a href="http://v.qq.com/cover/j/j47kgc2lmvz514g.html?vid=a0198izhamc" title="2016-06-16期 TED演讲：生命中最惨痛的时刻如何造就我们">forgingMeaning</a></li>
+	<li><a href="http://v.qq.com/cover/j/j47kgc2lmvz514g.html?vid=v0176e0kcjx" title="2016-06-16期 如果你想阅读整个世界 全世界就会来帮助你！">阅读整个世界</a></li>
+	<li><a href="http://v.qq.com/cover/j/j47kgc2lmvz514g.html?vid=g0195smkefl" title="2016-06-16期 TED演讲：一个简单的方式改掉坏习惯">改掉坏习惯</a></li>
+	<li><a href="http://v.qq.com/cover/j/j47kgc2lmvz514g.html?vid=j0195k75vqd" title="2016-06-16期 沙卡桑戈尔：不要用你最糟糕的一面来定义你自己">定义你自己</a></li>
+	<li><a href="http://v.qq.com/cover/j/j47kgc2lmvz514g.html?vid=l0195m312n4" title="2016-06-16期 别小瞧少年，16岁少年解决老年痴呆症大难题！">解决老年痴呆症大难题</a></li>
+	<li><a href="http://v.qq.com/cover/j/j47kgc2lmvz514g.html?vid=j019597j1px" title="2016-06-16期 台湾中央大学洪兰教授TED演讲，超幽默，值得花上十几分钟倾听！">洪兰教授TED演讲</a></li>
+	<li><a href="http://v.qq.com/cover/j/j47kgc2lmvz514g.html?vid=h0194uib5x0" title="2016-06-16期 TED演讲：不要自以为是 先学会倾听吧！">倾听与合作</a></li>
+	<li><a href="http://v.qq.com/cover/j/j47kgc2lmvz514g.html?vid=v0194at24ru" title="2016-06-16期 TEDx演讲：如何在六个月内学会一门外语">如何学习外语</a></li>
+	<li><a href="http://v.qq.com/cover/j/j47kgc2lmvz514g.html?vid=b0193fn3qpm" title="2016-06-16期 TEDX演讲赖佩霞：结了婚才知道自己有多恶毒">爱与慈悲</a></li>
+	<li><a href="" title=""></a></li>
+	<li><a href="" title=""></a></li>
+	<li><a href="" title=""></a></li>
+	<li><a href="" title=""></a></li>
+</ul>
+</div>
+<!--end bottom14 videl -->
+		</div>
+		<!--end tab8 -->
+	</div>
+	<!--end end main8 -->
+
+<!--start main5 bottom2  tv layer set-->
+<div id="main5">
+
+	<!--start tab5 bottom2  tv layer set-->
+	<div id="tab5">
+<h3 onclick="tabSwitch('tab5',1);" title="周一至五，每天相同">W1-5m</h3>
+<h3 onclick="tabSwitch('tab5',2);" title="周一至五，按周重复">Novel</h3>
+<h3 onclick="tabSwitch('tab5',3);">阅读网站</h3>
+<h3 onclick="tabSwitch('tab5',4);">Sun.</h3>
+
+<!--start bottom21 W1-5m-->
+<div>
+<ul>	
+<li><a href="http://finance.sina.com.cn/realstock/company/sz000002/nc.shtml">万科A股</a></li>	
+<li><a href="http://www.weixinla.com/">微信啦</a></li>
+<li><A href="zfirst/纪录片.html">纪录片</A></li>
+</ul>
+<ul style="width:3%;">	
+<li><a href=""></a></li>	
+<li><a href=""></a></li>	
+<li><a href=""></a></li>
+</ul>
+<ul>	
+<li><a href="zfirst/自媒体及自媒体平台.html">自媒体平台</a></li>	
+<li><a href="http://localhost:8080">头条清单db</a></li>	
+<li><a href="http://www.toutiao.com/m51253546758/">MYtt</a></li>
+</ul>
+
+<ul>
+<li><a href="http://www.toutiao.com/">今日头条</a></li>	
+<li><a href="https://mp.toutiao.com/profile_v3/index">头条主页</a></li>	
+<li><a href="https://mp.toutiao.com/profile_v3/index/comment/new">最新评论</a></li>	
+</ul>
+
+<ul>	
+<li><a href="https://mp.toutiao.com/profile_v3/graphic/publish">发表</a></li>	
+<li><a href="https://mp.toutiao.com/profile_v3/graphic/articles">图文</a></li>	
+<li><a href="https://mp.toutiao.com/profile_v3/index/content-analysis/recommend-factor">头条号指数</a></li>
+
+</ul>
+<ul>	
+<li><a href="https://mp.toutiao.com/profile_v3/index/income-overview">我的收益</a></li>	
+<li><a href="https://www.toutiao.com/c/user/51251883383/#mid=51253546758" title="">头条收藏关注</a></li>
+<li><a href="https://www.wukong.com/">悟空问答</a></li>	
+</ul>
+
+<ul style="width:3%;">	
+<li><a href=""></a></li>	
+<li><a href=""></a></li>	
+<li><a href=""></a></li>
+</ul>
+<ul style="width:10%;">	
+<li><a href="notes/hyperlinks\bookmark.html">bookmark</a></li>	
+<li><a href="notes/hyperlinks\bookmarkpc.html">bookmarkPC</a></li>
+<li><a href="notes/hyperlinks\bookmarkV.html">bookmarkV</a></li>
+</ul>
+
+<ul>	
+<li><a href="notes/notes/notes.html">notes</a></li>	
+<li><a href="notes/notes/notespc.html">notespc</a></li>	
+<li><a href="notes/bookmark.html"></a></li>	
+</ul>
+<ul>	
+<li><a href="witisoPC/doc/list.html">notesPCdoc</a></li>	
+<li><a href="witiso/doc/list.html">notesdoc</a></li>	
+<li><a href=""></a></li>
+</ul>
+<ul>
+<li><a href="notes/notes/business.html">business</a></li>	
+<li><a href="notes/notes/daily.html">daily</a></li>
+<li><a href="notes/notes/bookmark.html"></a></li>	
+
+</ul>
+
+<ul>
+<li><a href="http://mads.blog.ifeng.com/">Mads</a></li>
+<li><a href="http://weibo.com/songzude">szd</a></li>
+<li><a href="http://weibo.com/2134671703">Li&nbsp;</a><a href="http://blog.sina.com.cn/liaoblog">ao</a></li>
+</ul>
+
+<ul>
+<li><a href="http://t.qq.com/zhuruifengv">zhurf</a></li>
+<li><a href="http://hi.baidu.com/guoguo6688" >遨翔</a>&nbsp;<a href="http://weibo.com/aoxiang6688">wb</a></li>
+<li><a href="http://blog.sina.com.cn/u/1730409803">游侠</a></li>
+</ul>
+<ul>
+<li><a href="http://liyinghe.blog.ifeng.com/">李银河</a></li>
+<li><a href="http://weibo.com/sisyochen">文茜</a></li>
+<li><a href="http://blog.ifeng.com/467805.html">li&nbsp;</a><a href="http://blog.sina.com.cn/s/articlelist_1196908653_0_1.html">ming</a></li>
+</ul>
+
+<ul>
+
+<li><a href="zfirst/hwp8.html">hwp8</a></li>
+<li><a href="zfirst/hwp8index.html">hwp8index</a></li>
+<li><a href="zfirst/wechat.html">wechat</a></li>
+</ul>
+<ul>
+
+<li><a href="zfirst/hwp8.html"></a></li>
+<li><a href="zfirst/hwp8index.html"></a></li>
+<li><a href="https://music.growio.cn/">growio音乐</a></li>
+</ul>
+<ul>
+
+<li><a href="https://s.geekbang.org/">极客搜索</a></li>
+<li><a href="https://www.jiumodiary.com/">鸠摩搜索</a></li>
+<li><a href="http://www.yunpuzi.net/">云铺子</a></li>
+</ul>
+</div>
+<!--end bottom21 W1-5m-->
+
+
+<!--start bottom22 W1-5f-->
+<div>
+
+<ul style="width:10%;">	
+<li><a href="http://www.en8848.com.cn/soft/Fiction/booklist/">小E英语小说下载</a></li>
+<li><a href="http://novel.tingroom.com/shuangyu/">英文小说网</a></li>
+<li><a href="http://www.24en.com/novel/">双语小说网</a></li>
+</ul>	
+	
+<ul style="width:10%;">	
+<li><a href="../wwuhn/novel/银河帝国/1基地/index.html">银河帝国 基地</a><a href="../wwuhn/novel/银河帝国/1基地/基地cn/index.html">cn</a></li>	
+<li><a href="../wwuhn/novel/银河帝国/2基地与帝国/index.html">基地与帝国</a></li>	
+<li><a href="../wwuhn/novel/银河帝国/3第二基地/index.html">第二基地</a></li>	
+	
+</ul>
+
+<ul>	
+<li><a href="../wwuhn/novel/银河帝国/4基地前奏/index.html">基地前奏</a></li>	
+<li><a href="../wwuhn/novel/银河帝国/5迈向基地/index.html">迈向基地</a></li>	
+<li><a href="../wwuhn/novel/银河帝国/6基地边缘/index.html">基地边缘</a></li>	
+</ul>
+
+<ul style="width:10%;">	
+<li><a href="../wwuhn/novel/银河帝国/7基地与地球/index.html">基地与地球</a></li>	
+<li><a href="../wwuhn/novel/1984/index.html">1984</a></li>	
+<li><a href="../wwuhn/novel/动物庄园/index.html">动物庄园</a></li>	
+</ul>
+
+<ul style="width:10%;">		
+<li><a href="../wwuhn/novel/银河帝国/银河帝国行政区图4.jpg">银河帝国</a><a href="https://tieba.baidu.com/p/4989093755?red_tag=2188121147&traceid=">星图</a></li>	
+<li><a href="http://www.doc88.com/p-1406546637809.html" title="银河帝国 基地en pdf doc88">银河帝国 基地en pdf</a></li>	
+<li style="width:88px;"><a href="http://vdisk.weibo.com/s/BLdydzawbqv0Y" title="艾萨克·阿西莫夫[美]">《银河帝国》微盘下载</a></li>
+
+</ul>
+
+
+
+
+<ul style="width:14%;">	
+<li><a href="../wwuhn/novel/冰与火之歌/1权力的游戏/index.html">冰与火之歌1 权力的游戏</a></li>	
+<li><a href="../wwuhn/novel/不能承受的生命之轻/index.html">不能承受的生命之轻</a></li>		
+<li><a href="../wwuhn/novel/苏菲的世界/index.html">苏菲的世界</a></li>	
+</ul>
+
+<ul>	
+<li><a href="http://www.xiaoshuotxt.org/">TXT小说天堂</a></li>	
+<li style="width:88px;"><a href="http://www.kanunu8.com/files/writer/448.html" title="努努书坊">阿西莫夫作品集</a></li>	
+<li><a href="http://phtv.ifeng.com/epg/"></a></li>	
+</ul>
+
+<ul style="width:10%;">	
+<li><a href="../wwuhn/novel/麦田里的守望者/index.html">麦田里的守望者</a></li>
+<li><a href="../wwuhn/novel/查太莱夫人的情人/index.html">查太莱夫人的情人</a></li>
+<li><a href="../wwuhn/novel/范妮希尔回忆录/index.html">范妮希尔回忆录</a></li>
+</ul>
+<ul style="width:10%;">	
+<li><a href="../wwuhn/novel/东方列车谋杀案/index.html">东方列车谋杀案</a></li>
+<li><a href="../wwuhn/novel/EnNovel/百年孤独/index.html">百年孤独</a></li>
+<li><a href="../wwuhn/novel/杀死一只知更鸟/index.html">杀死一只知更鸟</a></li>
+</ul>
+<ul style="width:10%;">	
+<li><a href="../wwuhn/novel/东方列车谋杀案/index.html"></a></li>
+<li><a href="../wwuhn/novel/EnNovel/百年孤独/index.html"></a></li>
+<li><a href="../wwuhn/novel/The Golden Bough/index.html">金枝The Golden Bough</a></li>
+</ul>
+</div>
+<!--end bottom22 W1-5f-->
+
+
+<!--start bottom23 Sat.-->		
+<div>
+<ul>
+	<li><a href="http://novel.tingroom.com/" title="">英文小说网</a></li>
+	<li><a href="http://www.en8848.com.cn/soft/" title="英文小说_英文小说下载_英文小说下载网_英文小说下载推荐-原版英语学习网">小E英语小说下载</a></li>
+	<li><a href="http://www.24en.com/novel/" title="英文小说_英文双语小说_英语小说名著_免费在线阅读 - 爱思英语">爱思英语小说</a></li>
+</ul>
+<ul>
+	<li><a href="http://www.en8848.com.cn/soft/Fiction/booklist/671.html" title="">100部禁书</a></li>
+	<li><a href="http://t.icesmall.cn/" title="">世界名著网</a></li>
+	<li><a href="http://www.gutenberg.org/" title="">GutenbergFreeEbook</a></li>
+
+</ul>
+
+<ul>
+<li><a href="http://www.xiexingcun.com/wenxueyuedu/index.html" title="">学习村阅读</a></li>
+<li><a href="http://www.99lib.net/index.php" title="">九九藏书网</a></li>
+<li><a href="https://www.thn21.com/Article/chang/" title="">经典名著_现代文阅读_华语网</a></li>
+</ul>
+
+<ul>
+<li><a href="https://www.bookbao8.com/views/201507/05/445180.html" title="">书包网阅读</a></li>
+<li><a href="http://www.xiaoshuotxt.org/" title="TXT小说天堂-txt小说下载 手机电子书txt下载">TXT小说天堂</a></li>
+<li><a href="https://www.sbkk88.com/mingzhu/" title="">随便看看</a></li>
+</ul>
+
+<ul>
+<li><a href="http://www.readers365.com/" title="">读书人365</a></li>
+<li><a href="http://www.xiexingcun.net/" title="">最美书房</a></li>
+<li><a href="http://www.kanunu8.com/files/old/" title="古典文学 - 古代小说 - 古代名著 - 努努书坊 - 小说在线阅读">努努书坊</a></li>
+</ul>
+
+</div>
+<!--end bottom23 Sat.-->
+
+
+<!--start bottom24 Sun.-->		
+<div>
+
+<ul>	
+<li>20:30</li>	<li><a href="http://v.ifeng.com/q/show/mingrenmdm/index.shtml" title="星期日 20:30-21:00 ">名人面对面</a></li>	
+<li><a href="http://phtv.ifeng.com/epg/">凤凰</a></li>		
+</ul>
+
+<ul>	
+<li>21:30</li>	
+<li><a href="http://cctv.cntv.cn/lm/mianduimian/index.shtml" title="首播时间: 周日 21:30－22:15 重播时间:周一 0:15 2:45 4:15 14:10">面对面</a></li>	
+<li><a href="http://tv.cntv.cn/epg/cctv13">cctv新闻</a></li>
+</ul>
+
+<ul>	
+<li>21:45</li>	
+<li><a href="http://qqyx.act.tvscn.com/l" title="cctv7首播:每周六、日21:45">情牵一线</a></li>	
+<li><a href="http://tvs1.tvscn.com/">tvs1</a></li>
+</ul>
+
+<ul>	
+<li>22:00</li>	
+<li><a href="http://cctv.cntv.cn/lm/tiyuzaixian/index.shtml" title="首播时间: 每周日 21:00 重播时间: 每周六 01:00 周日 12:30  次周一 08:00 
+">体育在线</a></li>	
+<li><a href="http://tv.cntv.cn/live/cctv4/">cctv4</a></li>	
+</ul>
+
+<ul>	
+<li>23:50</li>	
+<li><a href="http://weibo.com/yanglanfangtanlu" title="东方卫视每周日晚23:50;周一6:30;">杨澜访谈录</a></li>	
+<li><a href="http://www.dragontv.cn/">东方卫视</a><a href="http://video.sina.com.cn/tv/tv/20080414/1739.html">live</a></li>	
+</ul>
+
+<ul>	
+<li>00:<a href="http://video.baidu.com/v?word=%B7%C7%B3%A3%BF%BF%C6%D7&ct=301989888&rn=20&pn=0&db=0&s=0&oq=%B7%C7%B3%A3%BF%BF&fbl=800&f=3&rsp=0">40</a></li>	
+<li><a href="http://hunantv.tvsou.com/pro.asp?id=75109">非常靠谱</a></li>	
+<li><a href="http://hunantv.tvsou.com/">hntv</a></li>
+</ul>
+<ul>	
+<li><a href="PC/Apple MS.html">AppleMS</a></li>
+<li><a href=""></a></li>	
+<li><a href=""></a></li>
+</ul>
+
+<ul>	
+<li><a href="http://baike.baidu.com/view/2353.htm">Micro</a><a href="http://en.wikipedia.org/wiki/Microsoft_Corporation">soft</a></li>
+<li><a href="http://baike.baidu.com/view/2075.htm">Bill</a> <a href="http://en.wikipedia.org/wiki/Bill_gates">Gates</a></li>	
+<li><a href="http://baike.baidu.com/view/190995.htm">Pall</a><a href="http://en.wikipedia.org/wiki/Paul_Allen"> Allen</a></li>
+</ul>
+
+<ul>	
+<li><a href="http://baike.baidu.com/view/14874.htm#sub5822958">Apple</a><a href="http://en.wikipedia.org/wiki/Apple_Inc.">Inc.</a></li>
+<li><a href="http://baike.baidu.com/view/90660.htm">Steve</a><a href="http://en.wikipedia.org/wiki/Steve_jobs">Jobs</a></li>	
+<li><a href="http://baike.baidu.com/view/119428.htm">Woz</a><a href="http://en.wikipedia.org/wiki/Steve_Wozniak">niak</a></li>
+</ul>
+
+<ul>	
+<li><a href="http://baike.baidu.com/view/13511.htm?func=retitle">HP</a></li>
+<li><a href="http://baike.baidu.com/view/656287.htm">Hewlett</a></li>	
+<li><a href="http://baike.baidu.com/view/947518.htm">Pachard</a></li>
+</ul>
+
+<ul>	
+<li><a href="http://baike.baidu.com/view/105.htm?func=retitle">Google</a></li>
+<li><a href="http://baike.baidu.com/view/555565.htm">Page</a></li>	
+<li><a href="http://baike.baidu.com/view/615669.htm">Brin</a></li>
+</ul>
+
+<ul>	
+<li><a href="http://baike.baidu.com/view/105.htm?func=retitle">Yahoo!</a><a href"http://en.wikipedia.org/wiki/Yahoo">Inc.</a></li>
+<li><a href="http://baike.baidu.com/view/38446.htm">Jerry</a>&nbsp;<a href="http://en.wikipedia.org/wiki/Jerry_Yang_(entrepreneur)">Yang</a></li>	
+<li><a href="http://baike.baidu.com/view/5544322.htm">David</a>&nbsp;<a href="http://en.wikipedia.org/wiki/David_Filo">Filo</a></li>
+</ul>
+
+<ul>	
+<li><a href="http://baike.baidu.com/view/105.htm?func=retitle">YouTube</a></li>
+<li><a href="http://baike.soso.com/v7677973.htm?pid=baike.box">Steve</a>&nbsp;Chen</li>	
+<li><a href="http://baike.baidu.com/view/5544322.htm">Chad</a>&nbsp;<a href="http://en.wikipedia.org/wiki/Chad_Hurley">Hurley</a></li>
+</ul>
+
+</div>
+<!--end bottom24 Sun.-->
+
+	</div>
+	<!--end bottom2 tab5-->
+</div><!--end bottom2  main5/-->
+<!--above is tv layer set-->
+
+
+<div id="footer">
+<form name="formmain" id="formmain"  onSubmit="search()"  >
+<input name="searchkey" type="text" id="searchkey" value="" size="35" onfocus=this.select(); onmouseover=this.select(); >
+<input name="Submit"  type="button" style="line-height:18px;" value="    " onclick="search()" id="searchbutton" />
+<input onclick="search();" name=radio type=radio id="rdbaidu" checked><a href="http://www.baidu.com">百度</a> 
+<input onclick="search();" name=radio type=radio id="rd360sou"><a href="http://www.so.com/">360</a> 
+<input onclick="search();"  name=radio type=radio id="rdbaidupic"><a href="https://image.baidu.com/">百度图片</a>
+<input onclick="search();"  name=radio type=radio id="rdbingzonghe"><a href="http://www.bing.com/">必应</a>
+<input onclick="search();" name=radio type=radio id="rdsogou"   ><a href="http://www.sogou.com" title="搜狐旗下搜索">搜狗</a>
+
+<input onclick="search();" name=radio type=radio id="rd_wiki"><a href="https://en.wikipedia.org/wiki/Main_Page" title="wiki搜索">wiki</a>
+<input onclick="search();" type="radio" name="radio" id="bdbaike" /><a href="http://baike.baidu.com/">百度百科</a>
+<input onclick="search();" name=radio type=radio id="rdsoso"><a href="http://www.soso.com" title="腾讯旗下搜索" >搜搜</a>
+<input onclick="search();" type="radio" name="radio" id="rd_bing" value="radiobutton"><a href="http://www.yahoo.com/">bing</a>
+<input onclick="search();" type="radio" name="radio" id="rd_cibo" value="radiobutton"><a href="http://www.yahoo.com/">词博</a>
+
+<input onclick="search();" name="radio" type="radio" id="rdcidu"><a href="http://www.dictall.com/" >词都</a>
+<input onclick="search();" name=radio type=radio id="rddcping"><a href="http://cn.bing.com/dict/">DCbing</a>
+<input onclick="search();" type="radio" name="radio" id="rd_gzlib" /><a href="http://www.gzlib.gov.cn/" title="0100000308194,sixthre">gzLibrary</a>
+
+</form>
+
 </div>
 
-<div class="item" iname="中华人民共和国" fyear="1949" tyear="今" linepos="1"></div> 	
-      </div>
-    </div>
-<script type="text/javascript">
-  // 参考资料 https://tool.lu/dynasty/
-  $(function () {
-	var ppy = 1.85; // pixel per year
-	var startYear = -2500; // year start from -2100;
-	var yearPoints = {};
-	var years = [];
-	var oe = 0;
 
-	function setItem(syear, je, istip) {
-	  var data = {
-		name: je.attr("iname"),
-		fyear: parseInt(je.attr("fyear")),
-		tyear: je.attr("tyear"),
-		linepos: parseInt(je.attr("linepos")),
-	  };
-	  var isnow = false;
-	  if (data.tyear === "今") {
-		isnow = true, d = new Date(), data.tyear = d.getFullYear();
-	  }else{
-		data.tyear = parseInt(data.tyear);
-	  }
-	  add_year_point(data.fyear, data.name + " 开始");
-	  add_year_point(data.tyear, data.name + (isnow ? " 继续" : " 结束"));
-	  je.html(data.name).css({
-		top: ((data.linepos - 1) * 2) + "em",
-		left: (data.fyear - syear) * ppy + "px",
-		width: (data.tyear - data.fyear) * ppy + "px",
-	  });
-	  if (!istip) {
-		je.css("background", randColor());
-	  }
-	  if (!je.attr("title")) {
-		je.attr("title", data.name);
-	  }
-	}
+</div>
+<!--end id frame -->
 
-	function randColor() {
-	  var cs = '6789ABCD', res = '#';
-	  for (var i = 0; i < 6; i++) {
-		res += cs.charAt(Math.floor(Math.random() * cs.length));
-	  }
-	  return res;
-	}
+</body>
 
-	function add_year_point(year, thing) {  //data.fyear, data.name + " 开始
-	  if (yearPoints[year]) {
-		yearPoints[year].push(thing);
-	  }else{
-		yearPoints[year] = [thing];
-		years.push(year);
-	  }
-	}
+ <!--oneself -->
+<div id="ones">
+<ul>
+	<li><a href="javascript:void(null)" title="bybeabez">gfcretel</a></li>
+    <li><a href="javascript:void(null)" title="wyabfw">Gfcrecon</a></li>
+	<li><a href="javascript:void(null)" title="wybyfwwuhn">gfcrewbs</a></li>
+    <li><a href="javascript:void(null)" title="wybyfwWuhnfw">Gfukey</a></li>
+    <li><a href="javascript:void(null)" title="wybyfw">Gfdp</a></li>
+</ul>
 
-	function showTimeLine() {
-	  var last = -9999, tempThings = [], year, things;
-	  years = years.sort(function (a,b) {
-		return a-b;
-	  });
-	  var y1 = startYear, y2 = years[years.length - 1];
-	  $("#timeline").css("width", ((y2 - y1) * ppy + 100) + "px");
-	  for (var j = 0; j < years.length; j++) {
-		year = years[j];
-		things = yearPoints[year];
-		if (year - last > 20) {
-		  if (tempThings.length) {
-			addTimePoint(last, tempThings);
-			tempThings = [];
-		  }
-		  last = year;
-		  tempThings.push(year + "：");
-		  for (var i = 0; i < things.length; i++) {
-			tempThings.push(things[i]);
-		  }
-		}else{
-		  tempThings.push(year + "：");
-		  for (var i = 0; i < yearPoints[year].length; i++) {
-			tempThings.push(yearPoints[year][i]);
-		  }
-		  addTimePoint(year, null, true);
-		}
-	  }
-	  if (tempThings.length) {
-		addTimePoint(last, tempThings);
-	  }
-	}
+<ul>
+	<li><a href="javascript:void(null)" title="bybeab">comm tel query</a></li>
+	<li><a href="javascript:void(null)" title="wyabee">comm con</a></li>
+	<li><a href="javascript:void(null)" title="wybyeeWuhnfw">comm cre web</a></li>
+	<li><a href="javascript:void(null)" title="wybyee">comm dp</a></li>
+    <li><a href="javascript:void(null)" title="wwuhn01onethreewufw">commdpweb</a></li>
+</ul>
 
-	function addTimePoint(year, things, lineOnly) {
-	  var tt, je;
-	  if (lineOnly) {
-		je = $('<div></div>');
-	  }else{
-		tt = things.join('\n');
-		je = $('<div class="hasDesp"><div title="'+tt+'">'+year+'</div></div>');
-	  }
-	  je.css('left', (year - startYear) * ppy + "px");
-	  $("#timeline").append(je);
-	}
+<ul>
+	<li><a href="javascript:void(null)" title="wyabxx">merch query</a></li>
+	<li><a href="javascript:void(null)" title="wyabyy">merch tran</a></li>
+	<li><a href="javascript:void(null)" title="wyabcc">agricul</a></li>
+   <li><a href="javascript:void(null)" title="wyabccWu">agri web </a></li>
+    <li></li>
+</ul>
 
-	$("#items > .item").each(function () {
-	  setItem(startYear, $(this));
-	});
+<ul>
+	<li><a href="javascript:void(null)" title="wybyfw to fxfzxw">cndp</a></li>
+	<li><a href="javascript:void(null)" title="wWuhnidfivenine">cnb.web.ac</a></li>
+	<li><a href="javascript:void(null)" title="wyabfwwuhnfw">cnb.web</a></li>
+    <li><a href="javascript:void(null)" title="qunante">cnb.web2.ac</a></li>
+	<li><a href="javascript:void(null)" title="bybeabwu,fu's account name">cnb.web2</a></li>
+</ul>
 
-	$("#items > .itemtip").each(function () {
-	  setItem(startYear, $(this), true);
-	});
-	add_year_point(-841, "之前年份都是大约, 公元前841年(西周共和元年)为中国历史确切纪年的开始");
-	showTimeLine();
-  });
-</script>
-<script type="text/javascript">
-  $(function () {
-	var ppy = 1.85; // pixel per year
-	var startYear = -2500; // year start from -2100;
-	var yearPoints = {};
-	var years = [];
-	var oe = 0;
+<ul>
+	<li><a href="javascript:void(null)" title="weaacexxw.bybeabezWuhn">tencent</a></li>
+	<li><a href="javascript:void(null)" title="wwuhn@hotmail.com.bybeabezWu01">tencent2</a></li>
+	<li><a  style="cursor:hand" href="mailto:wwuhn@hotmai.com" title="wuwanqunbybeabez">FoxMail</a></li>
+	<li><a href="javascript:void(null)" title="wwuhn@hot.mail.wybyfwwufw">Kaixin001</a></li>
+	<li><a href="javascript:void(null)" title="sixthreewuhnxx">harddisk</a></li>
+</ul>
 
-	function setItem(syear, je, istip) {
-	  var data = {
-		name: je.attr("iname"),
-		fyear: parseInt(je.attr("fyear")),
-		tyear: je.attr("tyear"),
-		linepos: parseInt(je.attr("linepos")),
-	  };
-	  var isnow = false;
-	  if (data.tyear === "今") {
-		isnow = true, d = new Date(), data.tyear = d.getFullYear();
-	  }else{
-		data.tyear = parseInt(data.tyear);
-	  }
-	  
-	  je.css({
-		top: ((data.linepos - 1) * 2) + "em",
-		left: (data.fyear - syear) * ppy + "px",
-		width: (data.tyear - data.fyear) * ppy - 12 + "px",
-	  });
+<ul>
+	<li><a href="javascript:void(null)" title="wwuhnwu@163.com">pt.ac</a></li>
+	<li><a href="javascript:void(null)" title="wyabddwuhnfw">logon</a></li>
+	<li><a href="javascript:void(null)" title="万网">50145242</a></li>
+	<li><a href="javascript:void(null)" title="sixthreeWu">wwuhnwu163</a></li>
+    <li><a href="javascript:void(null)" title="sixthree">13539928.139</a></li>
+</ul>
+<ul>
+	<li><a href="javascript:void(null)" title="wybyfw">icbnk</a></li>
+	<li><a href="javascript:void(null)" title="wyabfwwuhnfw">icbnkMobi</a></li>
+	<li><a href="javascript:void(null)" title="bybeab">icbnkmmq</a></li>
+	<li><a href="javascript:void(null)" title="wwuhnwubybeabezwu">163mail</a></li>
+	<li><a href="javascript:void(null)" title="wyabed">wechatpay</a></li>
+</ul>
+<ul>
+	<li><a href="javascript:void(null)" title="wyabfw">msbk</a></li>
+	<li><a href="javascript:void(null)" title="wyabfwWuhnfw">msapp</a></li>
+	<li><a href="javascript:void(null)" title="wyabee">wechatPay</a></li>
+	<li><a href="javascript:void(null)" title="wyabfwWufw">cnknabapp</a></li>
+	<li><a href="javascript:void(null)" title="hand M">merchanapp</a></li>
+</ul>
+</div> 
+<!-- end oneself -->
 
-	}
-
-	$(".item2").each(function () {
-	  setItem(startYear, $(this));
-	});
-
-	$(".itemtip2").each(function () {
-	  setItem(startYear, $(this), true);
-	});
-
-  });
-</script>
+<!--below is float layer four aspects-->
+<div id="float1b">
+	<div class="floatms">生活中有幸福也有不幸</div>
+	<div class="floatms">有缺憾乃是人生的常态</div>
+	<div class="floatms">经历了痛苦你将迅速成长</div>
+	<div class="floatms">经历了痛苦你会更加美丽</div>
+</div>
+<div id="float2b">
+	<div class="floatms">坚持却找不到内心的依据</div>
+	<div class="floatms">放弃却发现新的开始太艰难</div>
+	<div class="floatms">焦虑却不知其所以然</div>
+	<div class="floatms">淡漠却无法面对内心的呼唤</div>
+</div>
+<div id="float3b">
+	<div class="floatms">老是把自己当做珍珠,</div>
+	<div class="floatms">就时时有被埋没的痛苦,</div>
+	<div class="floatms">把自己当做泥土吧,</div>
+	<div class="floatms">让众人把你踩成一条路.</div>
+</div>
+<div id="float4b">
+	<div class="floatms">Better&nbsp;late&nbsp;than&nbsp;never!</div>
+	<div class="floatms">迟做总比不做好!</div>
+	<div class="floatms">懒惰像生锈一样，</div>
+	<div class="floatms">比操劳更能消耗身体。</div>
+</div>
 
 
+<!--start leftest tab6-->
+<div id="tab6">
 
-<script>
-$(function(){
+<!--start leftest1 tab6-->
+<div class="block">
+	
+<p>2nd：Pre20 GF</p>
+<p>8th：reapy ZS+JT</p>
+<p>18th：Pre20 ZS+JT</p>
+<p>22nd：repay GF</p>
+<p>&nbsp;</p>
+<p><a href="http://github.com/wwuhn" title="sixthree and ~++">github</a></p>
 
-	$("#drag1").mousedown(function(e) {
-		// e.pageX
-		var positionDiv = $(this).offset();
-		var distenceX = e.pageX - positionDiv.left;
-		var distenceY = e.pageY - positionDiv.top;
-		//alert(distenceX)
-		// alert(positionDiv.left);
 
-		$(document).mousemove(function(e) {
-			var x = e.pageX - distenceX;
-			var y = e.pageY - distenceY;
+<p><a href="http://ocr.wdku.net/" title="- 在线工具 - Powered by Yelky">在线文字识别转换</a></p>
+<p><a href="http://web.chacuo.net/formatc">在线代码格式</a></p>
+<p><a href="https://tool.lu/coderunner/">代码在线运行</a></p>	
+<p><a href="https://tool.lu/">在线工具</a></p>	
+<p><a href="https://www.toutiao.com/i6585106999095067139/">正则表达式</a><a href="https://regex101.com">测试</a></p>
+<p>&nbsp;</p>
+<p><a href="https://tool.lu/color/">颜色空间转换</a></p>
+<p><a href="https://tool.lu/hexconvert/">进制转换</a><a href="zfirst/GoodBooks/GoodBooks.html" style="color:#930;">Good</a><a href="zfirst/GoodBooks/GoodBooksC.html" style="color:#930;">BooksC</a></p>
+<p><a href="http://book.ifeng.com/haoshubang/">好书榜</a><a href="zfirst/book100.htm">book100</a></p>
+<p><a href="zfirst/Movies10.html">Movies10</a><a href="zfirst/moviesTV.html" style="color:#930;">MoviesTV</a></p>
+<p>&nbsp;</p>
+ <p><a href="witiso/12/dynasty.html">TimeHistory</a></p>
+	<p><a href="zfirst/math/数学常数.html">数学常数</a><a href="zfirst/math/pi.html" style="color:#930;">π</a><a href="zfirst/math/黄金矩形.html">φ</a><a href="zfirst/math/自然对数和e.html" style="color:#930;">e</a></p>
+	<p><a href="http://baike.baidu.com/view/37054.htm">数学</a><a href="zfirst/math/数学符号.html" style="color:#930;">符号</a><a href="witiso/46math/数学符号.docx">D</a></p>
 
-			if (x < 0) {
-				x = 0;
-			} else if (x > $(document).width() - $("#drag1").outerWidth(true)) {
-				x = $(document).width() - $("#drag1").outerWidth(true);
-			}
+	<p><a href="http://baike.baidu.com/subview/738955/15191923.htm">排列组合</a><a href="witiso/46math/排列 组合 概率.docx">d</a></p>
+	<p><a href="http://baike.baidu.com/view/45320.htm">概率</a><a href="http://baike.baidu.com/subview/83184/12228679.htm">博彩</a><a href="witiso/46math/gamber.docx">D</a></p>
+	<p><a href="http://baike.baidu.com/view/356.htm">对数</a><a href="witiso/46math/对数">F</a></p>
+	<p><a href="http://baike.baidu.com/view/91555.htm">三角函数</a><a href="zfirst/math/三角函数作图.html" style="color:#930;">图</a><a href="witiso/46math/triangle">F</a></p>
+	<p><a href="witiso/46math/calculus/大话微积分/大话微积分.html">大话微积分</a></p>
+	<p><a href="witiso/46math/calculus/微积分.html">微积分</a><a href="zfirst/math/导數作圖.html" style="color:#930;">导数作图</a><a href="witiso/46math/calculus">F</a></p>
+	<p><a href="zfirst/math/函数绘图.html">函数绘图</a>&nbsp;<a href="http://zuotu.91maths.com">在线</a></p>
+<p style="border:0; height:4px; background-color:#fff; border-left:0px solid #603;  ">&nbsp;</p>
 
-			if (y < 0) {
-				y = 0;
-			} else if (y > $(document).height() - $("#drag1").outerHeight(true)) {
-				y = $(document).height() - $("#drag1").outerHeight(true);
-			}
+<p><a href="http://top.chinaz.com/">网站排行</a></p>
+<p><a href="zfirst/最喜欢的文字.html">最喜欢的文字</a></p>
+<p><a href="http://www.w3school.com.cn/jquery/jquery_ref_prop.asp">jQuery</a></p>
+<p><a href="https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000">Python教程 廖雪峰的官方网站</a></p>
+<p><a href="witisopc/doc/list.html">pcdoc</a></p>
+	</div>
+<!--end leftest1 tab6-->
+	
 
-			$("#drag1").css({
-				'left': x + 'px',
-				'top': y + 'px'
-			});
-		});
+<!--start leftest2 tab6-->
+<div>
+<p>文明其精神</p>
+<p>野蛮其体魄</p>
+<p>不放纵驱体</p>
+<p>使灵魂崇高</p>
+<p>&nbsp;</p>
+<p>孩儿立志出乡关</p>
+<p>学不成名誓不还</p>
+<p>埋骨何须桑梓地</p>
+<p>人生何处不青山</p>
+<p>&nbsp;</p>
+<p>望门投止思张俭</p>
+<p>忍死须臾待杜根</p>
+<p>我自横刀向天笑</p>
+<p>去留肝胆两昆仑</p>
+<p>&nbsp;</p>
+<p>人生得意须尽欢</p>
+<p>莫使金樽空对月</p>
+<p>天生我材必有用</p>
+<p>千金散尽还复来</p>
+<p>&nbsp;</p>
+<p>行路难，行路难</p>
+<p>多歧路，今安在</p>
+<p>乘风破浪会有时</p>
+<p>直挂云帆济沧海</p>
+</div>
+<!--end leftest2 tab6-->
 
-		$(document).mouseup(function() {
-			$(document).off('mousemove');
-		});
-	});
-});
-</script>
 
-  </body>
+<!--start leftest3 tab6-->
+<div>
+<p>舜发于畎亩之中</p>
+<p>傅说举于版筑之间</p>
+<p>胶鬲举于鱼盐之中</p>
+<p>管夷吾举于士</p>
+<p>孙叔敖举于海</p>
+<p>百里奚举于市</p>
+<p>故天将降大任于斯</p>
+<p>必先苦其心志</p>
+<p>劳其筋骨</p>
+<p>饿其体肤</p>
+<p>空乏其身</p>
+<p>行拂乱其所为</p>
+<p>所以动心忍性</p>
+<p>增益其所不为</p>
+<p>&nbsp;</p>
+<p>不以物喜</p>
+<p>不以己悲</p>
+<p>惟江上之清风</p>
+<p>与山间之明月</p>
+<p>耳得之而为声</p>
+<p>目遇之而成色</p>
+</div>
+<!--end leftest3 tab6-->
+
+
+</div>
+<!--end leftest tab6-->
+
+
+
+
+
+
+<!--start rightest tab7-->
+<!--切换按钮写在“随心 随性 随缘”-->
+<div id="tab7">
+
+<!--start rightest1 tab7-->
+<div id="festivewri"></div>  <!--内容用JS写-->
+
+
+<!--start rightest2 tab7-->
+<div class="block" >
+<p><a href="http://www.toutiao.com/">今日头条</a></p>
+<p><a href="http://www.ifeng.com/">凤凰网</a></p>
+<p><a href="http://news.baidu.com/">百度新闻</a></p>
+<p><a href="http://sh.qihoo.com/?src=tab_web">360新闻</a></p>
+<p><a href="http://news.qq.com/">腾讯新闻</a></p>
+<p><a href="http://www.chinadaily.com.cn/">ChinaDaily</a></p>
+<p><a href="http://english.cntv.cn/">ENcntv</a></p>
+<p><a href="http://www.bbc.com/">bbc</a> <a href="http://edition.cnn.com/">cnn</a></p>
+<p><a href="http://www.usatoday.com/">USAToday</a></p>
+<p><a href="http://focus.tianya.cn/">天涯社区</a></p>	
+<p><a href="http://www.xici.net/">西祠胡同</a></p>	
+<p>&nbsp;</p>
+<p><a href="http://tech.baidu.com/">百度科技</a></p>
+<p><a href="http://www.win7china.com/">win7之家</a></p>
+<p><a href="http://www.html5cn.org/">HTML5CN</a></p>
+<p>&nbsp;</p>
+<p><a href="http://www.zhibo8.com/">直播吧</a></p>	
+<p><a href="http://pub.pptv.com/player/iframe/index.html#w=800&h=600&id=300226">PPTV体育</a></p>
+<p><a href="http://sports.sina.com.cn/">新浪体育</a></p>
+<p><a href="http://sports.qq.com/">腾讯体育</a></p>
+<p><a href="http://sports.163.com/">网易体育</a></p>
+<p>&nbsp;</p>
+<p><a href="http://www.tvmao.com/program">电视猫</a></p>
+<p><a href="http://www.hunantv.com/">芒果TV</a></p>
+
+<p>&nbsp;</p>
+<p><a href="http://culture.ifeng.com/">凤凰文化</a></p>
+<p><a href="http://finance.ifeng.com/listpage/finance-1318-1354-/1/spelist.shtml">图话</a><a href="../wwuhn/Encyclopic/财经图说/财经图说.html">财经</a></p>
+<p><a href="https://www.douban.com/">豆瓣</a></p>
+<p><a href="https://www.zhihu.com/topic#%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6">知乎</a></p>
+<p><a href="http://www.guokr.com/scientific/">guokr</a></p>
+</div>
+<!--end rightest2 tab7-->
+
+
+<!--start rightest3 tab7-->
+<div>
+<p><a href="http://www.zhibo8.com/">直播吧</a></p>
+<p><a href="http://www.spzb8.com/">zb8</a></p>
+<p><a href="http://www.51live.com/">51Live</a></p>
+<p class="bl">&nbsp;</p>
+<p><a href="http://tv.cntv.cn/live/cctv5">cctv5</a></p>
+<p><a href="http://sports.cntv.cn/live/cctv5plus">cctv5+</a></p>
+<p><a href="http://live.video.sina.com.cn/room/nba">sina NBA</a></p>
+<p><a href="http://live.video.sina.com.cn/room/sports">sina sports</a></li>
+<p><a href="http://tv.weibo.com/tv/51379/2354230">sina weiTV</a></li>
+<p><a href="http://live.video.sina.com.cn/room/sports2">新浪直播2</a></p>
+<p><a href="http://match.sports.sina.com.cn/livecast/">新浪赛事中心</a></p>
+<p class="bl">&nbsp;</p>
+<p><a href="http://sports.qq.com/kbsweb/">QQ直播</a></p>
+<p><a href="http://ifeng.sports.letv.com/live5/">凤凰体育</a></p>
+<p><a href="http://s.sohu.com/cbalive/?id=1">CBA搜狐Live</a></p>
+<p><a href="http://live.myp2pch.com/ch/lanqiuzhibo10.htm">风云直播10</a></p>
+<p><a href="http://live.myp2pch.com/ch/weilaitiyu.htm">风云直播纬来体育</a></p>
+<p><a href="http://sports.letv.com/zt/letvlive8/index.shtml">劲爆体育</a></p>
+<p class="bl">&nbsp;</p>
+<p><a href="http://sports.cntv.cn/live/cntvbj/">北京体育</a></p>
+<p><a href="http://www.smg.cn/review/channel/channel_9//index.shtml">上海体育</a><a href="http://zhibo.uusee.com/">(uuse)</a></p>
+<p><a href="http://live.wasu.cn/show/id/44499">上海体育(华数)</a></p>
+<p><a href="http://sports.gdtv.cn/">广东体育</a><a href="http://zhibo.uusee.com/">(uuse)</a></p>
+<p class="bl">&nbsp;</p>
+<p><a href="http://www.stopstream.com/">stopStream</a></p>
+<p><a href="http://www.sportlemon.tv/">sportLemon</a></p>
+<p class="bl">&nbsp;</p>
+<p><a href="http://live.le.com/sports/index.shtml">乐视体育直播</a></p>
+<p><a href="http://sports.letv.com/zt/letvlive12/index.shtml">乐视体育</a></p>
+<p><a href="http://live.wasu.cn/show/id/17664?zhibo8">华数直播</a></p>
+<p><a href="http://sports.uusee.com/">悠视直播</a></p>
+<p><a href="http://pub.pptv.com/player/iframe/index.html#w=800&h=600&id=300602">PPLive</a></p>
+<p><a href="http://www.gooooal.com/live/live.html">比分直播</a></p>
+<p><a href="http://www.weiqitv.com/home/live_2.php">围棋live</a></p>
+</div>
+<!--end rightest3 tab7-->
+
+</div>
+<!--end rightest tab7-->
+
+<div id="tim1" class="time"></div><!--时钟clock 秒钟-->
+
 </html>
